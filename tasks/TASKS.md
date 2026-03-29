@@ -18,7 +18,7 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 ### Phase 2: Dashboard (HIGH PRIORITY — auth foundation is shipped)
 
 - [ ] [TASK-030] Design dashboard layout specs: sidebar (240px), content grid, API key table, stats cards, responsive breakpoints. Output to site/design/dashboard.md · priority:high · owner:designer · project:slancha · created:2026-03-29
-- [ ] [TASK-031] Write all dashboard copy: sidebar labels (Overview, API Keys, Usage, Settings), empty states, tooltips, confirmation dialogs, API key creation flow text. Output to site/copy/dashboard.md · priority:high · owner:copywriter · project:slancha · created:2026-03-29
+- [x] [TASK-031] Write all dashboard copy: sidebar labels (Overview, API Keys, Usage, Settings), empty states, tooltips, confirmation dialogs, API key creation flow text. Output to site/copy/dashboard.md · priority:high · owner:copywriter · project:slancha · created:2026-03-29 · started:2026-03-29 · done:2026-03-29
 - [ ] [TASK-032] Build Dashboard shell page (src/pages/Dashboard.jsx + .css) with DashboardNav top bar and Sidebar left nav using Outlet for content area. Use existing dark design tokens. · priority:high · owner:frontend · project:slancha · created:2026-03-29
 - [ ] [TASK-033] Build EmptyState reusable component (src/components/dashboard/EmptyState.jsx + .css) — icon + heading + description + CTA button · priority:med · owner:frontend · project:slancha · created:2026-03-29
 - [ ] [TASK-034] Build ApiKeys dashboard component (src/components/dashboard/ApiKeys.jsx + .css) — table with name, key prefix, created date, status, copy/revoke actions · priority:high · owner:frontend · project:slancha · created:2026-03-29
@@ -29,7 +29,7 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 ### Marketing site improvements
 
 - [ ] [TASK-014] Full QA pass on rebuilt site — verify new positioning, auth pages render, /login and /signup routes work, nav shows Sign in/Get Started · priority:high · owner:qa · project:slancha · created:2026-03-29
-- [ ] [TASK-015] Sync copy markdown files to match updated JSX (hero.md still has old eyebrow/subtitle) · priority:high · owner:copywriter · project:slancha · created:2026-03-29
+- [x] [TASK-015] Sync copy markdown files to match updated JSX (hero.md still has old eyebrow/subtitle) · priority:high · owner:copywriter · project:slancha · created:2026-03-29 · started:2026-03-29 · done:2026-03-29
 - [ ] [TASK-016] Update design specs: 4-step How It Works, 4-tier offerings, new ValueProps section · priority:med · owner:designer · project:slancha · created:2026-03-29
 - [ ] [TASK-009] QA audit all site copy — consistency, typos, broken links · priority:med · owner:qa · project:slancha · created:2026-03-29
 - [ ] [TASK-012] Add Playwright smoke tests for homepage, nav, auth pages, and CTA buttons · priority:med · owner:qa · project:slancha · created:2026-03-29
