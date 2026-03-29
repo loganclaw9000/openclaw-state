@@ -277,6 +277,22 @@
         "workspace": "/home/admin/.openclaw/workspace-claude",
         "agentDir": "/home/admin/.openclaw/agents/claude/agent",
         "model": "anthropic/claude-sonnet-4-6"
+      },
+      {
+        "id": "strategist",
+        "workspace": "/home/admin/.openclaw/workspace-strategist"
+      },
+      {
+        "id": "finance",
+        "workspace": "/home/admin/.openclaw/workspace-finance"
+      },
+      {
+        "id": "ops",
+        "workspace": "/home/admin/.openclaw/workspace-ops"
+      },
+      {
+        "id": "bizdev",
+        "workspace": "/home/admin/.openclaw/workspace-bizdev"
       }
     ]
   },
