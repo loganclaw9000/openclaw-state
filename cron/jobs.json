@@ -55,18 +55,17 @@
         "message": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK."
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "last"
+        "mode": "none"
       },
       "state": {
         "nextRunAtMs": 1774818140216,
         "lastRunAtMs": 1774814540038,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
         "lastDurationMs": 178,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 149,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "lastDeliveryStatus": "skipped",
+        "consecutiveErrors": 0,
+        "lastError": ""
       }
     },
     {
@@ -76,7 +75,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1774816041408,
+      "updatedAtMs": 1774817841403,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -93,11 +92,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774817840913,
-        "lastRunAtMs": 1774816040913,
+        "nextRunAtMs": 1774819640924,
+        "lastRunAtMs": 1774817840924,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 495,
+        "lastDurationMs": 479,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -110,7 +109,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1774816062531,
+      "updatedAtMs": 1774817862547,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -127,11 +126,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774817862063,
-        "lastRunAtMs": 1774816062063,
+        "nextRunAtMs": 1774819662076,
+        "lastRunAtMs": 1774817862076,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 468,
+        "lastDurationMs": 471,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -156,8 +155,7 @@
         "message": "Review your .learnings/ directory. Promote any high-value learnings to SOUL.md, AGENTS.md, or TOOLS.md as appropriate. Mark resolved items as resolved. Check for recurring patterns across entries and consider extracting them as skills. Reply with a summary of what you reviewed and any promotions made."
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "last"
+        "mode": "none"
       },
       "state": {
         "nextRunAtMs": 1774886400000,
@@ -166,8 +164,8 @@
         "lastStatus": "error",
         "lastDurationMs": 26735,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "consecutiveErrors": 0,
+        "lastError": ""
       }
     },
     {
@@ -189,8 +187,7 @@
         "message": "Review your .learnings/ directory. Promote any high-value learnings to SOUL.md, AGENTS.md, or TOOLS.md as appropriate. Mark resolved items as resolved. Check for recurring patterns across entries and consider extracting them as skills. Reply with a summary of what you reviewed and any promotions made."
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "last"
+        "mode": "none"
       },
       "state": {
         "nextRunAtMs": 1774886400000,
@@ -199,8 +196,8 @@
         "lastStatus": "error",
         "lastDurationMs": 25342,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "consecutiveErrors": 0,
+        "lastError": ""
       }
     },
     {
@@ -222,8 +219,7 @@
         "message": "Review your .learnings/ directory. Promote any high-value learnings to SOUL.md, AGENTS.md, or TOOLS.md as appropriate. Mark resolved items as resolved. Check for recurring patterns across entries and consider extracting them as skills. Reply with a summary of what you reviewed and any promotions made."
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "last"
+        "mode": "none"
       },
       "state": {
         "nextRunAtMs": 1774886400000,
@@ -232,8 +228,8 @@
         "lastStatus": "error",
         "lastDurationMs": 18803,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "consecutiveErrors": 0,
+        "lastError": ""
       }
     },
     {
@@ -255,8 +251,7 @@
         "message": "Review your .learnings/ directory. Promote any high-value learnings to SOUL.md, AGENTS.md, or TOOLS.md as appropriate. Mark resolved items as resolved. Check for recurring patterns across entries and consider extracting them as skills. Reply with a summary of what you reviewed and any promotions made."
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "last"
+        "mode": "none"
       },
       "state": {
         "nextRunAtMs": 1774886400000,
@@ -265,8 +260,8 @@
         "lastStatus": "error",
         "lastDurationMs": 16524,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "consecutiveErrors": 0,
+        "lastError": ""
       }
     },
     {
@@ -289,18 +284,17 @@
         "message": "Check git status in /home/admin/.openclaw/workspace/site. If there are uncommitted changes that look complete and tested, commit and push them to origin. Use commit message format: [agent:frontend] description. After pushing, update site/notes.md with the latest commit hash and timestamp."
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "last"
+        "mode": "none"
       },
       "state": {
         "nextRunAtMs": 1774822397459,
         "lastRunAtMs": 1774815197459,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
         "lastDurationMs": 157388,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 85,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "lastDeliveryStatus": "skipped",
+        "consecutiveErrors": 0,
+        "lastError": ""
       }
     },
     {
@@ -322,18 +316,17 @@
         "message": "# HEARTBEAT.md — Claude\n\n## Loop\n\nWhen triggered, follow this loop until there is nothing left to do:\n\n1. **Read `TODO.md`** — find the first task with status `[ ]`\n2. **Do it** — reason through it, build it, fix it, decide it\n3. **Test it** — verify the output is correct and complete\n4. **Log it** — append a one-line entry to `PROGRESS-LOG.md`: `[timestamp] task — result`\n5. **Update `TODO.md`** — mark done `[x]`, spawn follow-up tasks `[ ]` if any\n6. **Keep going** — return to step 1. Only stop when `TODO.md` has no `[ ]` items.\n\nIf `TODO.md` is empty, scan for blocked work across the team:\n- Check `site/notes.md` for blockers or questions from other agents\n- Check `site/qa/bugs.md` for critical/high severity bugs unaddressed\n- Check if any agent workspaces have stalled (no progress log entries in 30+ min)\n\nIf work is found, add it to `TODO.md` and begin the loop. If nothing is found, reply `HEARTBEAT_OK`."
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "last"
+        "mode": "none"
       },
       "state": {
         "nextRunAtMs": 1774818141507,
         "lastRunAtMs": 1774814540985,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
         "lastDurationMs": 522,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 68,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "lastDeliveryStatus": "skipped",
+        "consecutiveErrors": 0,
+        "lastError": ""
       }
     },
     {
@@ -342,7 +335,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1774816395449,
+      "updatedAtMs": 1774817957749,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -355,11 +348,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1774817899952,
-        "lastRunAtMs": 1774816099952,
+        "nextRunAtMs": 1774819699968,
+        "lastRunAtMs": 1774817899968,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 295497,
+        "lastDurationMs": 57781,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
