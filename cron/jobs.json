@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1774814487704,
+      "updatedAtMs": 1774816414174,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,14 +25,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774816222083,
-        "lastRunAtMs": 1774814422083,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 65621,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 1,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "nextRunAtMs": 1774818197541,
+        "lastRunAtMs": 1774816397541,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 16633,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       }
     },
     {
@@ -342,7 +342,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1774814362268,
+      "updatedAtMs": 1774816395449,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -355,14 +355,13 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1774816099934,
-        "lastRunAtMs": 1774814299934,
+        "nextRunAtMs": 1774817899952,
+        "lastRunAtMs": 1774816099952,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 62334,
+        "lastDurationMs": 295497,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "runningAtMs": 1774816099937
+        "consecutiveErrors": 0
       }
     }
   ]
