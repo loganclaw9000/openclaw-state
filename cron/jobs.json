@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1774809076182,
+      "updatedAtMs": 1774810861996,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,11 +25,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774810822037,
-        "lastRunAtMs": 1774809022037,
+        "nextRunAtMs": 1774812622050,
+        "lastRunAtMs": 1774810822050,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 54145,
+        "lastDurationMs": 39946,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -42,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1774807339859,
+      "updatedAtMs": 1774810940019,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -59,13 +59,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774810939859,
-        "lastRunAtMs": 1774807339717,
+        "nextRunAtMs": 1774814540019,
+        "lastRunAtMs": 1774810939873,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 142,
+        "lastDurationMs": 146,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 147,
+        "consecutiveErrors": 148,
         "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
@@ -309,7 +309,7 @@
       "name": "claude-heartbeat",
       "enabled": true,
       "createdAtMs": 1772931027927,
-      "updatedAtMs": 1774807340443,
+      "updatedAtMs": 1774810940976,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -326,13 +326,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774810940443,
-        "lastRunAtMs": 1774807339859,
+        "nextRunAtMs": 1774814540976,
+        "lastRunAtMs": 1774810940454,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 584,
+        "lastDurationMs": 522,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 66,
+        "consecutiveErrors": 67,
         "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
