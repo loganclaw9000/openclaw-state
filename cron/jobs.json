@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1774818291666,
+      "updatedAtMs": 1774820585693,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,11 +25,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774819997556,
-        "lastRunAtMs": 1774818197556,
+        "nextRunAtMs": 1774822346128,
+        "lastRunAtMs": 1774820546128,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 94110,
+        "lastDurationMs": 39565,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -42,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1774818140345,
+      "updatedAtMs": 1774820605442,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -58,16 +58,17 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774819940228,
-        "lastRunAtMs": 1774818140228,
+        "nextRunAtMs": 1774822385693,
+        "lastRunAtMs": 1774820585693,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 117,
+        "lastDurationMs": 19749,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 1,
-        "lastError": "400 \"auto\" tool choice requires --enable-auto-tool-choice and --tool-call-parser to be set",
+        "consecutiveErrors": 2,
         "lastDelivered": false,
-        "lastDeliveryError": "400 \"auto\" tool choice requires --enable-auto-tool-choice and --tool-call-parser to be set"
+        "lastDeliveryError": "LLM request failed: network connection error.",
+        "lastError": "LLM request failed: network connection error.",
+        "lastErrorReason": "timeout"
       }
     },
     {
@@ -77,7 +78,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1774817841403,
+      "updatedAtMs": 1774820606201,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -94,11 +95,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774819640924,
-        "lastRunAtMs": 1774817840924,
+        "nextRunAtMs": 1774822405442,
+        "lastRunAtMs": 1774820605442,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 479,
+        "lastDurationMs": 759,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -111,7 +112,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1774817862547,
+      "updatedAtMs": 1774820606678,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -128,11 +129,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774819662076,
-        "lastRunAtMs": 1774817862076,
+        "nextRunAtMs": 1774822406201,
+        "lastRunAtMs": 1774820606201,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 471,
+        "lastDurationMs": 477,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -305,7 +306,7 @@
       "name": "claude-heartbeat",
       "enabled": true,
       "createdAtMs": 1772931027927,
-      "updatedAtMs": 1774818142217,
+      "updatedAtMs": 1774820607166,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -321,17 +322,17 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774819941516,
-        "lastRunAtMs": 1774818141516,
+        "nextRunAtMs": 1774822406678,
+        "lastRunAtMs": 1774820606678,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 701,
+        "lastDurationMs": 488,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 1,
-        "lastError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.",
+        "consecutiveErrors": 2,
         "lastErrorReason": "billing",
         "lastDelivered": false,
-        "lastDeliveryError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        "lastDeliveryError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.",
+        "lastError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
       }
     },
     {
@@ -340,7 +341,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1774817957749,
+      "updatedAtMs": 1774820669713,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -353,11 +354,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1774819699968,
-        "lastRunAtMs": 1774817899968,
+        "nextRunAtMs": 1774822407166,
+        "lastRunAtMs": 1774820607166,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 57781,
+        "lastDurationMs": 62547,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
