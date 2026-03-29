@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1774810861996,
+      "updatedAtMs": 1774812684058,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,11 +25,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774812622050,
-        "lastRunAtMs": 1774810822050,
+        "nextRunAtMs": 1774814422064,
+        "lastRunAtMs": 1774812622064,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 39946,
+        "lastDurationMs": 61994,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -76,7 +76,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1774812441410,
+      "updatedAtMs": 1774814241393,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -93,11 +93,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774814240875,
-        "lastRunAtMs": 1774812440875,
+        "nextRunAtMs": 1774816040898,
+        "lastRunAtMs": 1774814240898,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 535,
+        "lastDurationMs": 495,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -110,7 +110,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1774812462561,
+      "updatedAtMs": 1774814262580,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -127,11 +127,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774814262036,
-        "lastRunAtMs": 1774812462036,
+        "nextRunAtMs": 1774816062052,
+        "lastRunAtMs": 1774814262052,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 525,
+        "lastDurationMs": 528,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -342,7 +342,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1774812561824,
+      "updatedAtMs": 1774814362268,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -355,11 +355,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1774814299917,
-        "lastRunAtMs": 1774812499917,
+        "nextRunAtMs": 1774816099934,
+        "lastRunAtMs": 1774814299934,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 61907,
+        "lastDurationMs": 62334,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
