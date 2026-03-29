@@ -1,0 +1,368 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "09936cf0-2aa8-4834-bb58-2a98f5c09fbf",
+      "agentId": "copywriter",
+      "name": "copywriter-heartbeat",
+      "description": "copywriter periodic heartbeat",
+      "enabled": true,
+      "createdAtMs": 1772929758254,
+      "updatedAtMs": 1774809076182,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 1772929758254
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK."
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1774810822037,
+        "lastRunAtMs": 1774809022037,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 54145,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
+      }
+    },
+    {
+      "id": "c2bf83b8-cd5b-43ed-9da2-1aece238ebcb",
+      "agentId": "designer",
+      "name": "designer-heartbeat",
+      "description": "designer periodic heartbeat",
+      "enabled": true,
+      "createdAtMs": 1772929759053,
+      "updatedAtMs": 1774807339859,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 1772929759053
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK."
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1774810939859,
+        "lastRunAtMs": 1774807339717,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 142,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 147,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+      }
+    },
+    {
+      "id": "136229f6-e438-4eb3-ad96-31f079fc6c52",
+      "agentId": "frontend",
+      "name": "frontend-heartbeat",
+      "description": "frontend periodic heartbeat",
+      "enabled": true,
+      "createdAtMs": 1772929759898,
+      "updatedAtMs": 1774808841323,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 1772929759898
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK."
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1774810640836,
+        "lastRunAtMs": 1774808840836,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 487,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
+      }
+    },
+    {
+      "id": "57b4a8fc-5d07-4f89-865e-afdbc5d10136",
+      "agentId": "qa",
+      "name": "qa-heartbeat",
+      "description": "qa periodic heartbeat",
+      "enabled": true,
+      "createdAtMs": 1772929760725,
+      "updatedAtMs": 1774808862504,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 1772929760725
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK."
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1774810662002,
+        "lastRunAtMs": 1774808862002,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 502,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
+      }
+    },
+    {
+      "id": "152ce7a7-4cf3-47c9-8a80-1b75c299edb4",
+      "agentId": "copywriter",
+      "name": "copywriter-learnings-review",
+      "description": "copywriter weekly learnings review",
+      "enabled": true,
+      "createdAtMs": 1772929774687,
+      "updatedAtMs": 1774281626775,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Review your .learnings/ directory. Promote any high-value learnings to SOUL.md, AGENTS.md, or TOOLS.md as appropriate. Mark resolved items as resolved. Check for recurring patterns across entries and consider extracting them as skills. Reply with a summary of what you reviewed and any promotions made."
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1774886400000,
+        "lastRunAtMs": 1774281600040,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 26735,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 2,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+      }
+    },
+    {
+      "id": "f03a6f6c-0c7e-41db-b97c-e918a8cdd7cb",
+      "agentId": "designer",
+      "name": "designer-learnings-review",
+      "description": "designer weekly learnings review",
+      "enabled": true,
+      "createdAtMs": 1772929775538,
+      "updatedAtMs": 1774281652117,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Review your .learnings/ directory. Promote any high-value learnings to SOUL.md, AGENTS.md, or TOOLS.md as appropriate. Mark resolved items as resolved. Check for recurring patterns across entries and consider extracting them as skills. Reply with a summary of what you reviewed and any promotions made."
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1774886400000,
+        "lastRunAtMs": 1774281626775,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 25342,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 2,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+      }
+    },
+    {
+      "id": "ddd8f2be-db27-4ceb-a671-79d6e326c122",
+      "agentId": "frontend",
+      "name": "frontend-learnings-review",
+      "description": "frontend weekly learnings review",
+      "enabled": true,
+      "createdAtMs": 1772929776332,
+      "updatedAtMs": 1774281670920,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Review your .learnings/ directory. Promote any high-value learnings to SOUL.md, AGENTS.md, or TOOLS.md as appropriate. Mark resolved items as resolved. Check for recurring patterns across entries and consider extracting them as skills. Reply with a summary of what you reviewed and any promotions made."
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1774886400000,
+        "lastRunAtMs": 1774281652117,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 18803,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 2,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+      }
+    },
+    {
+      "id": "4ff3bea1-4061-47dd-92e8-c5c452a08a62",
+      "agentId": "qa",
+      "name": "qa-learnings-review",
+      "description": "qa weekly learnings review",
+      "enabled": true,
+      "createdAtMs": 1772929777172,
+      "updatedAtMs": 1774281687444,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Review your .learnings/ directory. Promote any high-value learnings to SOUL.md, AGENTS.md, or TOOLS.md as appropriate. Mark resolved items as resolved. Check for recurring patterns across entries and consider extracting them as skills. Reply with a summary of what you reviewed and any promotions made."
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1774886400000,
+        "lastRunAtMs": 1774281670920,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 16524,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 2,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+      }
+    },
+    {
+      "id": "b62843f1-638a-462f-bd77-94ea5fcc114f",
+      "agentId": "frontend",
+      "name": "frontend-git-push",
+      "description": "Frontend periodic git push reminder",
+      "enabled": true,
+      "createdAtMs": 1772929778022,
+      "updatedAtMs": 1774808081580,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 7200000,
+        "anchorMs": 1772929778022
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Check git status in /home/admin/.openclaw/workspace/site. If there are uncommitted changes that look complete and tested, commit and push them to origin. Use commit message format: [agent:frontend] description. After pushing, update site/notes.md with the latest commit hash and timestamp."
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1774815197439,
+        "lastRunAtMs": 1774807997439,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 84141,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 84,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+      }
+    },
+    {
+      "id": "740894d9-22df-4613-ab68-f2dbad1655b7",
+      "agentId": "claude",
+      "name": "claude-heartbeat",
+      "enabled": true,
+      "createdAtMs": 1772931027927,
+      "updatedAtMs": 1774807340443,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 1772931027927
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "# HEARTBEAT.md — Claude\n\n## Loop\n\nWhen triggered, follow this loop until there is nothing left to do:\n\n1. **Read `TODO.md`** — find the first task with status `[ ]`\n2. **Do it** — reason through it, build it, fix it, decide it\n3. **Test it** — verify the output is correct and complete\n4. **Log it** — append a one-line entry to `PROGRESS-LOG.md`: `[timestamp] task — result`\n5. **Update `TODO.md`** — mark done `[x]`, spawn follow-up tasks `[ ]` if any\n6. **Keep going** — return to step 1. Only stop when `TODO.md` has no `[ ]` items.\n\nIf `TODO.md` is empty, scan for blocked work across the team:\n- Check `site/notes.md` for blockers or questions from other agents\n- Check `site/qa/bugs.md` for critical/high severity bugs unaddressed\n- Check if any agent workspaces have stalled (no progress log entries in 30+ min)\n\nIf work is found, add it to `TODO.md` and begin the loop. If nothing is found, reply `HEARTBEAT_OK`."
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1774810940443,
+        "lastRunAtMs": 1774807339859,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 584,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 66,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+      }
+    },
+    {
+      "id": "9fa69779-45b2-464a-a198-3457f08b17a0",
+      "name": "observability-collection",
+      "description": "Automated observability metrics collection",
+      "enabled": true,
+      "createdAtMs": 1774780099627,
+      "updatedAtMs": 1774808955175,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 1774780099627
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Run observability data collection"
+      },
+      "state": {
+        "nextRunAtMs": 1774810699890,
+        "lastRunAtMs": 1774808899890,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 55285,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+# Secrets & credentials — agents/ excluded (models.json contains inline API keys)
+credentials/
+agents/
+
+# Runtime memory (SQLite)
+memory/
+
+# Agent session transcripts
+agents/*/sessions/
+**/*.jsonl
+
+# Logs & queues
+logs/
+delivery-queue/
+devices/
+update-check.json
+
+# Lock files & observability runtime
+**/.clawhub/lock.json
+observability/data/
+observability/reports/
+
+# Backups
+openclaw.json.bak
+openclaw.json.bak.*
+
+# Workspace repos — managed as separate git repos
+workspace/
+workspace-claude/
+workspace-copywriter/
+workspace-designer/
+workspace-frontend/
+workspace-qa/
+
+# Node modules (inside any workspace)
+**/node_modules/
+
+# Claude Code internal
+.claude/

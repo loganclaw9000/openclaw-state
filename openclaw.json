@@ -1,0 +1,382 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.13",
+    "lastTouchedAt": "2026-03-23T02:20:19.668Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-03-07T21:42:53.595Z",
+    "lastRunVersion": "2026.3.2",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "lmstudio": {
+        "baseUrl": "http://localhost:1234/v1",
+        "apiKey": "lmstudio",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "openai/gpt-oss-20b",
+            "name": "openai/gpt-oss-20b",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 65536,
+            "maxTokens": 16384
+          },
+          {
+            "id": "glm-4.5-air",
+            "name": "GLM-4.5-Air",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "big-tiger-gemma-27b-v3",
+            "name": "Big-Tiger-Gemma-27B-v3",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 16384
+          }
+        ]
+      },
+      "vllm": {
+        "baseUrl": "http://127.0.0.1:8000/v1",
+        "apiKey": "vllm",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "Qwen3.5-35B",
+            "name": "Qwen3.5-35B",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      "anthropic": {
+        "baseUrl": "https://api.anthropic.com",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "claude-sonnet-4-6",
+            "name": "Claude Sonnet 4.6",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 3,
+              "output": 15,
+              "cacheRead": 0.3,
+              "cacheWrite": 3.75
+            },
+            "contextWindow": 200000,
+            "maxTokens": 16000
+          }
+        ]
+      },
+      "lmstudio-2": {
+        "baseUrl": "http://127.0.0.1:1234/v1",
+        "apiKey": "lmstudio",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "openai/gpt-oss-120b",
+            "name": "openai/gpt-oss-120b (Custom Provider)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 98304,
+            "maxTokens": 16384
+          }
+        ]
+      },
+      "vllm-coder": {
+        "baseUrl": "http://127.0.0.1:8001/v1",
+        "apiKey": "vllm",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "Qwen3-Coder-30B",
+            "name": "Qwen3-Coder-30B",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      "vllm-bigtiger": {
+        "baseUrl": "http://127.0.0.1:8002/v1",
+        "apiKey": "vllm",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "big-tiger-gemma-27b-v3",
+            "name": "Big-Tiger-Gemma-27B",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 32768,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      "vllm-glm": {
+        "baseUrl": "http://127.0.0.1:8003/v1",
+        "apiKey": "vllm",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "glm-4.5-air",
+            "name": "GLM-4.5-Air",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 65536,
+            "maxTokens": 8192
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "vllm/Qwen3.5-35B"
+      },
+      "models": {
+        "lmstudio/glm-4.5-air": {
+          "alias": "glm"
+        },
+        "lmstudio-2/openai/gpt-oss-120b": {
+          "alias": "gptoss120"
+        },
+        "vllm/Qwen3.5-35B": {
+          "alias": "qwen35"
+        },
+        "vllm-coder/Qwen3-Coder-30B": {
+          "alias": "qwen-coder"
+        },
+        "vllm-bigtiger/big-tiger-gemma-27b-v3": {
+          "alias": "bigtiger"
+        }
+      },
+      "workspace": "/home/admin/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "model": "vllm/Qwen3.5-35B"
+      },
+      {
+        "id": "copywriter",
+        "name": "copywriter",
+        "workspace": "/home/admin/.openclaw/workspace-copywriter",
+        "agentDir": "/home/admin/.openclaw/agents/copywriter/agent",
+        "model": "vllm/Qwen3.5-35B"
+      },
+      {
+        "id": "designer",
+        "name": "designer",
+        "workspace": "/home/admin/.openclaw/workspace-designer",
+        "agentDir": "/home/admin/.openclaw/agents/designer/agent",
+        "model": "vllm-bigtiger/big-tiger-gemma-27b-v3"
+      },
+      {
+        "id": "frontend",
+        "name": "frontend",
+        "workspace": "/home/admin/.openclaw/workspace-frontend",
+        "agentDir": "/home/admin/.openclaw/agents/frontend/agent",
+        "model": "vllm-coder/Qwen3-Coder-30B"
+      },
+      {
+        "id": "qa",
+        "name": "qa",
+        "workspace": "/home/admin/.openclaw/workspace-qa",
+        "agentDir": "/home/admin/.openclaw/agents/qa/agent",
+        "model": "vllm-coder/Qwen3-Coder-30B"
+      },
+      {
+        "id": "claude",
+        "name": "claude",
+        "workspace": "/home/admin/.openclaw/workspace-claude",
+        "agentDir": "/home/admin/.openclaw/agents/claude/agent",
+        "model": "anthropic/claude-sonnet-4-6"
+      }
+    ]
+  },
+  "tools": {
+    "profile": "full",
+    "web": {
+      "search": {
+        "enabled": true
+      },
+      "fetch": {
+        "enabled": true
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "boot-md": {
+          "enabled": true
+        },
+        "bootstrap-extra-files": {
+          "enabled": true
+        },
+        "command-logger": {
+          "enabled": true
+        },
+        "session-memory": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "channels": {
+    "whatsapp": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "selfChatMode": false,
+      "allowFrom": [
+        "+13177098416"
+      ],
+      "groupPolicy": "allowlist",
+      "debounceMs": 0,
+      "mediaMaxMb": 50
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "89206391c39123b9887422d69d4928d6c785a180340fac4d"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send"
+      ]
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    },
+    "entries": {
+      "web-search": {
+        "enabled": false
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "whatsapp": {
+        "enabled": true
+      },
+      "acpx": {
+        "enabled": true
+      }
+    }
+  }
+}
