@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1774812684058,
+      "updatedAtMs": 1774814487704,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,14 +25,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774814422064,
-        "lastRunAtMs": 1774812622064,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 61994,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": false
+        "nextRunAtMs": 1774816222083,
+        "lastRunAtMs": 1774814422083,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 65621,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
     {
@@ -42,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1774810940019,
+      "updatedAtMs": 1774814540216,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -59,13 +59,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774814540019,
-        "lastRunAtMs": 1774810939873,
+        "nextRunAtMs": 1774818140216,
+        "lastRunAtMs": 1774814540038,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 146,
+        "lastDurationMs": 178,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 148,
+        "consecutiveErrors": 149,
         "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
@@ -76,7 +76,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1774814241393,
+      "updatedAtMs": 1774816041408,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -93,8 +93,8 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774816040898,
-        "lastRunAtMs": 1774814240898,
+        "nextRunAtMs": 1774817840913,
+        "lastRunAtMs": 1774816040913,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
         "lastDurationMs": 495,
@@ -110,7 +110,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1774814262580,
+      "updatedAtMs": 1774816062531,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -127,11 +127,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774816062052,
-        "lastRunAtMs": 1774814262052,
+        "nextRunAtMs": 1774817862063,
+        "lastRunAtMs": 1774816062063,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 528,
+        "lastDurationMs": 468,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -276,7 +276,7 @@
       "description": "Frontend periodic git push reminder",
       "enabled": true,
       "createdAtMs": 1772929778022,
-      "updatedAtMs": 1774808081580,
+      "updatedAtMs": 1774815354847,
       "schedule": {
         "kind": "every",
         "everyMs": 7200000,
@@ -293,13 +293,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774815197439,
-        "lastRunAtMs": 1774807997439,
+        "nextRunAtMs": 1774822397459,
+        "lastRunAtMs": 1774815197459,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 84141,
+        "lastDurationMs": 157388,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 84,
+        "consecutiveErrors": 85,
         "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
@@ -309,7 +309,7 @@
       "name": "claude-heartbeat",
       "enabled": true,
       "createdAtMs": 1772931027927,
-      "updatedAtMs": 1774810940976,
+      "updatedAtMs": 1774814541507,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -326,13 +326,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774814540976,
-        "lastRunAtMs": 1774810940454,
+        "nextRunAtMs": 1774818141507,
+        "lastRunAtMs": 1774814540985,
         "lastRunStatus": "error",
         "lastStatus": "error",
         "lastDurationMs": 522,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 67,
+        "consecutiveErrors": 68,
         "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
@@ -361,7 +361,8 @@
         "lastStatus": "ok",
         "lastDurationMs": 62334,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0
+        "consecutiveErrors": 0,
+        "runningAtMs": 1774816099937
       }
     }
   ]
