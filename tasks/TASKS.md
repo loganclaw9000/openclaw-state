@@ -15,8 +15,6 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 
 ## Active Tasks
 
-- [ ] [TASK-001] Install and configure Gastown multi-agent workspace manager · priority:high · owner:main · project:gastown · created:2026-03-29
-
 ## Completed Tasks
 
-<!-- Move done tasks here to keep the active section clean -->
+- [x] [TASK-001] Install and configure Gastown multi-agent workspace manager · priority:high · owner:main · project:gastown · done:2026-03-29
