@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1774852151328,
+      "updatedAtMs": 1774854005493,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,15 +25,15 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774853945679,
-        "lastRunAtMs": 1774852145679,
+        "nextRunAtMs": 1774855745694,
+        "lastRunAtMs": 1774853945694,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 5649,
+        "lastDurationMs": 59799,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false,
-        "runningAtMs": 1774853945681
+        "runningAtMs": 1774855745697
       }
     },
     {
@@ -78,7 +78,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1774852238029,
+      "updatedAtMs": 1774854038039,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -95,11 +95,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774854037461,
-        "lastRunAtMs": 1774852237461,
+        "nextRunAtMs": 1774855837483,
+        "lastRunAtMs": 1774854037483,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 568,
+        "lastDurationMs": 556,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -112,7 +112,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1774852240545,
+      "updatedAtMs": 1774854040513,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -129,11 +129,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774854040026,
-        "lastRunAtMs": 1774852240026,
+        "nextRunAtMs": 1774855840043,
+        "lastRunAtMs": 1774854040043,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 519,
+        "lastDurationMs": 470,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -341,7 +341,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1774852305183,
+      "updatedAtMs": 1774854106208,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -354,11 +354,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1774854042527,
-        "lastRunAtMs": 1774852242527,
+        "nextRunAtMs": 1774855842539,
+        "lastRunAtMs": 1774854042539,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 62656,
+        "lastDurationMs": 63669,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
@@ -370,7 +370,7 @@
       "description": "strategist periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774852346300,
+      "updatedAtMs": 1774854168160,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -386,11 +386,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774854105545,
-        "lastRunAtMs": 1774852305545,
+        "nextRunAtMs": 1774855908224,
+        "lastRunAtMs": 1774854108224,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 40755,
+        "lastDurationMs": 59936,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -403,7 +403,7 @@
       "description": "finance periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774853079490,
+      "updatedAtMs": 1774854855994,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -419,11 +419,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774854833686,
-        "lastRunAtMs": 1774853033686,
+        "nextRunAtMs": 1774856633700,
+        "lastRunAtMs": 1774854833700,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 45804,
+        "lastDurationMs": 22294,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -436,7 +436,7 @@
       "description": "ops periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774852499312,
+      "updatedAtMs": 1774854306340,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -452,11 +452,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774854253285,
-        "lastRunAtMs": 1774852453285,
+        "nextRunAtMs": 1774856053299,
+        "lastRunAtMs": 1774854253299,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 46027,
+        "lastDurationMs": 53041,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -469,7 +469,7 @@
       "description": "bizdev periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774853031602,
+      "updatedAtMs": 1774854349013,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -485,11 +485,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774854301627,
-        "lastRunAtMs": 1774852501627,
+        "nextRunAtMs": 1774856108409,
+        "lastRunAtMs": 1774854308409,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 529975,
+        "lastDurationMs": 40604,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
