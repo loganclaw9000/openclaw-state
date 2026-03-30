@@ -392,5 +392,10 @@
         "enabled": true
       }
     }
+  },
+  "env": {
+    "vars": {
+      "MATON_API_KEY": "qfTfvFeD_gPoHajy0YxU967B5R6P6ZYXCgYzvbXtVz_lR3Qr08FJAECpDOpqFvEvsw6sbJiIUsZfqH7Kj5133dt0rJbfvh7Xtm0"
+    }
   }
 }

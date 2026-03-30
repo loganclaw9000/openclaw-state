@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1774905049901,
+      "updatedAtMs": 1774910958981,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,15 +25,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774906844649,
-        "lastRunAtMs": 1774905044649,
+        "nextRunAtMs": 1774912710151,
+        "lastRunAtMs": 1774910910151,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 5252,
+        "lastDurationMs": 48830,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1774909110143
+        "lastDelivered": false
       }
     },
     {
@@ -43,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1774906027199,
+      "updatedAtMs": 1774911564569,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -59,15 +58,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774906849901,
-        "lastRunAtMs": 1774905049901,
+        "nextRunAtMs": 1774913297019,
+        "lastRunAtMs": 1774911497019,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 977298,
+        "lastDurationMs": 67550,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1774909110143
+        "lastDelivered": false
       }
     },
     {
@@ -77,7 +75,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1774906199380,
+      "updatedAtMs": 1774909890948,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -94,15 +92,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774907902044,
-        "lastRunAtMs": 1774906102044,
+        "nextRunAtMs": 1774911685982,
+        "lastRunAtMs": 1774909885982,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 97336,
+        "lastDurationMs": 4966,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1774909110143
+        "lastDelivered": false
       }
     },
     {
@@ -112,7 +109,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1774906472659,
+      "updatedAtMs": 1774909896278,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -129,14 +126,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774907999380,
-        "lastRunAtMs": 1774906199380,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 273279,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 3,
-        "runningAtMs": 1774909110143
+        "nextRunAtMs": 1774911690948,
+        "lastRunAtMs": 1774909890948,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 5330,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       }
     },
     {
@@ -276,7 +273,7 @@
       "description": "Frontend periodic git push reminder",
       "enabled": true,
       "createdAtMs": 1772929778022,
-      "updatedAtMs": 1774900018907,
+      "updatedAtMs": 1774910512323,
       "schedule": {
         "kind": "every",
         "everyMs": 7200000,
@@ -292,15 +289,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774907179174,
-        "lastRunAtMs": 1774899979174,
+        "nextRunAtMs": 1774917096278,
+        "lastRunAtMs": 1774909896278,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 39733,
+        "lastDurationMs": 616045,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1774909110143
+        "lastDelivered": false
       }
     },
     {
@@ -309,7 +305,7 @@
       "name": "claude-heartbeat",
       "enabled": true,
       "createdAtMs": 1772931027927,
-      "updatedAtMs": 1774906028123,
+      "updatedAtMs": 1774910523800,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -325,13 +321,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774909628123,
-        "lastRunAtMs": 1774906027199,
+        "nextRunAtMs": 1774914123800,
+        "lastRunAtMs": 1774910519388,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 924,
+        "lastDurationMs": 4412,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 24,
+        "consecutiveErrors": 25,
         "lastErrorReason": "billing",
         "lastDelivered": false,
         "lastDeliveryError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.",
@@ -344,7 +340,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1774906594915,
+      "updatedAtMs": 1774910512367,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -357,14 +353,13 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1774908274750,
-        "lastRunAtMs": 1774906474750,
+        "nextRunAtMs": 1774912312323,
+        "lastRunAtMs": 1774910512323,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 120165,
+        "lastDurationMs": 44,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "runningAtMs": 1774909110143
+        "consecutiveErrors": 0
       }
     },
     {
@@ -374,7 +369,7 @@
       "description": "strategist periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774909108025,
+      "updatedAtMs": 1774910716123,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -390,11 +385,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774910628318,
-        "lastRunAtMs": 1774906596934,
+        "nextRunAtMs": 1774912428336,
+        "lastRunAtMs": 1774910628336,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 2511091,
+        "lastDurationMs": 87787,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -407,7 +402,7 @@
       "description": "finance periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774906048711,
+      "updatedAtMs": 1774910512388,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -423,15 +418,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774907828123,
-        "lastRunAtMs": 1774906028123,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 20588,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1774909110143
+        "nextRunAtMs": 1774912312367,
+        "lastRunAtMs": 1774910512367,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 21,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 1,
+        "lastError": "GatewayDrainingError: Gateway is draining for restart; new tasks are not accepted"
       }
     },
     {
@@ -441,7 +435,7 @@
       "description": "ops periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774905042470,
+      "updatedAtMs": 1774910512400,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -457,15 +451,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774906805495,
-        "lastRunAtMs": 1774905005495,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 36975,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1774909110143
+        "nextRunAtMs": 1774912312388,
+        "lastRunAtMs": 1774910512388,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 12,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 1,
+        "lastError": "GatewayDrainingError: Gateway is draining for restart; new tasks are not accepted"
       }
     },
     {
@@ -475,7 +468,7 @@
       "description": "bizdev periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774906099975,
+      "updatedAtMs": 1774910512416,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -491,15 +484,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774907848711,
-        "lastRunAtMs": 1774906048711,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 51264,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1774909110143
+        "nextRunAtMs": 1774912312400,
+        "lastRunAtMs": 1774910512400,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 16,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 1,
+        "lastError": "GatewayDrainingError: Gateway is draining for restart; new tasks are not accepted"
       }
     }
   ]
