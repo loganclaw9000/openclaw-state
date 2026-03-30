@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1774897197344,
+      "updatedAtMs": 1774898997428,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,13 +25,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774898996598,
-        "lastRunAtMs": 1774897196598,
+        "nextRunAtMs": 1774900796611,
+        "lastRunAtMs": 1774898996611,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 746,
+        "lastDurationMs": 817,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 3,
+        "consecutiveErrors": 4,
         "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
