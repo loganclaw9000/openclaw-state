@@ -42,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1774900830620,
+      "updatedAtMs": 1774903448166,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -58,15 +58,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774902456941,
-        "lastRunAtMs": 1774900656941,
+        "nextRunAtMs": 1774904256951,
+        "lastRunAtMs": 1774902456951,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 173679,
+        "lastDurationMs": 991215,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1774902456944
+        "lastDelivered": false
       }
     },
     {
@@ -100,7 +99,7 @@
         "lastDurationMs": 20317,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 1,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "runningAtMs": 1774903450263
       }
     },
     {
@@ -134,7 +133,7 @@
         "lastDurationMs": 20212,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 1,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "runningAtMs": 1774903450263
       }
     },
     {
@@ -360,7 +359,8 @@
         "lastStatus": "ok",
         "lastDurationMs": 20084,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0
+        "consecutiveErrors": 0,
+        "runningAtMs": 1774903450263
       }
     },
     {
@@ -396,7 +396,7 @@
         "lastDelivered": false,
         "lastDeliveryError": "LLM request failed: network connection error.",
         "lastErrorReason": "timeout",
-        "lastError": "LLM request failed: network connection error."
+        "runningAtMs": 1774903450263
       }
     },
     {
@@ -462,7 +462,8 @@
         "lastDurationMs": 50178,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1774903450263
       }
     },
     {
