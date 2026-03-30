@@ -260,19 +260,13 @@
         "id": "frontend",
         "name": "frontend",
         "workspace": "/home/admin/.openclaw/workspace-frontend",
-        "agentDir": "/home/admin/.openclaw/agents/frontend/agent",
-        "model": {
-          "primary": "vllm-coder/Qwen3-Coder-30B"
-        }
+        "agentDir": "/home/admin/.openclaw/agents/frontend/agent"
       },
       {
         "id": "qa",
         "name": "qa",
         "workspace": "/home/admin/.openclaw/workspace-qa",
-        "agentDir": "/home/admin/.openclaw/agents/qa/agent",
-        "model": {
-          "primary": "vllm-coder/Qwen3-Coder-30B"
-        }
+        "agentDir": "/home/admin/.openclaw/agents/qa/agent"
       },
       {
         "id": "claude",

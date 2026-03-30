@@ -67,7 +67,7 @@
         "consecutiveErrors": 22,
         "lastDelivered": false,
         "lastDeliveryError": "400 \"auto\" tool choice requires --enable-auto-tool-choice and --tool-call-parser to be set",
-        "lastError": "400 \"auto\" tool choice requires --enable-auto-tool-choice and --tool-call-parser to be set"
+        "runningAtMs": 1774900656937
       }
     },
     {
@@ -77,7 +77,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1774897406763,
+      "updatedAtMs": 1774899226044,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -94,11 +94,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774899205699,
-        "lastRunAtMs": 1774897405699,
+        "nextRunAtMs": 1774901005705,
+        "lastRunAtMs": 1774899205705,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 1064,
+        "lastDurationMs": 20339,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -111,7 +111,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1774897414772,
+      "updatedAtMs": 1774899233686,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -128,11 +128,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774899213689,
-        "lastRunAtMs": 1774897413689,
+        "nextRunAtMs": 1774901028049,
+        "lastRunAtMs": 1774899228049,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 1083,
+        "lastDurationMs": 5637,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -275,7 +275,7 @@
       "description": "Frontend periodic git push reminder",
       "enabled": true,
       "createdAtMs": 1772929778022,
-      "updatedAtMs": 1774892802072,
+      "updatedAtMs": 1774900018907,
       "schedule": {
         "kind": "every",
         "everyMs": 7200000,
@@ -291,11 +291,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774899979167,
-        "lastRunAtMs": 1774892779167,
+        "nextRunAtMs": 1774907179174,
+        "lastRunAtMs": 1774899979174,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 22905,
+        "lastDurationMs": 39733,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -342,7 +342,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1774897419869,
+      "updatedAtMs": 1774899253723,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -355,11 +355,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1774899219563,
-        "lastRunAtMs": 1774897419563,
+        "nextRunAtMs": 1774901033686,
+        "lastRunAtMs": 1774899233686,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 306,
+        "lastDurationMs": 20037,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
@@ -371,7 +371,7 @@
       "description": "strategist periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774897622571,
+      "updatedAtMs": 1774899441923,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -387,16 +387,17 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774899421717,
-        "lastRunAtMs": 1774897621717,
+        "nextRunAtMs": 1774901221723,
+        "lastRunAtMs": 1774899421723,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 854,
+        "lastDurationMs": 20200,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 2,
+        "consecutiveErrors": 3,
         "lastDelivered": false,
-        "lastDeliveryError": "404 status code (no body)",
-        "lastError": "404 status code (no body)"
+        "lastDeliveryError": "LLM request failed: network connection error.",
+        "lastError": "LLM request failed: network connection error.",
+        "lastErrorReason": "timeout"
       }
     },
     {
@@ -406,7 +407,7 @@
       "description": "finance periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774898237422,
+      "updatedAtMs": 1774900057027,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -422,16 +423,17 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774900037049,
-        "lastRunAtMs": 1774898237049,
+        "nextRunAtMs": 1774901837064,
+        "lastRunAtMs": 1774900037064,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 373,
+        "lastDurationMs": 19963,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 2,
+        "consecutiveErrors": 3,
         "lastDelivered": false,
-        "lastDeliveryError": "404 status code (no body)",
-        "lastError": "404 status code (no body)"
+        "lastDeliveryError": "LLM request failed: network connection error.",
+        "lastError": "LLM request failed: network connection error.",
+        "lastErrorReason": "timeout"
       }
     },
     {
@@ -441,7 +443,7 @@
       "description": "ops periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774897785535,
+      "updatedAtMs": 1774899605118,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -457,16 +459,17 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774899584815,
-        "lastRunAtMs": 1774897784815,
+        "nextRunAtMs": 1774901384826,
+        "lastRunAtMs": 1774899584826,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 720,
+        "lastDurationMs": 20292,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 2,
+        "consecutiveErrors": 3,
         "lastDelivered": false,
-        "lastDeliveryError": "404 status code (no body)",
-        "lastError": "404 status code (no body)"
+        "lastDeliveryError": "LLM request failed: network connection error.",
+        "lastError": "LLM request failed: network connection error.",
+        "lastErrorReason": "timeout"
       }
     },
     {
@@ -476,7 +479,7 @@
       "description": "bizdev periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774898563877,
+      "updatedAtMs": 1774900383372,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -492,16 +495,17 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774900363507,
-        "lastRunAtMs": 1774898563507,
+        "nextRunAtMs": 1774903983372,
+        "lastRunAtMs": 1774900363512,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 370,
+        "lastDurationMs": 19860,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 4,
+        "consecutiveErrors": 5,
         "lastDelivered": false,
-        "lastDeliveryError": "404 status code (no body)",
-        "lastError": "404 status code (no body)"
+        "lastDeliveryError": "LLM request failed: network connection error.",
+        "lastError": "LLM request failed: network connection error.",
+        "lastErrorReason": "timeout"
       }
     }
   ]
