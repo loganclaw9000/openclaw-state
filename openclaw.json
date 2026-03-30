@@ -344,7 +344,8 @@
       "dmPolicy": "pairing",
       "selfChatMode": false,
       "allowFrom": [
-        "+13177098416"
+        "+13177098416",
+        "+14065299344"
       ],
       "groupPolicy": "allowlist",
       "debounceMs": 0,
