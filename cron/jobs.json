@@ -32,7 +32,7 @@
         "lastDurationMs": 54667,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 1,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "runningAtMs": 1774866545796
       }
     },
     {
@@ -77,7 +77,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1774863190877,
+      "updatedAtMs": 1774864990918,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -94,11 +94,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774864990320,
-        "lastRunAtMs": 1774863190320,
+        "nextRunAtMs": 1774866790341,
+        "lastRunAtMs": 1774864990341,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 557,
+        "lastDurationMs": 577,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -111,7 +111,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1774863193389,
+      "updatedAtMs": 1774864993410,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -128,11 +128,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774864992895,
-        "lastRunAtMs": 1774863192895,
+        "nextRunAtMs": 1774866792908,
+        "lastRunAtMs": 1774864992908,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 494,
+        "lastDurationMs": 502,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -340,7 +340,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1774863262993,
+      "updatedAtMs": 1774865068407,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -353,11 +353,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1774864993389,
-        "lastRunAtMs": 1774863193389,
+        "nextRunAtMs": 1774866795427,
+        "lastRunAtMs": 1774864995427,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 69604,
+        "lastDurationMs": 72980,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
@@ -369,7 +369,7 @@
       "description": "strategist periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774863269406,
+      "updatedAtMs": 1774865168052,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -385,11 +385,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774865065081,
-        "lastRunAtMs": 1774863265081,
+        "nextRunAtMs": 1774866870431,
+        "lastRunAtMs": 1774865070431,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 4325,
+        "lastDurationMs": 97621,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -402,7 +402,7 @@
       "description": "finance periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774864054494,
+      "updatedAtMs": 1774865918368,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -418,11 +418,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774865811009,
-        "lastRunAtMs": 1774864011009,
+        "nextRunAtMs": 1774867611032,
+        "lastRunAtMs": 1774865811032,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 43485,
+        "lastDurationMs": 107336,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -435,7 +435,7 @@
       "description": "ops periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774863977006,
+      "updatedAtMs": 1774865291105,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -451,11 +451,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774865177709,
-        "lastRunAtMs": 1774863377709,
+        "nextRunAtMs": 1774866977724,
+        "lastRunAtMs": 1774865177724,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 599297,
+        "lastDurationMs": 113381,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -468,7 +468,7 @@
       "description": "bizdev periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774864079163,
+      "updatedAtMs": 1774865952393,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -484,11 +484,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774865854494,
-        "lastRunAtMs": 1774864054494,
+        "nextRunAtMs": 1774867720438,
+        "lastRunAtMs": 1774865920438,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 24669,
+        "lastDurationMs": 31955,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
