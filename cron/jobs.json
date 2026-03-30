@@ -77,7 +77,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1774895606724,
+      "updatedAtMs": 1774897406763,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -94,11 +94,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774897405694,
-        "lastRunAtMs": 1774895605694,
+        "nextRunAtMs": 1774899205699,
+        "lastRunAtMs": 1774897405699,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 1030,
+        "lastDurationMs": 1064,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -111,7 +111,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1774895614799,
+      "updatedAtMs": 1774897414772,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -128,11 +128,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774897413683,
-        "lastRunAtMs": 1774895613683,
+        "nextRunAtMs": 1774899213689,
+        "lastRunAtMs": 1774897413689,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 1116,
+        "lastDurationMs": 1083,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -342,7 +342,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1774895620298,
+      "updatedAtMs": 1774897419869,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -355,11 +355,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1774897419553,
-        "lastRunAtMs": 1774895619553,
+        "nextRunAtMs": 1774899219563,
+        "lastRunAtMs": 1774897419563,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 745,
+        "lastDurationMs": 306,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
@@ -371,7 +371,7 @@
       "description": "strategist periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774895822512,
+      "updatedAtMs": 1774897622571,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -387,16 +387,16 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774897621713,
-        "lastRunAtMs": 1774895821713,
+        "nextRunAtMs": 1774899421717,
+        "lastRunAtMs": 1774897621717,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 799,
+        "lastDurationMs": 854,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 1,
+        "consecutiveErrors": 2,
         "lastDelivered": false,
-        "lastError": "404 status code (no body)",
-        "lastDeliveryError": "404 status code (no body)"
+        "lastDeliveryError": "404 status code (no body)",
+        "lastError": "404 status code (no body)"
       }
     },
     {
@@ -406,7 +406,7 @@
       "description": "finance periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774896437859,
+      "updatedAtMs": 1774898237422,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -422,16 +422,16 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774898237042,
-        "lastRunAtMs": 1774896437042,
+        "nextRunAtMs": 1774900037049,
+        "lastRunAtMs": 1774898237049,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 817,
+        "lastDurationMs": 373,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 1,
+        "consecutiveErrors": 2,
         "lastDelivered": false,
-        "lastError": "404 status code (no body)",
-        "lastDeliveryError": "404 status code (no body)"
+        "lastDeliveryError": "404 status code (no body)",
+        "lastError": "404 status code (no body)"
       }
     },
     {
@@ -441,7 +441,7 @@
       "description": "ops periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774895985530,
+      "updatedAtMs": 1774897785535,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -457,16 +457,16 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774897784804,
-        "lastRunAtMs": 1774895984804,
+        "nextRunAtMs": 1774899584815,
+        "lastRunAtMs": 1774897784815,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 726,
+        "lastDurationMs": 720,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 1,
+        "consecutiveErrors": 2,
         "lastDelivered": false,
-        "lastError": "404 status code (no body)",
-        "lastDeliveryError": "404 status code (no body)"
+        "lastDeliveryError": "404 status code (no body)",
+        "lastError": "404 status code (no body)"
       }
     },
     {
@@ -476,7 +476,7 @@
       "description": "bizdev periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774896764317,
+      "updatedAtMs": 1774898563877,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -492,13 +492,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774898563500,
-        "lastRunAtMs": 1774896763500,
+        "nextRunAtMs": 1774900363507,
+        "lastRunAtMs": 1774898563507,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 817,
+        "lastDurationMs": 370,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 3,
+        "consecutiveErrors": 4,
         "lastDelivered": false,
         "lastDeliveryError": "404 status code (no body)",
         "lastError": "404 status code (no body)"
