@@ -17,14 +17,14 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 
 ### Phase 2: Dashboard (HIGH PRIORITY — auth foundation is shipped)
 
-- [ ] [TASK-030] Design dashboard layout specs: sidebar (240px), content grid, API key table, stats cards, responsive breakpoints. Output to site/design/dashboard.md · priority:high · owner:designer · project:slancha · created:2026-03-29
-- [x] [TASK-031] Write all dashboard copy: sidebar labels (Overview, API Keys, Usage, Settings), empty states, tooltips, confirmation dialogs, API key creation flow text. Output to site/copy/dashboard.md · priority:high · owner:copywriter · project:slancha · created:2026-03-29 · started:2026-03-29 · done:2026-03-29
-- [ ] [TASK-032] Build Dashboard shell page (src/pages/Dashboard.jsx + .css) with DashboardNav top bar and Sidebar left nav using Outlet for content area. Use existing dark design tokens. · priority:high · owner:frontend · project:slancha · created:2026-03-29
-- [ ] [TASK-033] Build EmptyState reusable component (src/components/dashboard/EmptyState.jsx + .css) — icon + heading + description + CTA button · priority:med · owner:frontend · project:slancha · created:2026-03-29
-- [ ] [TASK-034] Build ApiKeys dashboard component (src/components/dashboard/ApiKeys.jsx + .css) — table with name, key prefix, created date, status, copy/revoke actions · priority:high · owner:frontend · project:slancha · created:2026-03-29
-- [ ] [TASK-035] Build UsageStats dashboard component (src/components/dashboard/UsageStats.jsx + .css) — summary cards for total requests, unique models, avg latency; CSS-only bar chart · priority:med · owner:frontend · project:slancha · created:2026-03-29
-- [ ] [TASK-036] Build Overview dashboard component (src/components/dashboard/Overview.jsx + .css) — summary cards, recent activity, "Create your first API key" CTA · priority:med · owner:frontend · project:slancha · created:2026-03-29
-- [ ] [TASK-037] Build AccountSettings dashboard component (src/components/dashboard/AccountSettings.jsx + .css) — profile edit (display name, company), password change · priority:med · owner:frontend · project:slancha · created:2026-03-29
+- [x] [TASK-030] Design dashboard layout specs · priority:high · owner:claude-code · project:slancha · done:2026-03-29
+- [x] [TASK-031] Write all dashboard copy · priority:high · owner:copywriter · project:slancha · done:2026-03-29
+- [x] [TASK-032] Build Dashboard shell (DashboardNav + Sidebar + Outlet) · priority:high · owner:claude-code · project:slancha · done:2026-03-29
+- [x] [TASK-033] Build EmptyState component (inline in Overview/Usage) · priority:med · owner:claude-code · project:slancha · done:2026-03-29
+- [x] [TASK-034] Build ApiKeys dashboard component · priority:high · owner:claude-code · project:slancha · done:2026-03-29
+- [x] [TASK-035] Build UsageStats dashboard component · priority:med · owner:claude-code · project:slancha · done:2026-03-29
+- [x] [TASK-036] Build Overview dashboard component · priority:med · owner:claude-code · project:slancha · done:2026-03-29
+- [x] [TASK-037] Build AccountSettings dashboard component · priority:med · owner:claude-code · project:slancha · done:2026-03-29
 
 ### Marketing site improvements
 
@@ -41,7 +41,7 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 - [x] [TASK-042] GTM strategy brief: define the PLG-to-sales-led motion. Who signs up for the free router? What triggers upgrade? What's the enterprise entry point? Include conversion funnel assumptions. Output to workspace-strategist/docs/gtm-strategy.md · priority:high · owner:strategist · project:slancha · created:2026-03-29 · completed:2026-03-29
 - [x] [TASK-043] Unit economics model: model CAC, LTV, payback period for each tier. Include infrastructure cost assumptions (GPU compute per request, Supabase costs, bandwidth). Output to workspace-finance/models/unit-economics.md · priority:high · owner:finance · project:slancha · created:2026-03-29 · done:2026-03-29
 - [x] [TASK-044] 18-month financial projection: revenue ramp, headcount plan, burn rate, runway. Bull/base/bear scenarios. Output to workspace-finance/models/financial-projection.md · priority:high · owner:finance · project:slancha · created:2026-03-29 · done:2026-03-29
-- [>] [TASK-045] Pricing strategy analysis: benchmark Slancha's tiers against competitors (Databricks, Together, Anyscale, Modal pricing pages). Recommend pricing adjustments. Output to workspace-finance/analysis/pricing-analysis.md · priority:med · owner:finance · project:slancha · created:2026-03-29
+- [x] [TASK-045] Pricing strategy analysis: benchmark Slancha's tiers against competitors (Databricks, Together, Anyscale, Modal pricing pages). Recommend pricing adjustments. Output to workspace-finance/analysis/pricing-analysis.md · priority:med · owner:finance · project:slancha · created:2026-03-29 · started:2026-03-30 · done:2026-03-30
 - [x] [TASK-046] First 10 hires plan: role sequencing, JD outlines, compensation benchmarks, timeline. What do you hire before product-market fit vs after? Output to workspace-ops/hiring/first-10-hires.md · priority:high · owner:ops · project:slancha · created:2026-03-29 · started:2026-03-29 · done:2026-03-29
 - [x] [TASK-047] Pilot program operations design: what's included in a pilot, how long, success metrics, handoff to paid, support model. Output to workspace-ops/processes/pilot-program.md · priority:high · owner:ops · project:slancha · created:2026-03-29 · started:2026-03-29 · done:2026-03-29
 - [x] [TASK-048] OKRs for Q2 2026: company-level objectives and key results for launch quarter. Include metrics, owners, targets. Output to workspace-ops/plans/q2-2026-okrs.md · priority:med · owner:ops · project:slancha · created:2026-03-29 · started:2026-03-29 · done:2026-03-29
