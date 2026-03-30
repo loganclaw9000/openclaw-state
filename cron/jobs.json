@@ -75,7 +75,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1774903844135,
+      "updatedAtMs": 1774906199380,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -92,14 +92,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774905250272,
-        "lastRunAtMs": 1774903450272,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 393863,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
-        "runningAtMs": 1774906102039
+        "nextRunAtMs": 1774907902044,
+        "lastRunAtMs": 1774906102044,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 97336,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       }
     },
     {
@@ -109,7 +109,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1774904667959,
+      "updatedAtMs": 1774906472659,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -126,14 +126,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774905644135,
-        "lastRunAtMs": 1774903844135,
+        "nextRunAtMs": 1774907999380,
+        "lastRunAtMs": 1774906199380,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 823824,
+        "lastDurationMs": 273279,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
-        "runningAtMs": 1774906102039
+        "consecutiveErrors": 3,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
     {
@@ -340,7 +340,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1774904788057,
+      "updatedAtMs": 1774906594915,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -353,11 +353,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1774906467959,
-        "lastRunAtMs": 1774904667959,
+        "nextRunAtMs": 1774908274750,
+        "lastRunAtMs": 1774906474750,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 120098,
+        "lastDurationMs": 120165,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
@@ -392,7 +392,8 @@
         "lastDurationMs": 217438,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1774906596927
       }
     },
     {
