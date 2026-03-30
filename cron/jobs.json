@@ -32,7 +32,8 @@
         "lastDurationMs": 42529,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1774844945596
       }
     },
     {
@@ -101,7 +102,8 @@
         "lastDurationMs": 504,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1774844945596
       }
     },
     {
@@ -135,7 +137,8 @@
         "lastDurationMs": 474,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1774844945596
       }
     },
     {
@@ -359,7 +362,8 @@
         "lastStatus": "ok",
         "lastDurationMs": 62843,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0
+        "consecutiveErrors": 0,
+        "runningAtMs": 1774844945596
       }
     },
     {
@@ -392,7 +396,8 @@
         "lastDurationMs": 57288,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1774844945596
       }
     },
     {
@@ -402,7 +407,7 @@
       "description": "finance periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774842270756,
+      "updatedAtMs": 1774844943542,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -418,11 +423,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774844028363,
-        "lastRunAtMs": 1774842228363,
+        "nextRunAtMs": 1774845828390,
+        "lastRunAtMs": 1774844028390,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 42393,
+        "lastDurationMs": 915152,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -458,7 +463,8 @@
         "lastDurationMs": 56776,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1774844945596
       }
     },
     {
@@ -491,7 +497,8 @@
         "lastDurationMs": 67631,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1774844945596
       }
     }
   ]
