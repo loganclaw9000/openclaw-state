@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1774848549856,
+      "updatedAtMs": 1774850367563,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,14 +25,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774850345647,
-        "lastRunAtMs": 1774848545647,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 4209,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": false
+        "nextRunAtMs": 1774852145664,
+        "lastRunAtMs": 1774850345664,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 21899,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
     {
@@ -42,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1774846308224,
+      "updatedAtMs": 1774849908450,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -58,13 +58,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774849908224,
-        "lastRunAtMs": 1774846308026,
+        "nextRunAtMs": 1774853508450,
+        "lastRunAtMs": 1774849908242,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 198,
+        "lastDurationMs": 208,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 8,
+        "consecutiveErrors": 9,
         "lastDelivered": false,
         "lastDeliveryError": "400 \"auto\" tool choice requires --enable-auto-tool-choice and --tool-call-parser to be set",
         "lastError": "400 \"auto\" tool choice requires --enable-auto-tool-choice and --tool-call-parser to be set"
@@ -77,7 +77,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1774846837897,
+      "updatedAtMs": 1774848637969,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -94,11 +94,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774848637404,
-        "lastRunAtMs": 1774846837404,
+        "nextRunAtMs": 1774850437431,
+        "lastRunAtMs": 1774848637431,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 493,
+        "lastDurationMs": 538,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -111,7 +111,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1774846838334,
+      "updatedAtMs": 1774848640450,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -128,11 +128,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774848637897,
-        "lastRunAtMs": 1774846837897,
+        "nextRunAtMs": 1774850439995,
+        "lastRunAtMs": 1774848639995,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 437,
+        "lastDurationMs": 455,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -273,7 +273,7 @@
       "description": "Frontend periodic git push reminder",
       "enabled": true,
       "createdAtMs": 1772929778022,
-      "updatedAtMs": 1774842339424,
+      "updatedAtMs": 1774849575292,
       "schedule": {
         "kind": "every",
         "everyMs": 7200000,
@@ -289,11 +289,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774849496842,
-        "lastRunAtMs": 1774842296842,
+        "nextRunAtMs": 1774856696859,
+        "lastRunAtMs": 1774849496859,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 42582,
+        "lastDurationMs": 78433,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -305,7 +305,7 @@
       "name": "claude-heartbeat",
       "enabled": true,
       "createdAtMs": 1772931027927,
-      "updatedAtMs": 1774846310022,
+      "updatedAtMs": 1774849910830,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -321,13 +321,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774849910022,
-        "lastRunAtMs": 1774846309491,
+        "nextRunAtMs": 1774853510830,
+        "lastRunAtMs": 1774849910040,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 531,
+        "lastDurationMs": 790,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 8,
+        "consecutiveErrors": 9,
         "lastErrorReason": "billing",
         "lastDelivered": false,
         "lastDeliveryError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.",
@@ -340,7 +340,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1774846903490,
+      "updatedAtMs": 1774848702385,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -353,11 +353,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1774848638334,
-        "lastRunAtMs": 1774846838334,
+        "nextRunAtMs": 1774850440450,
+        "lastRunAtMs": 1774848640450,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 65156,
+        "lastDurationMs": 61935,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
@@ -369,7 +369,7 @@
       "description": "strategist periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774846928613,
+      "updatedAtMs": 1774848851227,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -385,11 +385,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774848705512,
-        "lastRunAtMs": 1774846905512,
+        "nextRunAtMs": 1774850505524,
+        "lastRunAtMs": 1774848705524,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 23101,
+        "lastDurationMs": 145703,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -402,7 +402,7 @@
       "description": "finance periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774847701241,
+      "updatedAtMs": 1774849460840,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -418,11 +418,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774849428436,
-        "lastRunAtMs": 1774847628436,
+        "nextRunAtMs": 1774851228453,
+        "lastRunAtMs": 1774849428453,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 72805,
+        "lastDurationMs": 32387,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -435,7 +435,7 @@
       "description": "ops periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774846995423,
+      "updatedAtMs": 1774848901596,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -451,11 +451,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774848730636,
-        "lastRunAtMs": 1774846930636,
+        "nextRunAtMs": 1774850653245,
+        "lastRunAtMs": 1774848853245,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 64787,
+        "lastDurationMs": 48351,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -468,7 +468,7 @@
       "description": "bizdev periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774847083257,
+      "updatedAtMs": 1774848977270,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -484,11 +484,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774848797443,
-        "lastRunAtMs": 1774846997443,
+        "nextRunAtMs": 1774850701596,
+        "lastRunAtMs": 1774848901596,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 85814,
+        "lastDurationMs": 75674,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
