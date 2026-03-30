@@ -28,7 +28,7 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 
 ### Marketing site improvements
 
-- [ ] [TASK-014] Full QA pass on rebuilt site — verify new positioning, auth pages render, /login and /signup routes work, nav shows Sign in/Get Started · priority:high · owner:qa · project:slancha · created:2026-03-29
+- [x] [TASK-014] Full QA pass on rebuilt site — build passes, no stale copy, all auth/dashboard routes wired, nav auth states correct · priority:high · owner:claude-code · project:slancha · done:2026-03-30
 - [x] [TASK-015] Sync copy markdown files to match updated JSX (hero.md still has old eyebrow/subtitle) · priority:high · owner:copywriter · project:slancha · created:2026-03-29 · started:2026-03-29 · done:2026-03-29
 - [ ] [TASK-016] Update design specs: 4-step How It Works, 4-tier offerings, new ValueProps section · priority:med · owner:designer · project:slancha · created:2026-03-29
 - [ ] [TASK-009] QA audit all site copy — consistency, typos, broken links · priority:med · owner:qa · project:slancha · created:2026-03-29
