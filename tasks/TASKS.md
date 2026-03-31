@@ -15,9 +15,16 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 
 ## Active Tasks
 
-### Sprint 3: Content Depth & Conversion Optimization (2026-03-31)
+### Sprint 4: Launch Readiness & Conversion (2026-03-31)
 
-- [x] [TASK-090] Add animated terminal code demo to hero section — typing effect + API response animation · priority:high · owner:claude-code · project:slancha · done:2026-03-31
+- [x] [TASK-090] Build Demo page: interactive product walkthrough with 5 steps (signup, first eval, route deployment, fine-tuning, metrics dashboard), side navigation, code panels, metric cards · priority:high · owner:claude-code · project:slancha · created:2026-03-31 · done:2026-03-31
+- [ ] [TASK-091] Write Demo walkthrough script — step-by-step talking points for sales demos (5 steps: signup, eval, route, fine-tune, metrics), what problem each solves, demo flow timing · priority:med · owner:copywriter · project:slancha · created:2026-03-31
+- [ ] [TASK-092] Write Customer Welcome Email Sequence (5 emails) — onboarding series for pilot signups: day 1 welcome + setup, day 3 quick win, day 7 first eval, day 14 deployment, day 21 upgrade prompt · priority:med · owner:copywriter · project:slancha · created:2026-03-31
+- [>] [TASK-093] Design Demo Flow Spec — user journey map for demo page, wireframes for each step, microinteractions, transition animations, responsive breakpoints · priority:med · owner:designer · project:slancha · created:2026-03-31 · started:2026-03-31
+- [ ] [TASK-094] Build Pilot Onboarding Checklist — day 1, week 1, month 1 timeline with specific actions, resources needed, success metrics, handoff criteria to paid · priority:med · owner:ops · project:slancha · created:2026-03-31
+- [ ] [TASK-095] Create Sales Battlecards (top 5 competitors) — concise 1-pager for Arize AI, WhyLabs, Evidently, Hugging Face, Modal: their weakness, Slancha's wedge, objection handlers · priority:med · owner:bizdev · project:slancha · created:2026-03-31
+- [ ] [TASK-096] Write Security Whitepaper Outline — data isolation architecture, encryption at rest/in transit, SOC 2 readiness status, compliance FAQ for enterprise prospects · priority:med · owner:ops · project:slancha · created:2026-03-31
+- [ ] [TASK-097] Build ROI Calculator — spreadsheet or interactive component showing cost savings vs. building in-house, vs. competitors, TCO calculator for 3 scenarios · priority:med · owner:finance · project:slancha · created:2026-03-31
 - [x] [TASK-060] Write blog post: "5 Signs Your ML Team Needs an Evaluation Platform" · priority:high · owner:copywriter · project:slancha · created:2026-03-31 · done:2026-03-30
 - [x] [TASK-061] Write blog post: "How Eval Data Should Drive Fine-Tuning (Technical Deep Dive)" · priority:high · owner:claude-code · project:slancha · created:2026-03-31 · done:2026-03-31
 - [x] [TASK-062] Write developer quickstart guide for docs: install SDK, run first eval, deploy model · priority:high · owner:claude-code · project:slancha · created:2026-03-31 · done:2026-03-30
