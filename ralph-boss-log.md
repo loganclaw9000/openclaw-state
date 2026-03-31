@@ -1,6 +1,7 @@
 # Ralph Boss Log
 
 <!-- Append-only. One line per iteration. Format: [timestamp] iteration N — LEVEL: action (files) -->
+[2026-03-31T19:00:00Z] iteration 26 — Senior: Wrote SEO blog post "How to Reduce LLM API Costs by 60%" — 5 techniques (routing, fine-tuning, QAT, MIG, multi-token prediction), cost comparison tables, code examples, compound savings calculator. 199 lines. Fixed deploy repo rebase conflict. Blog now has 11 posts. Build passes, pushed both repos. (blog/index.js)
 [2026-03-31T18:00:00Z] iteration 24 — Mid: Wired up contact form with Formspree email delivery (TASK-100). Primary: POST to Formspree endpoint for actual email to contact@slancha.ai. Fallback: Supabase insert + mailto. Added VITE_FORMSPREE_ID env var. Build passes, source repo pushed. (Contact.jsx, .env.example, TASKS.md)
 [2026-03-31T15:00:00Z] iteration 19 — Mid: Built Migration Guide docs page — step-by-step migration from 6 platforms (OpenAI, Anthropic, Portkey, OpenRouter, Fireworks, Not Diamond) with before/after code examples, feature comparison tables, framework integrations (LangChain, LlamaIndex, Vercel AI SDK), env vars, verification checklist. 406 new lines. Build passes, pushed both repos. (docs/index.js, TASKS.md)
 [2026-03-31T06:00:00Z] iteration 1 — Junior: Built Use Cases page with 4 customer segments, wired into nav + router, verified build, pushed. Seeded Sprint 3 with 10 tasks across 7 agents. (UseCases.jsx, UseCases.css, App.jsx, Nav.jsx, TASKS.md)
