@@ -15,6 +15,13 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 
 ## Active Tasks
 
+### Sprint 10: Frontend Reactivation & Documentation Completes (2026-03-31)
+
+- [ ] [TASK-160] REACTIVATE frontend agent — Sync workspace with Ralph Loop Boss output. Ralph has built ~100 features but frontend agent hasn't run since 2026-03-23. Task: Read Ralph's log, audit workspace/site, update PROGRESS-LOG.md with all completed work, commit any pending changes, push to origin. Verify build passes. Output: Updated PROGRESS-LOG.md, clean git status, green build. · priority:high · owner:frontend · project:slancha · created:2026-03-31
+- [ ] [TASK-161] Write API reference documentation (comprehensive) — Full API reference with all endpoints (evaluations, deployments, fine-tuning, datasets, router, webhooks, keys, logs). Include request/response schemas, code examples in Python/TypeScript/cURL, error codes, rate limits. Output to workspace-copywriter/docs/api-reference-complete.md · priority:high · owner:copywriter · project:slancha · created:2026-03-31
+- [ ] [TASK-162] Write 5-minute quickstart guide — Step-by-step for developers to go from zero to first API call: sign up, create API key, install SDK, make first request, view results. Include troubleshooting tips. Output to workspace-copywriter/docs/quickstart.md · priority:high · owner:copywriter · project:slancha · created:2026-03-31
+- [ ] [TASK-163] SOC 2 readiness checklist — 200+ controls mapped to trust services criteria (security, availability, confidentiality), gap analysis framework, evidence collection checklist, timelines. Output to workspace-ops/docs/soc2-checklist.md · priority:med · owner:ops · project:slancha · created:2026-03-31
+
 ### Sprint 8: Developer Experience, Conversion & Backend Readiness (2026-03-31)
 
 - [x] [TASK-141] Write SEO blog post: "vLLM in Production: The Complete Guide to High-Throughput LLM Serving" — PagedAttention, continuous batching, multi-LoRA, speculative decoding, production config, monitoring. Target keyword: "vLLM production guide" · priority:high · owner:claude-code · project:slancha · created:2026-03-31 · done:2026-03-31
@@ -36,8 +43,8 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 - [x] [TASK-153] Write investor FAQ — top 20 questions with data-backed answers on pricing, tech, traction, competition, team. Output to workspace-finance/docs/investor-faq.md · priority:high · owner:finance · project:slancha · created:2026-03-31
   - **Note:** TASK-067 already completed this (analysis/investor-faq.md, 2026-03-31). Same deliverable, same content. No additional work needed.
 - [x] [TASK-154] Create ROI calculator template — interactive model for prospect TCO analysis (build vs. governance layer). Output to workspace-bizdev/tools/roi-calculator.md · priority:high · owner:bizdev · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
-- [>] [TASK-155] Write churn prevention playbook — signals (usage drop, support tickets, no champion), intervention steps, win-back templates. Output to workspace-ops/processes/churn-prevention.md · priority:med · owner:ops · project:slancha · created:2026-03-31 · started:2026-03-31
-- [ ] [TASK-156] Write SOC 2 readiness checklist — 200+ controls mapped to trust services criteria, gap analysis, evidence collection. Output to workspace-ops/docs/soc2-checklist.md · priority:med · owner:ops · project:slancha · created:2026-03-31
+- [x] [TASK-155] Write churn prevention playbook — signals (usage drop, support tickets, no champion), intervention steps, win-back templates. Output to workspace-ops/processes/churn-prevention.md · priority:med · owner:ops · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
+- [x] [TASK-156] Write SOC 2 readiness checklist — 200+ controls mapped to trust services criteria, gap analysis, evidence collection. Output to workspace-ops/docs/soc2-checklist.md · priority:med · owner:ops · project:slancha · created:2026-03-31 · done:2026-03-31
 - [x] [TASK-157] Write SEO keyword strategy — 50+ long-tail keywords mapped to blog posts + docs pages. Output to workspace-strategist/docs/seo-strategy.md · priority:med · owner:strategist · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 - [x] [TASK-158] Write compliance FAQ for enterprise prospects — SOC 2, HIPAA, GDPR, data residency, model isolation answers. Output to workspace-bizdev/playbooks/compliance-faq.md · priority:med · owner:bizdev · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 
