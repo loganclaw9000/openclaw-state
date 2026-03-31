@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1774778394790,
+      "updatedAtMs": 1774912999922,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,15 +25,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774780158254,
-        "lastRunAtMs": 1774774794783,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 3600007,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 1,
-        "lastError": "cron: job execution timed out",
-        "lastErrorReason": "timeout"
+        "nextRunAtMs": 1774914795750,
+        "lastRunAtMs": 1774912995750,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 4172,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       }
     },
     {
@@ -43,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1774778397214,
+      "updatedAtMs": 1774913504551,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -56,18 +55,17 @@
         "message": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK."
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "last"
+        "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774781997214,
-        "lastRunAtMs": 1774778397008,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 206,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 139,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "nextRunAtMs": 1774915097032,
+        "lastRunAtMs": 1774913297032,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 207519,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       }
     },
     {
@@ -77,7 +75,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1774778398209,
+      "updatedAtMs": 1774913545995,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -94,11 +92,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774780197214,
-        "lastRunAtMs": 1774778397214,
+        "nextRunAtMs": 1774915306615,
+        "lastRunAtMs": 1774913506615,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 995,
+        "lastDurationMs": 39380,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -111,7 +109,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1774778399154,
+      "updatedAtMs": 1774914708699,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -128,14 +126,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774780198209,
-        "lastRunAtMs": 1774778398209,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 945,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": false
+        "nextRunAtMs": 1774915432270,
+        "lastRunAtMs": 1774913632270,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 1076429,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
     {
@@ -145,7 +143,7 @@
       "description": "copywriter weekly learnings review",
       "enabled": true,
       "createdAtMs": 1772929774687,
-      "updatedAtMs": 1774281626775,
+      "updatedAtMs": 1774886502562,
       "schedule": {
         "kind": "cron",
         "expr": "0 9 * * 1"
@@ -157,18 +155,17 @@
         "message": "Review your .learnings/ directory. Promote any high-value learnings to SOUL.md, AGENTS.md, or TOOLS.md as appropriate. Mark resolved items as resolved. Check for recurring patterns across entries and consider extracting them as skills. Reply with a summary of what you reviewed and any promotions made."
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "last"
+        "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774886400000,
-        "lastRunAtMs": 1774281600040,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 26735,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "nextRunAtMs": 1775491200000,
+        "lastRunAtMs": 1774886400025,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 102537,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       }
     },
     {
@@ -178,7 +175,7 @@
       "description": "designer weekly learnings review",
       "enabled": true,
       "createdAtMs": 1772929775538,
-      "updatedAtMs": 1774281652117,
+      "updatedAtMs": 1774886502945,
       "schedule": {
         "kind": "cron",
         "expr": "0 9 * * 1"
@@ -190,18 +187,19 @@
         "message": "Review your .learnings/ directory. Promote any high-value learnings to SOUL.md, AGENTS.md, or TOOLS.md as appropriate. Mark resolved items as resolved. Check for recurring patterns across entries and consider extracting them as skills. Reply with a summary of what you reviewed and any promotions made."
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "last"
+        "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774886400000,
-        "lastRunAtMs": 1774281626775,
+        "nextRunAtMs": 1775491200000,
+        "lastRunAtMs": 1774886502562,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 25342,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "lastDurationMs": 383,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 1,
+        "lastError": "400 \"auto\" tool choice requires --enable-auto-tool-choice and --tool-call-parser to be set",
+        "lastDelivered": false,
+        "lastDeliveryError": "400 \"auto\" tool choice requires --enable-auto-tool-choice and --tool-call-parser to be set"
       }
     },
     {
@@ -211,7 +209,7 @@
       "description": "frontend weekly learnings review",
       "enabled": true,
       "createdAtMs": 1772929776332,
-      "updatedAtMs": 1774281670920,
+      "updatedAtMs": 1774886518525,
       "schedule": {
         "kind": "cron",
         "expr": "0 9 * * 1"
@@ -223,18 +221,17 @@
         "message": "Review your .learnings/ directory. Promote any high-value learnings to SOUL.md, AGENTS.md, or TOOLS.md as appropriate. Mark resolved items as resolved. Check for recurring patterns across entries and consider extracting them as skills. Reply with a summary of what you reviewed and any promotions made."
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "last"
+        "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774886400000,
-        "lastRunAtMs": 1774281652117,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 18803,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "nextRunAtMs": 1775491200000,
+        "lastRunAtMs": 1774886502945,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 15580,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       }
     },
     {
@@ -244,7 +241,7 @@
       "description": "qa weekly learnings review",
       "enabled": true,
       "createdAtMs": 1772929777172,
-      "updatedAtMs": 1774281687444,
+      "updatedAtMs": 1774886603455,
       "schedule": {
         "kind": "cron",
         "expr": "0 9 * * 1"
@@ -256,18 +253,17 @@
         "message": "Review your .learnings/ directory. Promote any high-value learnings to SOUL.md, AGENTS.md, or TOOLS.md as appropriate. Mark resolved items as resolved. Check for recurring patterns across entries and consider extracting them as skills. Reply with a summary of what you reviewed and any promotions made."
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "last"
+        "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774886400000,
-        "lastRunAtMs": 1774281670920,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 16524,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "nextRunAtMs": 1775491200000,
+        "lastRunAtMs": 1774886518525,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 84930,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       }
     },
     {
@@ -277,7 +273,7 @@
       "description": "Frontend periodic git push reminder",
       "enabled": true,
       "createdAtMs": 1772929778022,
-      "updatedAtMs": 1774779265433,
+      "updatedAtMs": 1774910512323,
       "schedule": {
         "kind": "every",
         "everyMs": 7200000,
@@ -290,18 +286,17 @@
         "message": "Check git status in /home/admin/.openclaw/workspace/site. If there are uncommitted changes that look complete and tested, commit and push them to origin. Use commit message format: [agent:frontend] description. After pushing, update site/notes.md with the latest commit hash and timestamp."
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "last"
+        "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774786397383,
-        "lastRunAtMs": 1774779197383,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 68050,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 80,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "nextRunAtMs": 1774917096278,
+        "lastRunAtMs": 1774909896278,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 616045,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       }
     },
     {
@@ -310,7 +305,7 @@
       "name": "claude-heartbeat",
       "enabled": true,
       "createdAtMs": 1772931027927,
-      "updatedAtMs": 1774778399862,
+      "updatedAtMs": 1774910523800,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -323,18 +318,211 @@
         "message": "# HEARTBEAT.md — Claude\n\n## Loop\n\nWhen triggered, follow this loop until there is nothing left to do:\n\n1. **Read `TODO.md`** — find the first task with status `[ ]`\n2. **Do it** — reason through it, build it, fix it, decide it\n3. **Test it** — verify the output is correct and complete\n4. **Log it** — append a one-line entry to `PROGRESS-LOG.md`: `[timestamp] task — result`\n5. **Update `TODO.md`** — mark done `[x]`, spawn follow-up tasks `[ ]` if any\n6. **Keep going** — return to step 1. Only stop when `TODO.md` has no `[ ]` items.\n\nIf `TODO.md` is empty, scan for blocked work across the team:\n- Check `site/notes.md` for blockers or questions from other agents\n- Check `site/qa/bugs.md` for critical/high severity bugs unaddressed\n- Check if any agent workspaces have stalled (no progress log entries in 30+ min)\n\nIf work is found, add it to `TODO.md` and begin the loop. If nothing is found, reply `HEARTBEAT_OK`."
       },
       "delivery": {
-        "mode": "announce",
-        "channel": "last"
+        "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774781999862,
-        "lastRunAtMs": 1774778399154,
+        "nextRunAtMs": 1774916427927,
+        "lastRunAtMs": 1774910519388,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 708,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 58,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "lastDurationMs": 4412,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 25,
+        "lastErrorReason": "billing",
+        "lastDelivered": false,
+        "lastDeliveryError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.",
+        "lastError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+      }
+    },
+    {
+      "id": "9fa69779-45b2-464a-a198-3457f08b17a0",
+      "name": "observability-collection",
+      "description": "Automated observability metrics collection",
+      "enabled": true,
+      "createdAtMs": 1774780099627,
+      "updatedAtMs": 1774912432406,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 1774780099627
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Run observability data collection"
+      },
+      "state": {
+        "nextRunAtMs": 1774915099627,
+        "lastRunAtMs": 1774912312335,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 120071,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0
+      }
+    },
+    {
+      "id": "4ccdcd6d-818a-4b5d-83cb-f7104e900a54",
+      "agentId": "strategist",
+      "name": "strategist-heartbeat",
+      "description": "strategist periodic heartbeat",
+      "enabled": true,
+      "createdAtMs": 1774824228318,
+      "updatedAtMs": 1774912556294,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 1774824228318
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK."
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1774916028318,
+        "lastRunAtMs": 1774912434422,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 121872,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
+      }
+    },
+    {
+      "id": "ccbd051f-5993-4c79-a16c-139722025691",
+      "agentId": "finance",
+      "name": "finance-heartbeat",
+      "description": "finance periodic heartbeat",
+      "enabled": true,
+      "createdAtMs": 1774824228318,
+      "updatedAtMs": 1774912877230,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 1774824228318
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK."
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1774916028318,
+        "lastRunAtMs": 1774912556294,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 320936,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 2,
+        "lastError": "⚠️ ✉️ Message failed",
+        "lastDelivered": false,
+        "lastDeliveryError": "⚠️ ✉️ Message failed"
+      }
+    },
+    {
+      "id": "ceadd851-ea1b-49af-8370-0db8b2d81716",
+      "agentId": "ops",
+      "name": "ops-heartbeat",
+      "description": "ops periodic heartbeat",
+      "enabled": true,
+      "createdAtMs": 1774824228318,
+      "updatedAtMs": 1774912966555,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 1774824228318
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK."
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1774914677230,
+        "lastRunAtMs": 1774912877230,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 89325,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false,
+        "runningAtMs": 1774914710763
+      }
+    },
+    {
+      "id": "5e1f96b5-b4b4-471e-a234-766f0a1eb7f9",
+      "agentId": "bizdev",
+      "name": "bizdev-heartbeat",
+      "description": "bizdev periodic heartbeat",
+      "enabled": true,
+      "createdAtMs": 1774824228318,
+      "updatedAtMs": 1774912993662,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 1774824228318
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK."
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1774914766555,
+        "lastRunAtMs": 1774912966555,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 27107,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
+      }
+    },
+    {
+      "id": "09df3ca0-8390-47c2-9661-cc24e3a4eae5",
+      "agentId": "main",
+      "sessionKey": "agent:main:whatsapp:direct:+13177098416",
+      "name": "gmail-check",
+      "enabled": true,
+      "createdAtMs": 1774914638046,
+      "updatedAtMs": 1774914638046,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 1774914638046
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "🧠 Gmail heartbeat: Check unread emails from Paul Logan (+13177098416) and James Logan. For any actionable items, ask via WhatsApp before proceeding with tasks. Queue relevant todos in the central TASKS.md file."
+      },
+      "delivery": {
+        "mode": "announce",
+        "to": "+13177098416",
+        "channel": "whatsapp"
+      },
+      "state": {
+        "nextRunAtMs": 1774916438046
       }
     }
   ]

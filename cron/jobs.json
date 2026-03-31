@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1774912999922,
+      "updatedAtMs": 1774914971913,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,14 +25,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774914795750,
-        "lastRunAtMs": 1774912995750,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 4172,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": false
+        "nextRunAtMs": 1774916746104,
+        "lastRunAtMs": 1774914946104,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 25809,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
     {
@@ -42,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1774911564569,
+      "updatedAtMs": 1774913504551,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -58,15 +58,15 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774913297019,
-        "lastRunAtMs": 1774911497019,
+        "nextRunAtMs": 1774915097032,
+        "lastRunAtMs": 1774913297032,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 67550,
+        "lastDurationMs": 207519,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false,
-        "runningAtMs": 1774913297022
+        "runningAtMs": 1774915097037
       }
     },
     {
@@ -76,7 +76,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1774911830238,
+      "updatedAtMs": 1774913545995,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -93,11 +93,11 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774913485991,
-        "lastRunAtMs": 1774911685991,
+        "nextRunAtMs": 1774915306615,
+        "lastRunAtMs": 1774913506615,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 144247,
+        "lastDurationMs": 39380,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -110,7 +110,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1774911939759,
+      "updatedAtMs": 1774914708699,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -127,14 +127,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774913632261,
-        "lastRunAtMs": 1774911832261,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 107498,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": false
+        "nextRunAtMs": 1774915432270,
+        "lastRunAtMs": 1774913632270,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 1076429,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
     {
@@ -322,7 +322,7 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774914123800,
+        "nextRunAtMs": 1774916427927,
         "lastRunAtMs": 1774910519388,
         "lastRunStatus": "error",
         "lastStatus": "error",
@@ -354,7 +354,7 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1774914112335,
+        "nextRunAtMs": 1774915099627,
         "lastRunAtMs": 1774912312335,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
@@ -386,7 +386,7 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774914234422,
+        "nextRunAtMs": 1774916028318,
         "lastRunAtMs": 1774912434422,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
@@ -419,7 +419,7 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774914356294,
+        "nextRunAtMs": 1774916028318,
         "lastRunAtMs": 1774912556294,
         "lastRunStatus": "error",
         "lastStatus": "error",
@@ -438,7 +438,7 @@
       "description": "ops periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774912966555,
+      "updatedAtMs": 1774914944095,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -454,11 +454,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774914677230,
-        "lastRunAtMs": 1774912877230,
+        "nextRunAtMs": 1774916510765,
+        "lastRunAtMs": 1774914710765,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 89325,
+        "lastDurationMs": 233330,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -471,7 +471,7 @@
       "description": "bizdev periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774912993662,
+      "updatedAtMs": 1774915016442,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -487,14 +487,42 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774914766555,
-        "lastRunAtMs": 1774912966555,
+        "nextRunAtMs": 1774916771913,
+        "lastRunAtMs": 1774914971913,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 27107,
+        "lastDurationMs": 44529,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
+      }
+    },
+    {
+      "id": "09df3ca0-8390-47c2-9661-cc24e3a4eae5",
+      "agentId": "main",
+      "sessionKey": "agent:main:whatsapp:direct:+13177098416",
+      "name": "gmail-check",
+      "enabled": true,
+      "createdAtMs": 1774914638046,
+      "updatedAtMs": 1774914823155,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 1774914638046
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "🧠 Gmail heartbeat: Check all unread emails. For any actionable items, ask via WhatsApp before proceeding with tasks. Queue relevant todos in the central TASKS.md file."
+      },
+      "delivery": {
+        "mode": "announce",
+        "to": "+13177098416",
+        "channel": "whatsapp"
+      },
+      "state": {
+        "nextRunAtMs": 1774916438046
       }
     }
   ]
