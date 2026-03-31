@@ -25,7 +25,7 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 - [ ] [TASK-118] Create product hunt launch strategy — listing copy, maker comment, first-day engagement plan, supporter outreach sequence. Output to workspace-bizdev/launch/ · priority:high · owner:bizdev · project:slancha · created:2026-03-31
 - [ ] [TASK-119] Write developer community strategy — Discord/Slack plan, documentation contribution guide, early adopter program, feedback loop design. Output to workspace-ops/community/ · priority:med · owner:ops · project:slancha · created:2026-03-31
 - [ ] [TASK-120] Update competitive landscape with latest moves from OpenRouter, Fireworks, and BaseTen (March 2026). Output to workspace-strategist/docs/ · priority:med · owner:strategist · project:slancha · created:2026-03-31
-- [>] [TASK-121] Design vertical landing page specs — layout, component hierarchy, responsive breakpoints for fintech/healthtech/e-commerce verticals. Use frontend-design plugin · priority:med · owner:designer · project:slancha · created:2026-03-31 · started:2026-03-31
+- [x] [TASK-121] Design vertical landing page specs — layout, component hierarchy, responsive breakpoints for fintech/healthtech/e-commerce verticals. Use frontend-design plugin · priority:med · owner:designer · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 - [ ] [TASK-122] QA all blog posts — verify links, code examples render, mobile responsive, meta tags present on all 16 posts. Use playwright plugin · priority:med · owner:qa · project:slancha · created:2026-03-31
 
 ### Sprint 5: Revenue, Content & Polish (2026-03-31)
@@ -150,6 +150,7 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 - [x] [TASK-055] QA new pricing and checkout feature: test pricing page, checkout success/cancel, billing dashboard · priority:high · owner:qa · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 
 ## Completed Tasks
+- [x] [TASK-121] Design vertical landing page specs — layout, component hierarchy, responsive breakpoints for fintech/healthtech/e-commerce verticals. Use frontend-design plugin · priority:med · owner:designer · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 - [x] [TASK-066] Update competitive landscape with Q2 2026 funding rounds and product launches · priority:med · owner:strategist · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 - [x] [TASK-001] Install and configure Gastown multi-agent workspace manager · priority:high · owner:main · project:gastown · done:2026-03-29
 - [x] [TASK-002] Build About page component · priority:high · owner:frontend · project:slancha · done:2026-03-29
