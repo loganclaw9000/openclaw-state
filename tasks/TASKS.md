@@ -37,7 +37,7 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 ### Sprint 4: Launch Readiness & Conversion (2026-03-30)
 
 - [x] [TASK-077] SEO: expand sitemap.xml from 2 to 30 URLs, update robots.txt to block auth/dashboard · priority:high · owner:claude-code · project:slancha · done:2026-03-30
-- [ ] [TASK-078] Write blog post: "Building a Production AI Router: Architecture Patterns" · priority:high · owner:claude-code · project:slancha · created:2026-03-30
+- [x] [TASK-078] Write blog post: "Building a Production AI Router: Architecture Patterns" · priority:high · owner:claude-code · project:slancha · created:2026-03-30 · done:2026-03-30
 - [x] [TASK-079] Add page-level meta descriptions via usePageMeta hook on all pages · priority:high · owner:claude-code · project:slancha · created:2026-03-30 · done:2026-03-30
 - [x] [TASK-080] Write blog post: "From Prototype to Production: The AI Deployment Checklist" · priority:med · owner:copywriter · project:slancha · created:2026-03-30 · started:2026-03-31 · done:2026-03-31
 - [x] [TASK-081] Create pitch deck slides (Markdown/HTML) from strategist outline · priority:high · owner:claude-code · project:slancha · created:2026-03-30 · done:2026-03-30
