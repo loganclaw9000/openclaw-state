@@ -11,3 +11,4 @@ Lessons learned across iterations. Read this at the start of each iteration.
 - Always verify builds after code changes — don't commit broken code.
 - Context window matters: the model is at 262K but the openclaw.json had it set to 131K, causing agents to see a lower limit. Always keep config in sync with reality.
 - Cross-agent board (`channels/BOARD.md`) exists but agents don't actively use it yet. Post updates there anyway for the record.
+- **CRITICAL:** The Slancha Platform Brief at `~/.openclaw/SLANCHA_BRIEF.md` is the ONLY source of truth for product positioning. Never invent positioning. Always reference this document. Slancha is an end-to-end AI inference platform with a black box approach — NOT "The Databricks of AI Engineering."
