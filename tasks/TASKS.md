@@ -28,7 +28,7 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 - [x] [TASK-149] Write API rate limiting & error handling guide — best practices for retry logic, exponential backoff, handling 429s, webhook reliability. Output to workspace-ops/docs/api-resilience-guide.md · priority:med · owner:ops · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 - [ ] [TASK-150] Create enterprise sales deck — 8-slide version of pitch deck focused on security, compliance, deployment options, SLA, team management. Output to workspace-bizdev/sales/enterprise-deck-outline.md · priority:high · owner:bizdev · project:slancha · created:2026-03-31
 - [ ] [TASK-151] QA all 25 blog posts — verify code examples syntax highlight correctly, internal links work, images load, meta tags present, mobile responsive. Use playwright plugin · priority:med · owner:qa · project:slancha · created:2026-03-31
-- [>] [TASK-152] Design SDK documentation page spec — layout for Python/TypeScript/cURL SDK docs with method reference, type definitions, code examples. Output to workspace-designer/specs/sdk-docs-spec.md · priority:med · owner:designer · project:slancha · created:2026-03-31 · started:2026-03-31
+- [x] [TASK-152] Design SDK documentation page spec — layout for Python/TypeScript/cURL SDK docs with method reference, type definitions, code examples. Output to workspace-designer/specs/sdk-docs-spec.md · priority:med · owner:designer · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 
 ### Sprint 9: Investor & Sales Enablement (2026-03-31)
 
