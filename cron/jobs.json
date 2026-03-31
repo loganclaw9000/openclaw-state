@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1774944307449,
+      "updatedAtMs": 1774947455274,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,15 +25,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774945426799,
-        "lastRunAtMs": 1774943626799,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 680650,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1774946615090
+        "nextRunAtMs": 1774948415095,
+        "lastRunAtMs": 1774946615095,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 840179,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "runningAtMs": 1774950256604
       }
     },
     {
@@ -43,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1774943090110,
+      "updatedAtMs": 1774948756106,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -59,15 +58,15 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774943651579,
-        "lastRunAtMs": 1774941851579,
+        "nextRunAtMs": 1774949255274,
+        "lastRunAtMs": 1774947455274,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 1238531,
+        "lastDurationMs": 1300832,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false,
-        "runningAtMs": 1774946615090
+        "runningAtMs": 1774950256604
       }
     },
     {
@@ -77,7 +76,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1774944463817,
+      "updatedAtMs": 1774949141339,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -94,15 +93,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774946107449,
-        "lastRunAtMs": 1774944307449,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 156368,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1774946615090
+        "nextRunAtMs": 1774950556106,
+        "lastRunAtMs": 1774948756106,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 385233,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
     {
@@ -112,7 +110,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1774944836269,
+      "updatedAtMs": 1774949462754,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -129,14 +127,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774946263817,
-        "lastRunAtMs": 1774944463817,
+        "nextRunAtMs": 1774950941339,
+        "lastRunAtMs": 1774949141339,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 372452,
+        "lastDurationMs": 321415,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
-        "runningAtMs": 1774946615090
+        "consecutiveErrors": 3,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
     {
@@ -276,7 +274,7 @@
       "description": "Frontend periodic git push reminder",
       "enabled": true,
       "createdAtMs": 1772929778022,
-      "updatedAtMs": 1774933627752,
+      "updatedAtMs": 1774949687405,
       "schedule": {
         "kind": "every",
         "everyMs": 7200000,
@@ -292,15 +290,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774945778022,
-        "lastRunAtMs": 1774933515744,
+        "nextRunAtMs": 1774956662754,
+        "lastRunAtMs": 1774949462754,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 112008,
+        "lastDurationMs": 224651,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1774946615090
+        "lastDelivered": false
       }
     },
     {
@@ -335,7 +332,7 @@
         "lastErrorReason": "billing",
         "lastDelivered": false,
         "lastDeliveryError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.",
-        "lastError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        "runningAtMs": 1774950256604
       }
     },
     {
@@ -363,7 +360,8 @@
         "lastStatus": "ok",
         "lastDurationMs": 95814,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0
+        "consecutiveErrors": 0,
+        "runningAtMs": 1774950256604
       }
     },
     {
@@ -396,7 +394,8 @@
         "lastDurationMs": 7367,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1774950256604
       }
     },
     {
@@ -429,7 +428,8 @@
         "lastDurationMs": 274796,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1774950256604
       }
     },
     {
@@ -462,7 +462,8 @@
         "lastDurationMs": 700872,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1774950256604
       }
     },
     {
@@ -496,8 +497,8 @@
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 1,
         "lastDelivered": false,
-        "lastError": "⚠️ ✉️ Message failed",
-        "lastDeliveryError": "⚠️ ✉️ Message failed"
+        "lastDeliveryError": "⚠️ ✉️ Message failed",
+        "runningAtMs": 1774950256604
       }
     },
     {
@@ -507,7 +508,7 @@
       "name": "gmail-check",
       "enabled": true,
       "createdAtMs": 1774914638046,
-      "updatedAtMs": 1774943624660,
+      "updatedAtMs": 1774950087332,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -525,15 +526,15 @@
         "channel": "whatsapp"
       },
       "state": {
-        "nextRunAtMs": 1774944892378,
-        "lastRunAtMs": 1774943092378,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 532282,
+        "nextRunAtMs": 1774951487405,
+        "lastRunAtMs": 1774949687405,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 399927,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
-        "consecutiveErrors": 0,
-        "runningAtMs": 1774946615090
+        "consecutiveErrors": 1,
+        "lastError": "⚠️ ✉️ Message failed"
       }
     },
     {
@@ -543,7 +544,7 @@
       "description": "Boss agent: work generation, coordination, health monitoring",
       "enabled": true,
       "createdAtMs": 1774935272904,
-      "updatedAtMs": 1774941849443,
+      "updatedAtMs": 1774950254487,
       "schedule": {
         "kind": "every",
         "everyMs": 2700000,
@@ -559,15 +560,16 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774944120156,
-        "lastRunAtMs": 1774941420156,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 429287,
+        "nextRunAtMs": 1774952787332,
+        "lastRunAtMs": 1774950087332,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 167155,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
+        "consecutiveErrors": 1,
         "lastDelivered": false,
-        "runningAtMs": 1774946615090
+        "lastError": "⚠️ 📝 Edit: `in ~/.openclaw/workspace-boss/PROGRESS-LOG.md (722 chars)` failed",
+        "lastDeliveryError": "⚠️ 📝 Edit: `in ~/.openclaw/workspace-boss/PROGRESS-LOG.md (722 chars)` failed"
       }
     }
   ]
