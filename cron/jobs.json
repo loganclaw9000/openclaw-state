@@ -31,8 +31,7 @@
         "lastStatus": "error",
         "lastDurationMs": 78383,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 1,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "consecutiveErrors": 1
       }
     },
     {
@@ -65,7 +64,8 @@
         "lastDurationMs": 4694,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1774938569931
       }
     },
     {
@@ -133,7 +133,8 @@
         "lastDurationMs": 4934,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1774938569931
       }
     },
     {
@@ -359,7 +360,8 @@
         "lastStatus": "ok",
         "lastDurationMs": 80091,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0
+        "consecutiveErrors": 0,
+        "runningAtMs": 1774938569931
       }
     },
     {
@@ -369,7 +371,7 @@
       "description": "strategist periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774933885557,
+      "updatedAtMs": 1774936958059,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -385,15 +387,15 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774935512952,
-        "lastRunAtMs": 1774933712952,
+        "nextRunAtMs": 1774937312965,
+        "lastRunAtMs": 1774935512965,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 172605,
+        "lastDurationMs": 1445094,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false,
-        "runningAtMs": 1774935512954
+        "runningAtMs": 1774938569931
       }
     },
     {
@@ -560,7 +562,8 @@
         "lastDurationMs": 0,
         "lastDeliveryStatus": null,
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1774938569931
       }
     }
   ]

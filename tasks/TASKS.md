@@ -28,11 +28,24 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 - [x] [TASK-065] Build case study template page component · priority:med · owner:frontend · project:slancha · created:2026-03-31 · done:2026-03-30 (already built with 3 case studies)
 - [x] [TASK-074] Build Changelog page: 7 releases from v0.8 to v1.4, timeline UI, version tags, footer link · priority:high · owner:claude-code · project:slancha · done:2026-03-30
 - [x] [TASK-067] Create investor FAQ document: top 20 questions VCs will ask, with data-backed answers · priority:high · owner:finance · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
-- [ ] [TASK-068] Write SOC 2 readiness checklist and security whitepaper outline · priority:med · owner:ops · project:slancha · created:2026-03-31
+- [>] [TASK-068] Write SOC 2 readiness checklist and security whitepaper outline · priority:med · owner:ops · project:slancha · created:2026-03-31 · started:2026-03-31
 - [ ] [TASK-069] Draft 3 LinkedIn posts for founder launch sequence · priority:med · owner:bizdev · project:slancha · created:2026-03-31
 - [x] [TASK-072] Build Integrations page: 31 integrations across 6 categories with badges, wired into nav/router · priority:high · owner:claude-code · project:slancha · done:2026-03-30
 - [x] [TASK-075] Build API Playground: interactive demo page with 5 endpoints (route, eval, deploy, fine-tune, dataset), animated response typing, nav/router · priority:high · owner:claude-code · project:slancha · done:2026-03-30
 - [x] [TASK-076] Build Enterprise page: deployment options (cloud/VPC/on-prem), security & compliance (SOC2/HIPAA/GDPR), SLA guarantees, team mgmt, nav/router/footer · priority:high · owner:claude-code · project:slancha · done:2026-03-30
+
+### Sprint 4: Launch Readiness & Conversion (2026-03-30)
+
+- [x] [TASK-077] SEO: expand sitemap.xml from 2 to 30 URLs, update robots.txt to block auth/dashboard · priority:high · owner:claude-code · project:slancha · done:2026-03-30
+- [ ] [TASK-078] Write blog post: "Building a Production AI Router: Architecture Patterns" · priority:high · owner:claude-code · project:slancha · created:2026-03-30
+- [ ] [TASK-079] Add page-level meta descriptions via usePageMeta hook on all pages · priority:high · owner:claude-code · project:slancha · created:2026-03-30
+- [ ] [TASK-080] Write blog post: "From Prototype to Production: The AI Deployment Checklist" · priority:med · owner:copywriter · project:slancha · created:2026-03-30
+- [ ] [TASK-081] Create pitch deck slides (Markdown/HTML) from strategist outline · priority:high · owner:claude-code · project:slancha · created:2026-03-30
+- [ ] [TASK-082] Update financial projections with latest pricing model changes · priority:med · owner:finance · project:slancha · created:2026-03-30
+- [ ] [TASK-083] Write "Slancha vs. Databricks" detailed comparison blog post · priority:med · owner:copywriter · project:slancha · created:2026-03-30
+- [ ] [TASK-084] Design email templates for launch announcement sequence · priority:med · owner:designer · project:slancha · created:2026-03-30
+- [ ] [TASK-085] Build email capture / waitlist component for homepage · priority:high · owner:claude-code · project:slancha · created:2026-03-30
+- [ ] [TASK-086] Performance audit: lazy load all route components, optimize bundle size · priority:med · owner:claude-code · project:slancha · created:2026-03-30
 
 ### Previous sprint (completed)
 

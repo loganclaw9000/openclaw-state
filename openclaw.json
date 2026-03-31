@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.28",
-    "lastTouchedAt": "2026-03-31T05:29:56.928Z"
+    "lastTouchedAt": "2026-03-31T06:29:14.430Z"
   },
   "env": {
     "vars": {
@@ -403,6 +403,19 @@
       "acpx": {
         "enabled": true,
         "config": {}
+      },
+      "frontend-design": {
+        "enabled": true
+      }
+    },
+    "installs": {
+      "frontend-design": {
+        "source": "marketplace",
+        "installPath": "/home/admin/.openclaw/extensions/frontend-design",
+        "installedAt": "2026-03-31T06:29:14.334Z",
+        "marketplaceName": "claude-plugins-official",
+        "marketplaceSource": "claude-plugins-official",
+        "marketplacePlugin": "frontend-design"
       }
     }
   }
