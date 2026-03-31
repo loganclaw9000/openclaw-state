@@ -32,11 +32,12 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 
 ### Sprint 9: Investor & Sales Enablement (2026-03-31)
 
-- [ ] [TASK-153] Write investor FAQ — top 20 questions with data-backed answers on pricing, tech, traction, competition, team. Output to workspace-finance/docs/investor-faq.md · priority:high · owner:finance · project:slancha · created:2026-03-31
+- [x] [TASK-153] Write investor FAQ — top 20 questions with data-backed answers on pricing, tech, traction, competition, team. Output to workspace-finance/docs/investor-faq.md · priority:high · owner:finance · project:slancha · created:2026-03-31
+  - **Note:** TASK-067 already completed this (analysis/investor-faq.md, 2026-03-31). Same deliverable, same content. No additional work needed.
 - [ ] [ ] [TASK-154] Create ROI calculator template — interactive model for prospect TCO analysis (build vs. governance layer). Output to workspace-bizdev/tools/roi-calculator.md · priority:high · owner:bizdev · project:slancha · created:2026-03-31
 - [ ] [TASK-155] Write churn prevention playbook — signals (usage drop, support tickets, no champion), intervention steps, win-back templates. Output to workspace-ops/processes/churn-prevention.md · priority:med · owner:ops · project:slancha · created:2026-03-31
 - [ ] [TASK-156] Write SOC 2 readiness checklist — 200+ controls mapped to trust services criteria, gap analysis, evidence collection. Output to workspace-ops/docs/soc2-checklist.md · priority:med · owner:ops · project:slancha · created:2026-03-31
-- [ ] [TASK-157] Write SEO keyword strategy — 50+ long-tail keywords mapped to blog posts + docs pages. Output to workspace-strategist/docs/seo-strategy.md · priority:med · owner:strategist · project:slancha · created:2026-03-31
+- [x] [TASK-157] Write SEO keyword strategy — 50+ long-tail keywords mapped to blog posts + docs pages. Output to workspace-strategist/docs/seo-strategy.md · priority:med · owner:strategist · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 - [ ] [TASK-158] Write compliance FAQ for enterprise prospects — SOC 2, HIPAA, GDPR, data residency, model isolation answers. Output to workspace-bizdev/playbooks/compliance-faq.md · priority:med · owner:bizdev · project:slancha · created:2026-03-31
 
 ### Sprint 7: Revenue Wiring, Content Depth & Enterprise (2026-03-31)
