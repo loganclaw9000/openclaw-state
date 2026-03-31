@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1774933399344,
+      "updatedAtMs": 1774935214484,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,14 +25,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774935136088,
-        "lastRunAtMs": 1774933336088,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 63256,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": false
+        "nextRunAtMs": 1774936936101,
+        "lastRunAtMs": 1774935136101,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 78383,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
     {
@@ -42,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1774933494099,
+      "updatedAtMs": 1774935221350,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -58,11 +58,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774935199344,
-        "lastRunAtMs": 1774933399344,
+        "nextRunAtMs": 1774937016656,
+        "lastRunAtMs": 1774935216656,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 94755,
+        "lastDurationMs": 4694,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -109,7 +109,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1774933515744,
+      "updatedAtMs": 1774935299042,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -126,14 +126,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774935294099,
-        "lastRunAtMs": 1774933494099,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 21645,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 4,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "nextRunAtMs": 1774937094108,
+        "lastRunAtMs": 1774935294108,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 4934,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       }
     },
     {
@@ -340,7 +340,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1774933712952,
+      "updatedAtMs": 1774935507857,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -353,11 +353,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1774935427752,
-        "lastRunAtMs": 1774933627752,
+        "nextRunAtMs": 1774937227766,
+        "lastRunAtMs": 1774935427766,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 85200,
+        "lastDurationMs": 80091,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
@@ -392,7 +392,8 @@
         "lastDurationMs": 172605,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1774935512954
       }
     },
     {
@@ -527,6 +528,39 @@
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 0
+      }
+    },
+    {
+      "id": "daa38231-da69-45c8-becc-f5d49312f62f",
+      "agentId": "boss",
+      "name": "boss-heartbeat",
+      "description": "Boss agent: work generation, coordination, health monitoring",
+      "enabled": true,
+      "createdAtMs": 1774935272904,
+      "updatedAtMs": 1774935272904,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 2700000,
+        "anchorMs": 1774935272904
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK."
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1774937972904,
+        "lastRunAtMs": null,
+        "lastRunStatus": null,
+        "lastStatus": null,
+        "lastDurationMs": 0,
+        "lastDeliveryStatus": null,
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       }
     }
   ]
