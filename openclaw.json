@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.28",
-    "lastTouchedAt": "2026-03-31T06:29:14.430Z"
+    "lastTouchedAt": "2026-03-31T06:32:49.482Z"
   },
   "env": {
     "vars": {
@@ -406,6 +406,16 @@
       },
       "frontend-design": {
         "enabled": true
+      },
+      "firecrawl": {
+        "enabled": true,
+        "config": {}
+      },
+      "superpowers": {
+        "enabled": true
+      },
+      "ralph-loop": {
+        "enabled": true
       }
     },
     "installs": {
@@ -416,6 +426,33 @@
         "marketplaceName": "claude-plugins-official",
         "marketplaceSource": "claude-plugins-official",
         "marketplacePlugin": "frontend-design"
+      },
+      "firecrawl": {
+        "source": "marketplace",
+        "installPath": "/home/admin/.openclaw/extensions/firecrawl",
+        "version": "1.0.3",
+        "installedAt": "2026-03-31T06:31:24.368Z",
+        "marketplaceName": "claude-plugins-official",
+        "marketplaceSource": "claude-plugins-official",
+        "marketplacePlugin": "firecrawl"
+      },
+      "superpowers": {
+        "source": "marketplace",
+        "installPath": "/home/admin/.openclaw/extensions/superpowers",
+        "version": "5.0.6",
+        "installedAt": "2026-03-31T06:31:31.978Z",
+        "marketplaceName": "claude-plugins-official",
+        "marketplaceSource": "claude-plugins-official",
+        "marketplacePlugin": "superpowers"
+      },
+      "ralph-loop": {
+        "source": "marketplace",
+        "installPath": "/home/admin/.openclaw/extensions/ralph-loop",
+        "version": "1.0.0",
+        "installedAt": "2026-03-31T06:32:49.374Z",
+        "marketplaceName": "claude-plugins-official",
+        "marketplaceSource": "claude-plugins-official",
+        "marketplacePlugin": "ralph-loop"
       }
     }
   }
