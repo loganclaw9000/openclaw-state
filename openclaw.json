@@ -1,7 +1,12 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-03-23T02:20:19.668Z"
+    "lastTouchedVersion": "2026.3.28",
+    "lastTouchedAt": "2026-03-31T05:29:56.928Z"
+  },
+  "env": {
+    "vars": {
+      "MATON_API_KEY": "qfTfvFeD_gPoHajy0YxU967B5R6P6ZYXCgYzvbXtVz_lR3Qr08FJAECpDOpqFvEvsw6sbJiIUsZfqH7Kj5133dt0rJbfvh7Xtm0"
+    }
   },
   "wizard": {
     "lastRunAt": "2026-03-07T21:42:53.595Z",
@@ -290,6 +295,12 @@
       {
         "id": "bizdev",
         "workspace": "/home/admin/.openclaw/workspace-bizdev"
+      },
+      {
+        "id": "boss",
+        "name": "boss",
+        "workspace": "/home/admin/.openclaw/workspace-boss",
+        "agentDir": "/home/admin/.openclaw/agents/boss/agent"
       }
     ]
   },
@@ -386,16 +397,13 @@
   "plugins": {
     "entries": {
       "whatsapp": {
-        "enabled": true
+        "enabled": true,
+        "config": {}
       },
       "acpx": {
-        "enabled": true
+        "enabled": true,
+        "config": {}
       }
-    }
-  },
-  "env": {
-    "vars": {
-      "MATON_API_KEY": "qfTfvFeD_gPoHajy0YxU967B5R6P6ZYXCgYzvbXtVz_lR3Qr08FJAECpDOpqFvEvsw6sbJiIUsZfqH7Kj5133dt0rJbfvh7Xtm0"
     }
   }
 }
