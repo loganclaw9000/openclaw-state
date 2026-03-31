@@ -15,6 +15,26 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 
 ## Active Tasks
 
+### Sprint 11: Supabase Dashboard Plumbing (2026-03-31)
+
+**NOTE:** Use the Supabase MCP tools (mcp__supabase__*) for all schema/migration work. The MCP is configured in `~/.openclaw/.mcp.json`.
+
+#### Phase 1: Schema & Migrations (do first — all other tasks depend on these tables)
+- [ ] [TASK-164] Create `request_logs` table via Supabase MCP — columns: id, user_id, endpoint, model, tokens_in, tokens_out, latency_ms, cost_cents, status_code, created_at. Add RLS policy for user isolation. Use `mcp__supabase__apply_migration`. Wire RequestLogs.jsx to query this table instead of DEMO_LOGS. · priority:high · owner:claude-code · project:slancha · created:2026-03-31
+- [ ] [TASK-165] Create `fine_tuning_jobs` table via Supabase MCP — columns: id, user_id, name, base_model, dataset_id, status (queued/training/completed/failed), progress_pct, training_loss, eval_accuracy, epochs, created_at, completed_at. RLS by user_id. Use `mcp__supabase__apply_migration`. Wire FineTuning.jsx to replace FT_JOBS hardcoded data. · priority:high · owner:claude-code · project:slancha · created:2026-03-31
+- [ ] [TASK-166] Create `deployments` table via Supabase MCP — columns: id, user_id, name, model, version, status (active/canary/rolling/stopped), region, gpu_type, traffic_pct, latency_p50, latency_p99, uptime, created_at, updated_at. RLS by user_id. Wire Deployments.jsx to replace ACTIVE_DEPLOYMENTS. · priority:high · owner:claude-code · project:slancha · created:2026-03-31
+- [ ] [TASK-167] Create `evaluations` + `datasets` tables via Supabase MCP — evaluations: id, user_id, name, dataset_id, models[], scores jsonb, status, created_at. datasets: id, user_id, name, description, sample_count, size_bytes, format, tags[], version, created_at. RLS on both. Wire Evaluations.jsx and Datasets.jsx. · priority:high · owner:claude-code · project:slancha · created:2026-03-31
+- [ ] [TASK-168] Create `model_pool` + `optimization_events` tables via Supabase MCP — model_pool: id, user_id, model_name, provider, routing_weight, status, latency_avg, cost_per_1k. optimization_events: id, user_id, event_type, description, model, improvement_pct, created_at. Wire ModelsRouting.jsx. · priority:high · owner:claude-code · project:slancha · created:2026-03-31
+
+#### Phase 2: Team & Account Features
+- [ ] [TASK-169] Create `team_members` + `team_invites` tables via Supabase MCP — team_members: id, org_id, user_id, role (owner/admin/member/viewer), joined_at. team_invites: id, org_id, email, role, invited_by, status, created_at, expires_at. RLS by org_id. Wire TeamManagement.jsx. · priority:med · owner:claude-code · project:slancha · created:2026-03-31
+- [ ] [TASK-170] Create `notifications` table via Supabase MCP — columns: id, user_id, type (info/warning/error/success), title, message, read, action_url, created_at. RLS by user_id. Wire Notifications.jsx to replace MOCK_NOTIFICATIONS. · priority:med · owner:claude-code · project:slancha · created:2026-03-31
+- [ ] [TASK-171] Wire AccountSettings.jsx profile data to Supabase — create `profiles` table (user_id, display_name, company, avatar_url, timezone, updated_at) or use Supabase auth metadata. Replace local-only state with persistent storage. · priority:med · owner:claude-code · project:slancha · created:2026-03-31
+
+#### Phase 3: Billing & Optimization
+- [ ] [TASK-172] Create `invoices` table via Supabase MCP — columns: id, user_id, amount_cents, status (paid/pending/failed), period_start, period_end, stripe_invoice_id, created_at. Wire Billing.jsx invoice history to replace DEMO_INVOICES. · priority:med · owner:claude-code · project:slancha · created:2026-03-31
+- [ ] [TASK-173] Create `optimization_stats` table via Supabase MCP — columns: id, user_id, technique (qat/mig/mtp), model, before_metric, after_metric, improvement_pct, applied_at. Wire Optimization.jsx to replace OPT_TECHNIQUES hardcoded data. · priority:low · owner:claude-code · project:slancha · created:2026-03-31
+
 ### Sprint 10: Frontend Reactivation & Documentation Completes (2026-03-31)
 
 - [ ] [TASK-160] REACTIVATE frontend agent — Sync workspace with Ralph Loop Boss output. Ralph has built ~100 features but frontend agent hasn't run since 2026-03-23. Task: Read Ralph's log, audit workspace/site, update PROGRESS-LOG.md with all completed work, commit any pending changes, push to origin. Verify build passes. Output: Updated PROGRESS-LOG.md, clean git status, green build. · priority:high · owner:frontend · project:slancha · created:2026-03-31
@@ -29,7 +49,7 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 - [x] [TASK-143] Create Python SDK package stub — slancha PyPI package with typed client, chat completions, evals, deployments, fine-tuning methods. README with quickstart. Output to workspace-copywriter/docs/sdk-python-readme.md · priority:high · owner:copywriter · project:slancha · created:2026-03-31 · done:2026-03-31
 - [x] [TASK-159] Create case study template visual spec — layout for 3 vertical templates (fintech/healthtech/ecommerce) with metric tables, quote blocks, compliance badges, timeline sections. Output to site/design/case-study-templates.md · priority:med · owner:designer · project:slancha · created:2026-03-31 · done:2026-03-31
 - [x] [TASK-144] Write TypeScript SDK README and quickstart — @slancha/sdk npm package docs with typed client examples, streaming, error handling. Output to workspace-copywriter/docs/sdk-typescript-readme.md · priority:med · owner:copywriter · project:slancha · created:2026-03-31 · done:2026-03-31
-- [ ] [TASK-145] Create CLI documentation — slancha CLI tool usage guide: auth, eval runs, deployment management, dataset upload, log tailing. Output to workspace-copywriter/docs/cli-guide.md · priority:med · owner:copywriter · project:slancha · created:2026-03-31
+- [x] [TASK-145] Create CLI documentation — slancha CLI tool usage guide: auth, eval runs, deployment management, dataset upload, log tailing. Output to workspace-copywriter/docs/cli-guide.md · priority:med · owner:copywriter · project:slancha · created:2026-03-31 · done:2026-03-31
 - [x] [TASK-146] Write competitive SEO blog post: "Slancha vs Fireworks AI: Optimization That Never Stops" — detailed comparison with cost analysis, architecture differences, migration guide · priority:med · owner:strategist · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 - [x] [TASK-147] Update financial model for Series A readiness — include latest product metrics (25 blog posts, 60+ pages, dashboard shipped), runway scenarios with Stripe revenue projections. Output to workspace-finance/models/ · priority:med · owner:finance · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 - [x] [TASK-148] Design conversion funnel analytics spec — define key events (signup, first API call, first eval, upgrade), funnel stages, drop-off tracking. Output to workspace-strategist/docs/conversion-funnel.md · priority:high · owner:strategist · project:slancha · created:2026-03-31 · done:2026-03-31

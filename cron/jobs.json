@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1774981543481,
+      "updatedAtMs": 1774987880800,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,14 +25,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774983309898,
-        "lastRunAtMs": 1774981509898,
+        "nextRunAtMs": 1774988958254,
+        "lastRunAtMs": 1774985807216,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 33583,
+        "lastDurationMs": 2073584,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 1,
-        "runningAtMs": 1774985807206
+        "consecutiveErrors": 2,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
     {
@@ -42,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1774982623457,
+      "updatedAtMs": 1774987981076,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -58,15 +58,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774983343481,
-        "lastRunAtMs": 1774981543481,
+        "nextRunAtMs": 1774989680800,
+        "lastRunAtMs": 1774987880800,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 1079976,
+        "lastDurationMs": 100276,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1774985807206
+        "lastDelivered": false
       }
     },
     {
@@ -76,7 +75,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1774982776090,
+      "updatedAtMs": 1774988112879,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -93,14 +92,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774984423457,
-        "lastRunAtMs": 1774982623457,
+        "nextRunAtMs": 1774989781076,
+        "lastRunAtMs": 1774987981076,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 152633,
+        "lastDurationMs": 131803,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 2,
-        "runningAtMs": 1774985807206
+        "consecutiveErrors": 3,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
     {
@@ -110,7 +109,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1774978870378,
+      "updatedAtMs": 1774988119982,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -127,14 +126,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774982470378,
-        "lastRunAtMs": 1774978791280,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 79098,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 7,
-        "runningAtMs": 1774985807206
+        "nextRunAtMs": 1774989912879,
+        "lastRunAtMs": 1774988112879,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 7103,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       }
     },
     {
@@ -297,7 +296,8 @@
         "lastDurationMs": 91346,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1774988499664
       }
     },
     {
@@ -306,7 +306,7 @@
       "name": "claude-heartbeat",
       "enabled": true,
       "createdAtMs": 1772931027927,
-      "updatedAtMs": 1774978963821,
+      "updatedAtMs": 1774988122269,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -322,17 +322,17 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774982563821,
-        "lastRunAtMs": 1774978961724,
+        "nextRunAtMs": 1774991722269,
+        "lastRunAtMs": 1774988119982,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 2097,
+        "lastDurationMs": 2287,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 35,
+        "consecutiveErrors": 36,
         "lastErrorReason": "billing",
         "lastDelivered": false,
         "lastDeliveryError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.",
-        "runningAtMs": 1774985807206
+        "lastError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
       }
     },
     {
@@ -341,7 +341,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1774982805005,
+      "updatedAtMs": 1774988152281,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -354,14 +354,13 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1774984576090,
-        "lastRunAtMs": 1774982776090,
+        "nextRunAtMs": 1774989922269,
+        "lastRunAtMs": 1774988122269,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 28915,
+        "lastDurationMs": 30012,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "runningAtMs": 1774985807206
+        "consecutiveErrors": 0
       }
     },
     {
@@ -371,7 +370,7 @@
       "description": "strategist periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774983494878,
+      "updatedAtMs": 1774988237208,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -387,16 +386,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774984605005,
-        "lastRunAtMs": 1774982805005,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 689873,
+        "nextRunAtMs": 1774989952281,
+        "lastRunAtMs": 1774988152281,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 84927,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 1,
-        "lastDelivered": false,
-        "lastDeliveryError": "⚠️ ✍️ Write: `to ~/.openclaw/channels/BOARD.md (2255 chars)` failed",
-        "runningAtMs": 1774985807206
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       }
     },
     {
@@ -406,7 +403,7 @@
       "description": "finance periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774980061916,
+      "updatedAtMs": 1774988308128,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -422,15 +419,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774981596907,
-        "lastRunAtMs": 1774979796907,
+        "nextRunAtMs": 1774990037208,
+        "lastRunAtMs": 1774988237208,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 265009,
+        "lastDurationMs": 70920,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1774985807206
+        "lastDelivered": false
       }
     },
     {
@@ -440,7 +436,7 @@
       "description": "ops periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774984450166,
+      "updatedAtMs": 1774988407819,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -456,15 +452,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774985294878,
-        "lastRunAtMs": 1774983494878,
+        "nextRunAtMs": 1774990108128,
+        "lastRunAtMs": 1774988308128,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 955288,
+        "lastDurationMs": 99691,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1774985807206
+        "lastDelivered": false
       }
     },
     {
@@ -474,7 +469,7 @@
       "description": "bizdev periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774981507724,
+      "updatedAtMs": 1774988497542,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -490,16 +485,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774981861916,
-        "lastRunAtMs": 1774980061916,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 1445808,
+        "nextRunAtMs": 1774990207819,
+        "lastRunAtMs": 1774988407819,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 89723,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 1,
-        "lastDelivered": false,
-        "lastDeliveryError": "⚠️ 📝 Edit: `in HEARTBEAT.md (2360 chars)` failed",
-        "runningAtMs": 1774985807206
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       }
     },
     {
@@ -535,7 +528,7 @@
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 4,
-        "lastError": "⚠️ ✉️ Message failed"
+        "runningAtMs": 1774988499664
       }
     },
     {
@@ -569,8 +562,8 @@
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 1,
         "lastDelivered": false,
-        "lastError": "⚠️ 📝 Edit failed",
-        "lastDeliveryError": "⚠️ 📝 Edit failed"
+        "lastDeliveryError": "⚠️ 📝 Edit failed",
+        "runningAtMs": 1774988499664
       }
     }
   ]
