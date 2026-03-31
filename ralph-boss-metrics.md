@@ -5,8 +5,8 @@
 **Iteration: 15**
 
 ## Velocity
-- Tasks completed this sprint: 18
-- Tasks completed by boss directly: 17
+- Tasks completed this sprint: 19
+- Tasks completed by boss directly: 18
 - Tasks delegated successfully: 0
 - Average iterations per meaningful action: 1
 
@@ -16,7 +16,7 @@
 - Agent stalls unblocked: 0
 
 ## Impact
-- Features shipped: [Use Cases page, Post-Training Guide docs, SDKs & Libraries docs, Technical Deep Dive blog post, Integrations page, Full API Reference (6 sections), Changelog page, API Playground, Enterprise page, Waitlist/email capture, Investor Pitch Deck (12 slides)]
+- Features shipped: [Use Cases page, Post-Training Guide docs, SDKs & Libraries docs, Technical Deep Dive blog post, Integrations page, Full API Reference (6 sections), Changelog page, API Playground, Enterprise page, Waitlist/email capture, Investor Pitch Deck (12 slides), Animated Hero Terminal Demo]
 - Pages/components built: 8
 - Docs sections expanded: 1 (API Reference: 2 endpoints → 20+ endpoints)
 - Blog posts integrated: 4 (2 written, 2 from copywriter)
