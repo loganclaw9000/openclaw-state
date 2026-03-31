@@ -15,6 +15,19 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 
 ## Active Tasks
 
+### Sprint 7: Revenue Wiring, Content Depth & Enterprise (2026-03-31)
+
+- [ ] [TASK-123] Build Supabase usage tracking — insert request logs on API calls, aggregate daily/weekly/monthly, wire to Usage dashboard with real data · priority:high · owner:claude-code · project:slancha · created:2026-03-31
+- [ ] [TASK-124] Write SEO blog post: "How to Build a Self-Improving AI Pipeline (Eval → Fine-Tune → Deploy Loop)" — technical guide with code examples, architecture diagrams, Slancha's closed-loop approach · priority:high · owner:copywriter · project:slancha · created:2026-03-31
+- [ ] [TASK-125] Write blog post: "AI Inference Cost Optimization: A CFO's Guide to GPU Economics" — business audience, TCO breakdown, build vs buy analysis, ROI framework · priority:med · owner:copywriter · project:slancha · created:2026-03-31
+- [ ] [TASK-126] Create Stripe product catalog — define Free/Starter/Growth/Enterprise products with price IDs, wire checkout flow to real Stripe products · priority:high · owner:claude-code · project:slancha · created:2026-03-31
+- [ ] [TASK-127] Write 3 customer success story drafts — fintech, healthtech, e-commerce verticals. Detailed scenarios with metrics, quotes, implementation timeline · priority:med · owner:copywriter · project:slancha · created:2026-03-31
+- [ ] [TASK-128] Design Team Management page polish — avatar upload, activity feed, audit log mockups · priority:med · owner:designer · project:slancha · created:2026-03-31
+- [ ] [TASK-129] QA full dashboard — test all 12 dashboard pages (Overview, Keys, Usage, Models, Evals, Fine-Tuning, Optimization, Logs, Billing, Webhooks, Team, Settings). Check responsive, interactions, empty states. Use playwright plugin · priority:high · owner:qa · project:slancha · created:2026-03-31
+- [ ] [TASK-130] Create investor data room checklist — docs needed for due diligence (cap table, financials, team bios, product metrics, legal). Output to workspace-finance/ · priority:med · owner:finance · project:slancha · created:2026-03-31
+- [ ] [TASK-131] Write partnership outreach templates — 5 email templates for cloud providers, model companies, and MLOps tool integrations · priority:med · owner:bizdev · project:slancha · created:2026-03-31
+- [ ] [TASK-132] Update GTM strategy for Q2 launch — incorporate learnings from pilot program design, refine conversion funnel, add channel-specific tactics · priority:med · owner:strategist · project:slancha · created:2026-03-31
+
 ### Sprint 6: Growth, Optimization & Launch Prep (2026-03-31)
 
 - [x] [TASK-113] Write SEO blog post: "AI Inference Optimization: Complete Guide to QAT, MIG, and Multi-Token Prediction" — deep technical guide with benchmarks, code examples, and Slancha's approach. Use context7 plugin for latest NVIDIA docs · priority:high · owner:claude-code · project:slancha · created:2026-03-31 · done:2026-03-31
@@ -22,11 +35,11 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 - [x] [TASK-115] Create 3 vertical landing pages (fintech, healthtech, e-commerce) — tailored messaging, use cases, compliance info, vertical-specific ROI. Use frontend-design plugin · priority:high · owner:claude-code · project:slancha · created:2026-03-31 · done:2026-03-31
 - [x] [TASK-116] Build RSS feed auto-discovery — add <link rel="alternate" type="application/rss+xml"> to index.html, verify feed validates · priority:med · owner:claude-code · project:slancha · created:2026-03-31 · done:2026-03-31
 - [x] [TASK-117] Write investor update template — monthly format covering key metrics, milestones, asks, team updates. Output to workspace-finance/templates/ · priority:med · owner:finance · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
-- [>] [TASK-118] Create product hunt launch strategy — listing copy, maker comment, first-day engagement plan, supporter outreach sequence. Output to workspace-bizdev/launch/ · priority:high · owner:bizdev · project:slancha · created:2026-03-31 · started:2026-03-31
+- [x] [TASK-118] Create product hunt launch strategy — listing copy, maker comment, first-day engagement plan, supporter outreach sequence. Output to workspace-bizdev/launch/ · priority:high · owner:bizdev · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 - [x] [TASK-119] Write developer community strategy — Discord/Slack plan, documentation contribution guide, early adopter program, feedback loop design. Output to workspace-ops/community/ · priority:med · owner:ops · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 - [x] [TASK-120] Update competitive landscape with latest moves from OpenRouter, Fireworks, and BaseTen (March 2026). Output to workspace-strategist/docs/ · priority:med · owner:strategist · project:slancha · created:2026-03-31 · done:2026-03-31
 - [x] [TASK-121] Design vertical landing page specs — layout, component hierarchy, responsive breakpoints for fintech/healthtech/e-commerce verticals. Use frontend-design plugin · priority:med · owner:designer · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
-- [ ] [TASK-122] QA all blog posts — verify links, code examples render, mobile responsive, meta tags present on all 16 posts. Use playwright plugin · priority:med · owner:qa · project:slancha · created:2026-03-31
+- [x] [TASK-122] QA all blog posts — verify links, code examples render, mobile responsive, meta tags present on all 16 posts. Use playwright plugin · priority:med · owner:qa · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 
 ### Sprint 5: Revenue, Content & Polish (2026-03-31)
 
