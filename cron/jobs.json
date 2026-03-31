@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1774989470385,
+      "updatedAtMs": 1774991430717,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,14 +25,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1774991263468,
-        "lastRunAtMs": 1774989463468,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 6917,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": false
+        "nextRunAtMs": 1774993063481,
+        "lastRunAtMs": 1774991263481,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 167236,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
     {
@@ -42,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1774989912141,
+      "updatedAtMs": 1774991704223,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -58,16 +58,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774991480818,
-        "lastRunAtMs": 1774989680818,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 231323,
+        "nextRunAtMs": 1774993280836,
+        "lastRunAtMs": 1774991480836,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 223387,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 1,
-        "lastDelivered": false,
-        "lastError": "⚠️ ✉️ Message failed",
-        "lastDeliveryError": "⚠️ ✉️ Message failed"
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       }
     },
     {
@@ -101,7 +99,7 @@
         "lastDurationMs": 222782,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 4,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "runningAtMs": 1774991963708
       }
     },
     {
@@ -135,7 +133,7 @@
         "lastDurationMs": 53284,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 1,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "runningAtMs": 1774991963708
       }
     },
     {
@@ -333,7 +331,7 @@
         "lastErrorReason": "billing",
         "lastDelivered": false,
         "lastDeliveryError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.",
-        "lastError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        "runningAtMs": 1774991963708
       }
     },
     {
@@ -539,7 +537,7 @@
       "description": "Boss agent: work generation, coordination, health monitoring",
       "enabled": true,
       "createdAtMs": 1774935272904,
-      "updatedAtMs": 1774989461352,
+      "updatedAtMs": 1774991961597,
       "schedule": {
         "kind": "every",
         "everyMs": 2700000,
@@ -555,11 +553,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1774991666119,
-        "lastRunAtMs": 1774988966119,
+        "nextRunAtMs": 1774994406244,
+        "lastRunAtMs": 1774991706244,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 495233,
+        "lastDurationMs": 255353,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
