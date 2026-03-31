@@ -15,6 +15,11 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 
 ## Active Tasks
 
+### Marketing site improvements
+
+- [x] [TASK-058] Build FAQ page with accordion component · priority:low · owner:frontend · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
+- [x] [TASK-059] Build Vs. Competitors comparison page with feature table · priority:low · owner:frontend · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
+
 ### Phase 2: Dashboard (HIGH PRIORITY — auth foundation is shipped)
 
 - [x] [TASK-030] Design dashboard layout specs · priority:high · owner:claude-code · project:slancha · done:2026-03-29

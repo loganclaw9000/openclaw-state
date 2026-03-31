@@ -99,7 +99,7 @@
         "lastDurationMs": 38307,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 1,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "runningAtMs": 1774931497464
       }
     },
     {
