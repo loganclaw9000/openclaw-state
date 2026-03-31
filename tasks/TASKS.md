@@ -18,12 +18,12 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 ### Sprint 5: Revenue, Content & Polish (2026-03-31)
 
 - [x] [TASK-103] Build API Keys backend: wire Supabase table for api_keys (create, revoke, list), connect dashboard ApiKeys component to real data · priority:high · owner:claude-code · project:slancha · created:2026-03-31
-- [ ] [TASK-104] Write blog post: "Zero-Config AI Inference: Why the Black Box Wins" — positioning piece on why teams shouldn't pick models · priority:high · owner:copywriter · project:slancha · created:2026-03-31
+- [x] [TASK-104] Write blog post: "Zero-Config AI Inference: Why the Black Box Wins" — positioning piece on why teams shouldn't pick models · priority:high · owner:copywriter · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 - [x] [TASK-105] Write blog post: "Slancha vs OpenRouter: Beyond the Model Marketplace" — detailed comparison with code examples, cost analysis, migration guide, architecture diagrams · priority:med · owner:claude-code · project:slancha · created:2026-03-31
 - [x] [TASK-106] Build interactive pricing comparison calculator: input monthly API spend, show savings across tiers vs. competitors · priority:med · owner:claude-code · project:slancha · created:2026-03-31 · done:2026-03-31
-- [ ] [TASK-107] Write case study template: "How [Company Type] Reduced Inference Costs by X%" — 3 vertical-specific versions (fintech, healthtech, e-commerce) · priority:med · owner:copywriter · project:slancha · created:2026-03-31
-- [ ] [TASK-108] Create launch announcement blog post draft — product story, key features, what's different, early access CTA · priority:high · owner:copywriter · project:slancha · created:2026-03-31
-- [ ] [TASK-109] Design OG image / social card for Twitter/LinkedIn sharing — dark theme, Slancha logo, tagline · priority:med · owner:designer · project:slancha · created:2026-03-31
+- [x] [TASK-107] Write case study template: "How [Company Type] Reduced Inference Costs by X%" — 3 vertical-specific versions (fintech, healthtech, e-commerce) · priority:med · owner:copywriter · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
+- [x] [TASK-108] Create launch announcement blog post draft — product story, key features, what's different, early access CTA · priority:high · owner:copywriter · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
+- [>] [TASK-109] Design OG image / social card for Twitter/LinkedIn sharing — dark theme, Slancha logo, tagline · priority:med · owner:designer · project:slancha · created:2026-03-31 · started:2026-03-31
 - [x] [TASK-110] Write 5 Twitter/X thread scripts for launch week — each covering a different angle (cost savings, black box approach, eval loop, migration ease, vs. competitors) · priority:med · owner:bizdev · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 - [ ] [TASK-111] Update financial model with latest pricing tiers and projected conversion rates from waitlist · priority:med · owner:finance · project:slancha · created:2026-03-31
 - [ ] [TASK-112] Create onboarding flow wireframes: post-signup experience from dashboard to first API call · priority:med · owner:designer · project:slancha · created:2026-03-31
@@ -58,7 +58,7 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 - [x] [TASK-074] Build Changelog page: 7 releases from v0.8 to v1.4, timeline UI, version tags, footer link · priority:high · owner:claude-code · project:slancha · done:2026-03-30
 - [x] [TASK-067] Create investor FAQ document: top 20 questions VCs will ask, with data-backed answers · priority:high · owner:finance · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 - [x] [TASK-068] Write SOC 2 readiness checklist and security whitepaper outline · priority:med · owner:ops · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
-- [ ] [TASK-069] Draft 3 LinkedIn posts for founder launch sequence · priority:med · owner:bizdev · project:slancha · created:2026-03-31
+- [x] [TASK-069] Draft 3 LinkedIn posts for founder launch sequence · priority:med · owner:bizdev · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 - [x] [TASK-072] Build Integrations page: 31 integrations across 6 categories with badges, wired into nav/router · priority:high · owner:claude-code · project:slancha · done:2026-03-30
 - [x] [TASK-075] Build API Playground: interactive demo page with 5 endpoints (route, eval, deploy, fine-tune, dataset), animated response typing, nav/router · priority:high · owner:claude-code · project:slancha · done:2026-03-30
 - [x] [TASK-076] Build Enterprise page: deployment options (cloud/VPC/on-prem), security & compliance (SOC2/HIPAA/GDPR), SLA guarantees, team mgmt, nav/router/footer · priority:high · owner:claude-code · project:slancha · done:2026-03-30
