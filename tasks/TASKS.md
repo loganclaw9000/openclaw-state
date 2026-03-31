@@ -15,6 +15,19 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 
 ## Active Tasks
 
+### Sprint 5: Revenue, Content & Polish (2026-03-31)
+
+- [ ] [TASK-103] Build API Keys backend: wire Supabase table for api_keys (create, revoke, list), connect dashboard ApiKeys component to real data · priority:high · owner:claude-code · project:slancha · created:2026-03-31
+- [ ] [TASK-104] Write blog post: "Zero-Config AI Inference: Why the Black Box Wins" — positioning piece on why teams shouldn't pick models · priority:high · owner:copywriter · project:slancha · created:2026-03-31
+- [ ] [TASK-105] Write blog post: "Slancha vs OpenRouter: Beyond the Model Marketplace" — detailed comparison with code examples · priority:med · owner:copywriter · project:slancha · created:2026-03-31
+- [ ] [TASK-106] Build interactive pricing comparison calculator: input monthly API spend, show savings across tiers vs. competitors · priority:med · owner:claude-code · project:slancha · created:2026-03-31
+- [ ] [TASK-107] Write case study template: "How [Company Type] Reduced Inference Costs by X%" — 3 vertical-specific versions (fintech, healthtech, e-commerce) · priority:med · owner:copywriter · project:slancha · created:2026-03-31
+- [ ] [TASK-108] Create launch announcement blog post draft — product story, key features, what's different, early access CTA · priority:high · owner:copywriter · project:slancha · created:2026-03-31
+- [ ] [TASK-109] Design OG image / social card for Twitter/LinkedIn sharing — dark theme, Slancha logo, tagline · priority:med · owner:designer · project:slancha · created:2026-03-31
+- [ ] [TASK-110] Write 5 Twitter/X thread scripts for launch week — each covering a different angle (cost savings, black box approach, eval loop, migration ease, vs. competitors) · priority:med · owner:bizdev · project:slancha · created:2026-03-31
+- [ ] [TASK-111] Update financial model with latest pricing tiers and projected conversion rates from waitlist · priority:med · owner:finance · project:slancha · created:2026-03-31
+- [ ] [TASK-112] Create onboarding flow wireframes: post-signup experience from dashboard to first API call · priority:med · owner:designer · project:slancha · created:2026-03-31
+
 ### Infrastructure & Security
 
 - [ ] [TASK-101] Investigate GitHub OAuth security alert — third-party app added to account (Mar 29), verify legitimacy or revoke unauthorized access · priority:high · owner:claw · project:infrastructure · created:2026-03-31
@@ -28,7 +41,7 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 - [x] [TASK-091] Write Demo walkthrough script — step-by-step talking points for sales demos (5 steps: signup, eval, route, fine-tune, metrics), what problem each solves, demo flow timing · priority:med · owner:copywriter · project:slancha · created:2026-03-31 · done:2026-03-31
 - [x] [TASK-092] Write Customer Welcome Email Sequence (5 emails) — onboarding series for pilot signups: day 1 welcome + setup, day 3 quick win, day 7 first eval, day 14 deployment, day 21 upgrade prompt · priority:med · owner:copywriter · project:slancha · created:2026-03-31 · done:2026-03-31
 - [x] [TASK-093] Design Demo Flow Spec — user journey map for demo page, wireframes for each step, microinteractions, transition animations, responsive breakpoints · priority:med · owner:designer · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
-- [ ] [TASK-094] Build Pilot Onboarding Checklist — day 1, week 1, month 1 timeline with specific actions, resources needed, success metrics, handoff criteria to paid · priority:med · owner:ops · project:slancha · created:2026-03-31
+- [>] [TASK-094] Build Pilot Onboarding Checklist — day 1, week 1, month 1 timeline with specific actions, resources needed, success metrics, handoff criteria to paid · priority:med · owner:ops · project:slancha · created:2026-03-31 · started:2026-03-31
 - [ ] [TASK-095] Create Sales Battlecards (top 5 competitors) — concise 1-pager for Arize AI, WhyLabs, Evidently, Hugging Face, Modal: their weakness, Slancha's wedge, objection handlers · priority:med · owner:bizdev · project:slancha · created:2026-03-31
 - [ ] [TASK-096] Write Security Whitepaper Outline — data isolation architecture, encryption at rest/in transit, SOC 2 readiness status, compliance FAQ for enterprise prospects · priority:med · owner:ops · project:slancha · created:2026-03-31
 - [x] [TASK-097] Build ROI Calculator — spreadsheet or interactive component showing cost savings vs. building in-house, vs. competitors, TCO calculator for 3 scenarios · priority:med · owner:claude-code · project:slancha · created:2026-03-31 · done:2026-03-31 (already built: interactive page with sliders, model selection, API cost + engineering cost comparison)
@@ -57,7 +70,7 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 - [x] [TASK-079] Add page-level meta descriptions via usePageMeta hook on all pages · priority:high · owner:claude-code · project:slancha · created:2026-03-30 · done:2026-03-30
 - [x] [TASK-080] Write blog post: "From Prototype to Production: The AI Deployment Checklist" · priority:med · owner:copywriter · project:slancha · created:2026-03-30 · started:2026-03-31 · done:2026-03-31
 - [x] [TASK-081] Create pitch deck slides (Markdown/HTML) from strategist outline · priority:high · owner:claude-code · project:slancha · created:2026-03-30 · done:2026-03-30
-- [ ] [TASK-082] Update financial projections with latest pricing model changes · priority:med · owner:finance · project:slancha · created:2026-03-30
+- [x] [TASK-082] Update financial projections with latest pricing model changes · priority:med · owner:finance · project:slancha · created:2026-03-30 · started:2026-03-31 · done:2026-03-31
 - [x] [TASK-083] Write "Slancha vs. Databricks" detailed comparison blog post · priority:med · owner:copywriter · project:slancha · created:2026-03-30 · started:2026-03-31 · done:2026-03-31
 - [x] [TASK-088] Integrate copywriter blog posts into site: "Slancha vs Databricks" + "AI Deployment Checklist" · priority:high · owner:claude-code · project:slancha · done:2026-03-31
 - [x] [TASK-084] Design email templates for launch announcement sequence · priority:med · owner:designer · project:slancha · created:2026-03-30 · started:2026-03-31 · done:2026-03-31
