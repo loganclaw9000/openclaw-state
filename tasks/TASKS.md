@@ -15,16 +15,23 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 
 ## Active Tasks
 
+### Infrastructure & Security
+
+- [ ] [TASK-101] Investigate GitHub OAuth security alert — third-party app added to account (Mar 29), verify legitimacy or revoke unauthorized access · priority:high · owner:claw · project:infrastructure · created:2026-03-31
+- [ ] [TASK-102] Reactivate Claude API access — API turned off per Anthropic emails (Mar 23 & Mar 26-27), contact support or adjust settings · priority:high · owner:claw · project:infrastructure · created:2026-03-31
+
 ### Sprint 4: Launch Readiness & Conversion (2026-03-31)
 
+- [x] [TASK-099] Build Migration Guide docs page: step-by-step migration from OpenAI, Anthropic, Portkey, OpenRouter, Fireworks, Not Diamond with code examples, framework integration (LangChain, LlamaIndex, Vercel AI SDK), verification checklist · priority:high · owner:claude-code · project:slancha · created:2026-03-31 · done:2026-03-31
+- [x] [TASK-098] Build Status page: system health dashboard with 8 components, 90-day uptime bars, incident timeline, notification options · priority:high · owner:claude-code · project:slancha · created:2026-03-31 · done:2026-03-31
 - [x] [TASK-090] Build Demo page: interactive product walkthrough with 5 steps (signup, first eval, route deployment, fine-tuning, metrics dashboard), side navigation, code panels, metric cards · priority:high · owner:claude-code · project:slancha · created:2026-03-31 · done:2026-03-31
-- [ ] [TASK-091] Write Demo walkthrough script — step-by-step talking points for sales demos (5 steps: signup, eval, route, fine-tune, metrics), what problem each solves, demo flow timing · priority:med · owner:copywriter · project:slancha · created:2026-03-31
-- [ ] [TASK-092] Write Customer Welcome Email Sequence (5 emails) — onboarding series for pilot signups: day 1 welcome + setup, day 3 quick win, day 7 first eval, day 14 deployment, day 21 upgrade prompt · priority:med · owner:copywriter · project:slancha · created:2026-03-31
-- [>] [TASK-093] Design Demo Flow Spec — user journey map for demo page, wireframes for each step, microinteractions, transition animations, responsive breakpoints · priority:med · owner:designer · project:slancha · created:2026-03-31 · started:2026-03-31
+- [x] [TASK-091] Write Demo walkthrough script — step-by-step talking points for sales demos (5 steps: signup, eval, route, fine-tune, metrics), what problem each solves, demo flow timing · priority:med · owner:copywriter · project:slancha · created:2026-03-31 · done:2026-03-31
+- [>] [TASK-092] Write Customer Welcome Email Sequence (5 emails) — onboarding series for pilot signups: day 1 welcome + setup, day 3 quick win, day 7 first eval, day 14 deployment, day 21 upgrade prompt · priority:med · owner:copywriter · project:slancha · created:2026-03-31 · started:2026-03-31
+- [x] [TASK-093] Design Demo Flow Spec — user journey map for demo page, wireframes for each step, microinteractions, transition animations, responsive breakpoints · priority:med · owner:designer · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
 - [ ] [TASK-094] Build Pilot Onboarding Checklist — day 1, week 1, month 1 timeline with specific actions, resources needed, success metrics, handoff criteria to paid · priority:med · owner:ops · project:slancha · created:2026-03-31
 - [ ] [TASK-095] Create Sales Battlecards (top 5 competitors) — concise 1-pager for Arize AI, WhyLabs, Evidently, Hugging Face, Modal: their weakness, Slancha's wedge, objection handlers · priority:med · owner:bizdev · project:slancha · created:2026-03-31
 - [ ] [TASK-096] Write Security Whitepaper Outline — data isolation architecture, encryption at rest/in transit, SOC 2 readiness status, compliance FAQ for enterprise prospects · priority:med · owner:ops · project:slancha · created:2026-03-31
-- [ ] [TASK-097] Build ROI Calculator — spreadsheet or interactive component showing cost savings vs. building in-house, vs. competitors, TCO calculator for 3 scenarios · priority:med · owner:finance · project:slancha · created:2026-03-31
+- [x] [TASK-097] Build ROI Calculator — spreadsheet or interactive component showing cost savings vs. building in-house, vs. competitors, TCO calculator for 3 scenarios · priority:med · owner:claude-code · project:slancha · created:2026-03-31 · done:2026-03-31 (already built: interactive page with sliders, model selection, API cost + engineering cost comparison)
 - [x] [TASK-060] Write blog post: "5 Signs Your ML Team Needs an Evaluation Platform" · priority:high · owner:copywriter · project:slancha · created:2026-03-31 · done:2026-03-30
 - [x] [TASK-061] Write blog post: "How Eval Data Should Drive Fine-Tuning (Technical Deep Dive)" · priority:high · owner:claude-code · project:slancha · created:2026-03-31 · done:2026-03-31
 - [x] [TASK-062] Write developer quickstart guide for docs: install SDK, run first eval, deploy model · priority:high · owner:claude-code · project:slancha · created:2026-03-31 · done:2026-03-30
@@ -53,7 +60,7 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 - [ ] [TASK-082] Update financial projections with latest pricing model changes · priority:med · owner:finance · project:slancha · created:2026-03-30
 - [x] [TASK-083] Write "Slancha vs. Databricks" detailed comparison blog post · priority:med · owner:copywriter · project:slancha · created:2026-03-30 · started:2026-03-31 · done:2026-03-31
 - [x] [TASK-088] Integrate copywriter blog posts into site: "Slancha vs Databricks" + "AI Deployment Checklist" · priority:high · owner:claude-code · project:slancha · done:2026-03-31
-- [ ] [TASK-084] Design email templates for launch announcement sequence · priority:med · owner:designer · project:slancha · created:2026-03-30
+- [x] [TASK-084] Design email templates for launch announcement sequence · priority:med · owner:designer · project:slancha · created:2026-03-30 · started:2026-03-31 · done:2026-03-31
 - [x] [TASK-085] Build email capture / waitlist component for homepage · priority:high · owner:claude-code · project:slancha · created:2026-03-30 · done:2026-03-30
 - [x] [TASK-086] Performance audit: lazy load all route components, optimize bundle size · priority:med · owner:claude-code · project:slancha · created:2026-03-30 · done:2026-03-30
 - [x] [TASK-087] Build Terms of Service and Privacy Policy pages — launch-required legal pages with GDPR/CCPA, data handling, API terms. Wired into router + footer. · priority:high · owner:claude-code · project:slancha · created:2026-03-30 · done:2026-03-30
@@ -125,3 +132,5 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 - [x] [TASK-010] Design component specs for About, Features, Contact pages · priority:med · owner:designer · project:slancha · done:2026-03-29
 - [x] [TASK-013] Positioning overhaul: update all components to eval→deploy→post-train messaging · priority:high · owner:claude-code · project:slancha · done:2026-03-29
 - [x] [TASK-023] Phase 1 Auth: Supabase client, AuthContext, ProtectedRoute, all auth pages, App.jsx wiring, Nav auth · priority:high · owner:claude-code · project:slancha · done:2026-03-29
+
+- [ ] [TASK-100] Wire up contact form to actually send — currently just client-side validation with no working backend. Options: Formspree (free tier), Supabase Edge Function, or Resend API. Should deliver to contact@slancha.ai. Update .env.example with whatever endpoint is chosen. · priority:high · owner:claude-code · project:slancha · created:2026-03-31
