@@ -39,12 +39,12 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 - [x] [TASK-077] SEO: expand sitemap.xml from 2 to 30 URLs, update robots.txt to block auth/dashboard · priority:high · owner:claude-code · project:slancha · done:2026-03-30
 - [ ] [TASK-078] Write blog post: "Building a Production AI Router: Architecture Patterns" · priority:high · owner:claude-code · project:slancha · created:2026-03-30
 - [ ] [TASK-079] Add page-level meta descriptions via usePageMeta hook on all pages · priority:high · owner:claude-code · project:slancha · created:2026-03-30
-- [ ] [TASK-080] Write blog post: "From Prototype to Production: The AI Deployment Checklist" · priority:med · owner:copywriter · project:slancha · created:2026-03-30
+- [x] [TASK-080] Write blog post: "From Prototype to Production: The AI Deployment Checklist" · priority:med · owner:copywriter · project:slancha · created:2026-03-30 · started:2026-03-31 · done:2026-03-31
 - [ ] [TASK-081] Create pitch deck slides (Markdown/HTML) from strategist outline · priority:high · owner:claude-code · project:slancha · created:2026-03-30
 - [ ] [TASK-082] Update financial projections with latest pricing model changes · priority:med · owner:finance · project:slancha · created:2026-03-30
 - [ ] [TASK-083] Write "Slancha vs. Databricks" detailed comparison blog post · priority:med · owner:copywriter · project:slancha · created:2026-03-30
 - [ ] [TASK-084] Design email templates for launch announcement sequence · priority:med · owner:designer · project:slancha · created:2026-03-30
-- [ ] [TASK-085] Build email capture / waitlist component for homepage · priority:high · owner:claude-code · project:slancha · created:2026-03-30
+- [x] [TASK-085] Build email capture / waitlist component for homepage · priority:high · owner:claude-code · project:slancha · created:2026-03-30 · done:2026-03-30
 - [ ] [TASK-086] Performance audit: lazy load all route components, optimize bundle size · priority:med · owner:claude-code · project:slancha · created:2026-03-30
 
 ### Previous sprint (completed)
