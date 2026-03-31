@@ -5,8 +5,8 @@
 **Iteration: 1**
 
 ## Velocity
-- Tasks completed this sprint: 1
-- Tasks completed by boss directly: 1
+- Tasks completed this sprint: 4
+- Tasks completed by boss directly: 4
 - Tasks delegated successfully: 0
 - Average iterations per meaningful action: 1
 
@@ -16,8 +16,8 @@
 - Agent stalls unblocked: 0
 
 ## Impact
-- Features shipped: [Use Cases page]
-- Pages/components built: 1
+- Features shipped: [Use Cases page, Post-Training Guide docs, SDKs & Libraries docs]
+- Pages/components built: 3
 - Business docs produced: 0
 - Bugs found and fixed: 0
 

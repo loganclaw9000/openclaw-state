@@ -19,11 +19,13 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 
 - [ ] [TASK-060] Write blog post: "5 Signs Your ML Team Needs an Evaluation Platform" · priority:high · owner:copywriter · project:slancha · created:2026-03-31
 - [ ] [TASK-061] Write blog post: "How Eval Data Should Drive Fine-Tuning (Technical Deep Dive)" · priority:high · owner:copywriter · project:slancha · created:2026-03-31
-- [ ] [TASK-062] Write developer quickstart guide for docs: install SDK, run first eval, deploy model · priority:high · owner:copywriter · project:slancha · created:2026-03-31
+- [x] [TASK-062] Write developer quickstart guide for docs: install SDK, run first eval, deploy model · priority:high · owner:claude-code · project:slancha · created:2026-03-31 · done:2026-03-30
+- [x] [TASK-070] Add Post-Training Guide docs page (eval-driven training, fine-tuning, auto-promote pipeline) · priority:high · owner:claude-code · project:slancha · done:2026-03-30
+- [x] [TASK-071] Add SDKs & Libraries docs page (Python, TypeScript, OpenAI compat, cURL) · priority:high · owner:claude-code · project:slancha · done:2026-03-30
 - [ ] [TASK-063] Design Use Cases page visual polish: segment icons, metric animations, testimonial slots · priority:med · owner:designer · project:slancha · created:2026-03-31
 - [ ] [TASK-064] QA full site: test all pages, nav links, auth flow, responsive breakpoints, lighthouse scores · priority:high · owner:qa · project:slancha · created:2026-03-31
 - [ ] [TASK-065] Build case study template page component · priority:med · owner:frontend · project:slancha · created:2026-03-31
-- [ ] [TASK-066] Update competitive landscape with Q2 2026 funding rounds and product launches · priority:med · owner:strategist · project:slancha · created:2026-03-31
+- [>] [TASK-066] Update competitive landscape with Q2 2026 funding rounds and product launches · priority:med · owner:strategist · project:slancha · started:2026-03-31
 - [ ] [TASK-067] Create investor FAQ document: top 20 questions VCs will ask, with data-backed answers · priority:high · owner:finance · project:slancha · created:2026-03-31
 - [ ] [TASK-068] Write SOC 2 readiness checklist and security whitepaper outline · priority:med · owner:ops · project:slancha · created:2026-03-31
 - [ ] [TASK-069] Draft 3 LinkedIn posts for founder launch sequence · priority:med · owner:bizdev · project:slancha · created:2026-03-31
