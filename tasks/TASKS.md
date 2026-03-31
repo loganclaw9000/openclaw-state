@@ -61,6 +61,12 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 ## Completed Tasks
 
 - [x] [TASK-053] Update outbound sequences with new pricing model · priority:high · owner:bizdev · project:slancha · created:2026-03-30 · started:2026-03-30 · done:2026-03-30
+
+### New Features to QA
+
+- [x] [TASK-055] QA new pricing and checkout feature: test pricing page, checkout success/cancel, billing dashboard · priority:high · owner:qa · project:slancha · created:2026-03-31 · started:2026-03-31 · done:2026-03-31
+
+## Completed Tasks
 - [x] [TASK-001] Install and configure Gastown multi-agent workspace manager · priority:high · owner:main · project:gastown · done:2026-03-29
 - [x] [TASK-002] Build About page component · priority:high · owner:frontend · project:slancha · done:2026-03-29
 - [x] [TASK-003] Build Features page component · priority:high · owner:frontend · project:slancha · done:2026-03-29
