@@ -116,7 +116,7 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 - [x] [TASK-210] Write social media content templates — create 20 LinkedIn posts, 10 Twitter/X threads, 5 newsletter snippets based on existing blog posts. Each post should have: headline hook, body copy (2-3 paragraphs), CTA, hashtag set. Output to `workspace-copywriter/docs/social-media-templates.md` · priority:med · owner:bizdev · project:slancha · created:2026-04-01 · started:2026-04-01 · done:2026-04-01
 
 #### Phase: Sales Enablement (INIT-07)
-- [ ] [TASK-211] Create 3 vertical case study templates — fintech, healthtech, e-commerce templates with placeholders for metrics, quotes, implementation timeline, compliance badges. Each template: 1-page PDF layout with narrative structure, ROI calculation table, before/after comparison. Output to `workspace-copywriter/docs/case-study-templates.md` · priority:med · owner:bizdev · project:slancha · created:2026-04-01 · started:2026-04-01
+- [x] [TASK-211] Create 3 vertical case study templates — fintech, healthtech, e-commerce templates with placeholders for metrics, quotes, implementation timeline, compliance badges. Each template: 1-page PDF layout with narrative structure, ROI calculation table, before/after comparison. Output to `workspace-copywriter/docs/case-study-templates.md` · priority:med · owner:bizdev · project:slancha · created:2026-04-01 · started:2026-04-01 · done:2026-04-01
 - [x] [TASK-212] Build interactive ROI calculator component — React component with sliders for monthly API spend, engineering headcount, model count. Show 3 scenarios: build vs. Slancha vs. competitors. Output to `workspace-designer/specs/roi-calculator-component.md` with Figma-like mockups, CSS class names, prop definitions · priority:med · owner:designer · project:slancha · created:2026-04-01 · started:2026-04-01 · done:2026-04-01
 
 #### Phase: Agent System Health (INIT-08)
@@ -125,6 +125,32 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 
 #### Phase: Competitive Intelligence (INIT-09)
 - [ ] [TASK-215] Set up competitor pricing tracker — create spreadsheet template with columns: competitor, plan name, price, features, billing model, changelog links. Pre-populate with 5 competitors (Together AI, Anyscale, Fireworks, Modal, BaseTen). Output to `workspace-strategist/analysis/competitor-pricing-tracker.md` · priority:low · owner:strategist · project:slancha · created:2026-04-01
+
+#### Phase: Developer Experience & SDK Verification (INIT-10)
+**CONTEXT:** Python SDK is shipped (TASK-198 to TASK-205). Now need to verify it works end-to-end with the actual Slancha API and documentation reflects real usage.
+
+- [>] [TASK-216] Write Python SDK integration test script — create `sdk/python/tests/integration_test.py` that connects to a test Slancha endpoint (can use https://api.slancha.ai/v1 if credentials available, otherwise mock with respx). Test: chat completions, streaming, error handling, async client, pydantic validation. Include instructions for running with real credentials. Output: Working integration test script + README with test instructions · priority:high · owner:qa · project:slancha · created:2026-04-01 · started:2026-04-01
+- [ ] [TASK-217] Audit SDK documentation accuracy — verify all code examples in `workspace-copywriter/docs/sdk-python-readme.md` and `workspace-copywriter/docs/integrations/python-sdk-integration.md` match the actual SDK implementation. Check: imports, method signatures, parameter names, return types, error classes. Fix any discrepancies. Output: Updated documentation with verified examples · priority:med · owner:copywriter · project:slancha · created:2026-04-01
+
+#### Phase: Marketing Site Optimization (INIT-11)
+**CONTEXT:** Marketing site has 40+ pages, all content built. Now need conversion optimization and analytics verification.
+
+- [ ] [TASK-218] Implement A/B test framework for homepage — create 2 variant homepage designs (different hero copy, different CTA placement, different pricing presentation). Implement experiment tracking with simple localStorage-based assignment. Add analytics events for CTA clicks, scroll depth, time on page. Output: A/B testing framework in `site/src/ab/` with 2 homepage variants + analytics integration · priority:med · owner:frontend · project:slancha · created:2026-04-01
+- [ ] [TASK-219] Add conversion tracking to all CTAs — verify every CTA button on the site fires an analytics event (Plausible or custom). Create `/api/events` endpoint if needed. Add event tracking for: signup, first API call (dashboard), create API key, try playground, request demo, contact form submit, pricing page views. Output: Complete CTA tracking coverage report + implemented tracking · priority:med · owner:frontend · project:slancha · created:2026-04-01
+
+#### Phase: Pilot Outreach Preparation (INIT-12)
+**CONTEXT:** Need to be ready to onboard pilots once they sign up. Sales team needs tools to execute.
+
+- [ ] [TASK-220] Build pilot outreach email sequence — 5-email sequence for outbound to ICP target accounts: (1) intro + value prop, (2) case study highlight, (3) demo invite, (4) social proof, (5) break-up email. Include personalized variables, follow-up timing, A/B test subject lines. Output to `workspace-bizdev/outbound/pilot-outreach-sequence.md` · priority:high · owner:bizdev · project:slancha · created:2026-04-01
+- [ ] [TASK-221] Create sales enablement dashboard — internal dashboard spec showing: active pilots, pilot health scores, upcoming check-ins, conversion risks, success metrics per account. Include data sources (Supabase), refresh frequency, alerting rules. Output to `workspace-bizdev/tools/pilot-dashboard-spec.md` · priority:med · owner:bizdev · project:slancha · created:2026-04-01
+- [ ] [TASK-222] Design pilot success scoring system — define what makes a "healthy" pilot: usage metrics (API calls/day, eval runs/week), engagement signals (dashboard logins, feature adoption), relationship signals (response time to emails, demo attendance). Create scoring rubric (0-100) with alerting thresholds. Output to `workspace-bizdev/tools/pilot-scoring-system.md` · priority:med · owner:bizdev · project:slancha · created:2026-04-01
+
+#### Phase: Competitive Monitoring Setup (INIT-09 follow-up)
+- [ ] [TASK-223] Set up automated competitor monitoring — create process for weekly competitor check: monitor their blog, product announcements, pricing changes, hiring, funding. Include sources to check, automation options (RSS, monitoring tools, manual checklist), and output format (weekly summary doc). Output to `workspace-strategist/processes/competitor-monitoring.md` · priority:low · owner:strategist · project:slancha · created:2026-04-01
+
+#### Phase: Foundational Content Refresh
+- [ ] [TASK-224] Refresh "How it Works" section with updated positioning — verify all 4 stages (Route, Analyze, Fine-tune, Optimize) are clearly explained with visual diagram. Ensure copy doesn't expose internal mechanics to users (customers don't "evaluate" or "select models" — it's automatic). Check: homepage hero, how-it-works section, demo page, product pages. Output: Updated copy + visual specs if needed · priority:med · owner:copywriter · project:slancha · created:2026-04-01
+- [ ] [TASK-225] Create "For ML Teams" landing page — ML team leads have different concerns than engineering managers. Focus on: eval-driven improvement, fine-tuning automation, deployment optimization, no ops burden, cost control. Include technical depth (QAT, MIG, MTP details) for credibility. Output to `site/src/pages/ForMLTeams.jsx` + content spec · priority:med · owner:frontend · project:slancha · created:2026-04-01
 
 ---
 - [x] [TASK-208] Write "How enterprise AI teams waste 40% of model spend" blog post — business audience case study (fintech/healthtech), 4 waste categories (unoptimized base models, no eval data, manual fine-tuning, no compounding loop), TCO analysis with Slancha alternative, ROI calculation framework, decision checklist. Target keyword: "AI inference cost waste" · priority:med · owner:copywriter · project:slancha · created:2026-04-01 · started:2026-04-01 · done:2026-04-01
