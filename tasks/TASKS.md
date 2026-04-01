@@ -177,8 +177,8 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 
 ### Infrastructure & Security
 
-- [ ] [TASK-101] Investigate GitHub OAuth security alert — third-party app added to account (Mar 29), verify legitimacy or revoke unauthorized access · priority:high · owner:claw · project:infrastructure · created:2026-03-31
-- [ ] [TASK-102] Reactivate Claude API access — API turned off per Anthropic emails (Mar 23 & Mar 26-27), contact support or adjust settings · priority:high · owner:claw · project:infrastructure · created:2026-03-31
+- [-] [TASK-101] Investigate GitHub OAuth security alert — third-party app added to account (Mar 29), verify legitimacy or revoke unauthorized access · priority:high · owner:ops · project:infrastructure · created:2026-03-31 · started:2026-04-01 · blocked:requires-founder-manual-review
+- [-] [TASK-102] Reactivate Claude API access — API turned off per Anthropic emails (Mar 23 & Mar 26-27), contact support or adjust settings · priority:high · owner:ops · project:infrastructure · created:2026-03-31 · blocked:requires-founder-intervention
 
 ### Sprint 4: Launch Readiness & Conversion (2026-03-31)
 
