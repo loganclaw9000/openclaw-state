@@ -1,5 +1,7 @@
 # Ralph Boss Log
 
+[2026-04-01T06:30:00Z] iteration 127 — LEAD: Built complete Python SDK (Sprint 13, TASK-198 to TASK-205). Created models.py (16 Pydantic v2 models), client.py (sync httpx with streaming), async_client.py, _retry.py (exponential backoff + jitter), management stubs, 39 pytest tests (all passing), README.md, py.typed. Committed and pushed to source + brain repos. 8 tasks completed this iteration. (sdk/python/)
+
 [2026-04-02T09:00:00Z] iteration 126 — LEAD: Marked Sprint 12 complete (12 tasks, all Semantic Router frontend already built). Created ALL Sprint 11 Supabase tables via MCP: request_logs, fine_tuning_jobs, deployments, evaluations, datasets, model_pool, optimization_events, team_members, team_invites, notifications, profiles, invoices, optimization_stats — 10 migrations, 18 total tables with RLS. 22 tasks marked complete this iteration. (tasks/TASKS.md, ralph-boss-metrics.md)
 
 [2026-04-02T08:00:00Z] QA iteration 50 (FINAL) — Last banned terminology fix: Found 1 remaining "eval-deploy-post-train" reference in blog CTA (blog/index.js line 2557, in the "Eval-Driven Fine-Tuning" post's closing call-to-action). Changed to "route-analyze-fine-tune-optimize" per SLANCHA_BRIEF.md. Verified zero remaining instances of eval-deploy-post-train, eval→deploy→post-train, or "Databricks of AI" across entire src/. All public assets verified present in dist (11 files). Build passes clean with zero warnings. Committed, pushed. Sprint complete: 50 iterations, 50 productive, 0 wasted. (blog/index.js)
