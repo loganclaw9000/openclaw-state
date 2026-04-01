@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1775000503904,
+      "updatedAtMs": 1775007321945,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,14 +25,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775002296794,
-        "lastRunAtMs": 1775000496794,
+        "nextRunAtMs": 1775010921945,
+        "lastRunAtMs": 1775005957876,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 7110,
+        "lastDurationMs": 1364069,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 4,
-        "runningAtMs": 1775005957867
+        "consecutiveErrors": 5,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
     {
@@ -42,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1775000564504,
+      "updatedAtMs": 1775007408745,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -58,15 +58,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775002303904,
-        "lastRunAtMs": 1775000503904,
+        "nextRunAtMs": 1775009121945,
+        "lastRunAtMs": 1775007321945,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 60600,
+        "lastDurationMs": 86800,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1775005957867
+        "lastDelivered": false
       }
     },
     {
@@ -100,8 +99,8 @@
         "lastDurationMs": 3600025,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 6,
-        "lastError": "cron: job execution timed out",
-        "lastErrorReason": "timeout"
+        "lastErrorReason": "timeout",
+        "runningAtMs": 1775008607021
       }
     },
     {
@@ -135,7 +134,8 @@
         "lastDurationMs": 191622,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1775008607021
       }
     },
     {
@@ -298,7 +298,8 @@
         "lastDurationMs": 94020,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1775008607021
       }
     },
     {
@@ -333,7 +334,7 @@
         "lastErrorReason": "billing",
         "lastDelivered": false,
         "lastDeliveryError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.",
-        "lastError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        "runningAtMs": 1775008607021
       }
     },
     {
@@ -342,7 +343,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1774999378690,
+      "updatedAtMs": 1775007445276,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -355,14 +356,13 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1775001144069,
-        "lastRunAtMs": 1774999344069,
+        "nextRunAtMs": 1775009208746,
+        "lastRunAtMs": 1775007408746,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 34621,
+        "lastDurationMs": 36530,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "runningAtMs": 1775005957867
+        "consecutiveErrors": 0
       }
     },
     {
@@ -372,7 +372,7 @@
       "description": "strategist periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774999865838,
+      "updatedAtMs": 1775007802655,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -388,15 +388,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775001178690,
-        "lastRunAtMs": 1774999378690,
+        "nextRunAtMs": 1775009245276,
+        "lastRunAtMs": 1775007445276,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 487148,
+        "lastDurationMs": 357379,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1775005957867
+        "lastDelivered": false
       }
     },
     {
@@ -406,7 +405,7 @@
       "description": "finance periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1774999922749,
+      "updatedAtMs": 1775008541941,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -422,15 +421,16 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775001665838,
-        "lastRunAtMs": 1774999865838,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 56911,
+        "nextRunAtMs": 1775009602655,
+        "lastRunAtMs": 1775007802655,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 739286,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
+        "consecutiveErrors": 1,
         "lastDelivered": false,
-        "runningAtMs": 1775005957867
+        "lastError": "⚠️ 📝 Edit failed",
+        "lastDeliveryError": "⚠️ 📝 Edit failed"
       }
     },
     {
@@ -440,7 +440,7 @@
       "description": "ops periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775000494636,
+      "updatedAtMs": 1775008604811,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -456,15 +456,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775001722749,
-        "lastRunAtMs": 1774999922749,
+        "nextRunAtMs": 1775010341941,
+        "lastRunAtMs": 1775008541941,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 571887,
+        "lastDurationMs": 62870,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1775005957867
+        "lastDelivered": false
       }
     },
     {
@@ -497,7 +496,8 @@
         "lastDurationMs": 537199,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1775008607021
       }
     },
     {
@@ -566,7 +566,8 @@
         "lastDurationMs": 820247,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1775008607021
       }
     }
   ]
