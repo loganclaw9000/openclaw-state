@@ -32,7 +32,7 @@
         "lastDurationMs": 84917,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 9,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "runningAtMs": 1775032869038
       }
     },
     {
@@ -65,7 +65,8 @@
         "lastDurationMs": 54796,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1775032869038
       }
     },
     {
@@ -75,7 +76,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1775028349289,
+      "updatedAtMs": 1775032866944,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -92,16 +93,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775031949289,
-        "lastRunAtMs": 1775024853141,
+        "nextRunAtMs": 1775036466944,
+        "lastRunAtMs": 1775032207236,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 3496148,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 10,
-        "lastError": "⚠️ 📝 Edit: in ~/.openclaw/workspace/site/notes.md (1533 chars) failed",
-        "lastDelivered": false,
-        "lastDeliveryError": "⚠️ 📝 Edit: in ~/.openclaw/workspace/site/notes.md (1533 chars) failed"
+        "lastDurationMs": 659708,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 11,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
     {
@@ -135,7 +134,7 @@
         "lastDurationMs": 121044,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 5,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "runningAtMs": 1775032869038
       }
     },
     {
@@ -333,7 +332,7 @@
         "lastErrorReason": "billing",
         "lastDelivered": false,
         "lastDeliveryError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.",
-        "lastError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        "runningAtMs": 1775032869038
       }
     },
     {
@@ -361,7 +360,8 @@
         "lastStatus": "ok",
         "lastDurationMs": 50863,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0
+        "consecutiveErrors": 0,
+        "runningAtMs": 1775032869038
       }
     },
     {
@@ -394,7 +394,8 @@
         "lastDurationMs": 177475,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1775032869038
       }
     },
     {
@@ -437,7 +438,7 @@
       "description": "ops periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775029279651,
+      "updatedAtMs": 1775031466362,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -453,15 +454,16 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775031028319,
-        "lastRunAtMs": 1775029228319,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 51332,
+        "nextRunAtMs": 1775033167333,
+        "lastRunAtMs": 1775031367333,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 99029,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
+        "consecutiveErrors": 1,
         "lastDelivered": false,
-        "runningAtMs": 1775031367319
+        "lastError": "⚠️ ✉️ Message failed",
+        "lastDeliveryError": "⚠️ ✉️ Message failed"
       }
     },
     {
@@ -471,7 +473,7 @@
       "description": "bizdev periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775030461871,
+      "updatedAtMs": 1775031603667,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -487,15 +489,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775031079651,
-        "lastRunAtMs": 1775029279651,
+        "nextRunAtMs": 1775033266362,
+        "lastRunAtMs": 1775031466362,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 1182220,
+        "lastDurationMs": 137305,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1775031367319
+        "lastDelivered": false
       }
     },
     {
@@ -530,7 +531,8 @@
         "lastDurationMs": 462671,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
-        "consecutiveErrors": 0
+        "consecutiveErrors": 0,
+        "runningAtMs": 1775032869038
       }
     },
     {
@@ -540,7 +542,7 @@
       "description": "Boss agent: work generation, coordination, health monitoring",
       "enabled": true,
       "createdAtMs": 1774935272904,
-      "updatedAtMs": 1775028687747,
+      "updatedAtMs": 1775032205120,
       "schedule": {
         "kind": "every",
         "everyMs": 2700000,
@@ -556,15 +558,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775031095345,
-        "lastRunAtMs": 1775028395345,
+        "nextRunAtMs": 1775034303667,
+        "lastRunAtMs": 1775031603667,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 292402,
+        "lastDurationMs": 601453,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1775031367319
+        "lastDelivered": false
       }
     }
   ]
