@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1775015087943,
+      "updatedAtMs": 1775019981798,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,14 +25,14 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775018687943,
-        "lastRunAtMs": 1775014292983,
+        "nextRunAtMs": 1775023581798,
+        "lastRunAtMs": 1775019268018,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 794960,
+        "lastDurationMs": 713780,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 6,
-        "runningAtMs": 1775019268002
+        "consecutiveErrors": 7,
+        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
     {
@@ -42,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1775015961203,
+      "updatedAtMs": 1775020056631,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -58,15 +58,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775016887943,
-        "lastRunAtMs": 1775015087943,
+        "nextRunAtMs": 1775021781798,
+        "lastRunAtMs": 1775019981798,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 873260,
+        "lastDurationMs": 74833,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1775019268002
+        "lastDelivered": false
       }
     },
     {
@@ -100,7 +99,7 @@
         "lastDurationMs": 1514810,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 8,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "runningAtMs": 1775021090703
       }
     },
     {
@@ -134,7 +133,7 @@
         "lastDurationMs": 116388,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 2,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "runningAtMs": 1775021090703
       }
     },
     {
@@ -274,7 +273,7 @@
       "description": "Frontend periodic git push reminder",
       "enabled": true,
       "createdAtMs": 1772929778022,
-      "updatedAtMs": 1775010643241,
+      "updatedAtMs": 1775020321669,
       "schedule": {
         "kind": "every",
         "everyMs": 7200000,
@@ -290,15 +289,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775017787596,
-        "lastRunAtMs": 1775010587596,
+        "nextRunAtMs": 1775027256631,
+        "lastRunAtMs": 1775020056631,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 55645,
+        "lastDurationMs": 265038,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1775019268002
+        "lastDelivered": false
       }
     },
     {
@@ -361,7 +359,8 @@
         "lastStatus": "ok",
         "lastDurationMs": 39305,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0
+        "consecutiveErrors": 0,
+        "runningAtMs": 1775021090703
       }
     },
     {
@@ -394,7 +393,8 @@
         "lastDurationMs": 73359,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1775021090703
       }
     },
     {
@@ -427,7 +427,8 @@
         "lastDurationMs": 57873,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1775021090703
       }
     },
     {
@@ -460,7 +461,8 @@
         "lastDurationMs": 777208,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1775021090703
       }
     },
     {
@@ -470,7 +472,7 @@
       "description": "bizdev periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775014245306,
+      "updatedAtMs": 1775020794084,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -486,15 +488,16 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775015028318,
-        "lastRunAtMs": 1775010645302,
+        "nextRunAtMs": 1775022121669,
+        "lastRunAtMs": 1775020321669,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 3600004,
-        "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 1,
-        "lastErrorReason": "timeout",
-        "runningAtMs": 1775019268002
+        "lastDurationMs": 472415,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 2,
+        "lastError": "⚠️ 📝 Edit failed",
+        "lastDelivered": false,
+        "lastDeliveryError": "⚠️ 📝 Edit failed"
       }
     },
     {
@@ -540,7 +543,7 @@
       "description": "Boss agent: work generation, coordination, health monitoring",
       "enabled": true,
       "createdAtMs": 1774935272904,
-      "updatedAtMs": 1775014290821,
+      "updatedAtMs": 1775021088528,
       "schedule": {
         "kind": "every",
         "everyMs": 2700000,
@@ -556,15 +559,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775016945306,
-        "lastRunAtMs": 1775014245306,
+        "nextRunAtMs": 1775023494084,
+        "lastRunAtMs": 1775020794084,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 45515,
+        "lastDurationMs": 294444,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1775019268002
+        "lastDelivered": false
       }
     }
   ]
