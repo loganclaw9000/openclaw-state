@@ -15,6 +15,26 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 
 ## Active Tasks
 
+### Sprint 13: Python SDK (2026-04-01)
+
+**CONTEXT:** Build a real, working Python SDK at `~/Desktop/workspace/sdk/python/`. The skeleton exists (__init__.py, exceptions.py, pyproject.toml) but `client.py` and `models.py` are missing. The SDK is an OpenAI-compatible client that points at the Slancha endpoint. Use httpx for HTTP, pydantic for models. Write tests with pytest + respx.
+
+**Key decision:** Inference calls use the OpenAI-compatible /v1/chat/completions endpoint. The SDK wraps this with `client.chat.completions.create()`. Management API methods (providers, models, routing) should be stubbed with the right signatures and raise NotImplementedError("Management API coming soon").
+
+#### Phase 1: Core Client
+- [ ] [TASK-198] Create `sdk/python/slancha/models.py` — Pydantic v2 models: ChatCompletion, ChatCompletionChunk, Choice, Message, Usage, EvalRun, EvalResult, FineTuneJob, Deployment, Provider, RouterModel, RoutingDecision. Match OpenAI response schema for chat completions. Update __init__.py exports. · priority:high · owner:claude-code · project:slancha · created:2026-04-01
+- [ ] [TASK-199] Create `sdk/python/slancha/client.py` — Slancha sync client using httpx. Constructor takes api_key + optional base_url (default https://api.slancha.ai/v1). Implement chat.completions.create(model, messages, **kwargs) → POST /v1/chat/completions. Parse into ChatCompletion. Errors: 401→AuthenticationError, 429→RateLimitError, 5xx→APIError, timeout→TimeoutError. Support streaming via stream=True returning iterator of ChatCompletionChunk. · priority:high · owner:claude-code · project:slancha · created:2026-04-01
+- [ ] [TASK-200] Create `sdk/python/slancha/async_client.py` — AsyncSlancha using httpx.AsyncClient. Same interface but async. Support async streaming. Re-export from __init__.py. · priority:high · owner:claude-code · project:slancha · created:2026-04-01
+
+#### Phase 2: Management Stubs & Utilities
+- [ ] [TASK-201] Add management method stubs — client.providers.list/create/delete/toggle, client.models.list/create/delete, client.routing.decisions.list/create/update/delete, client.config.generate_yaml/save_snapshot. Each raises NotImplementedError("Management API coming soon — use the dashboard at slancha.ai/dashboard"). · priority:med · owner:claude-code · project:slancha · created:2026-04-01
+- [ ] [TASK-202] Add retry logic — exponential backoff with jitter on 429/5xx. Default max_retries=3. Respect Retry-After header. Configurable timeout (30s connect, 120s read). · priority:med · owner:claude-code · project:slancha · created:2026-04-01
+
+#### Phase 3: Tests & Packaging
+- [ ] [TASK-203] Write pytest tests — test chat.completions.create (mock httpx via respx), streaming, error handling (401/429/5xx/timeout), async client, pydantic model parsing, retry logic. 30+ tests in `sdk/python/tests/`. · priority:high · owner:claude-code · project:slancha · created:2026-04-01
+- [ ] [TASK-204] Write SDK README.md — pip install, quickstart (3 lines), streaming, async, error handling, config options. Concise, developer-focused. · priority:med · owner:claude-code · project:slancha · created:2026-04-01
+- [ ] [TASK-205] Finalize packaging — verify pyproject.toml, add py.typed, run `pip install -e .`, run pytest, verify all passes. Commit and push. · priority:med · owner:claude-code · project:slancha · created:2026-04-01
+
 ### Sprint 12: vLLM Semantic Router Frontend (2026-03-31)
 
 **CONTEXT:** Supabase schema is DONE (tables: llm_providers, router_models, model_backends, routing_decisions, router_config_snapshots — all with RLS + vault RPCs for API key encryption). DO NOT re-run migrations. Build the frontend.
@@ -303,7 +323,7 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 
 #### Initiative: Investor Materials (INIT-04)
 - [x] [TASK-189] Write investor one-pager / teaser — 1-page PDF-ready document for cold outreach to VCs. Include: value prop (eval→deploy loop, 10x faster iteration, 40% engineer time freed), market size ($47-58B TAM), traction (25 blogs, 60+ pages, 1,200+ waitlist, 15 LOIs), ask ($2M seed at $8M pre-money). Output to workspace-copywriter/docs/investor-one-pager.md · priority:high · owner:copywriter · project:slancha · created:2026-03-31 · started:2026-04-01 · done:2026-04-01
-- [ ] [TASK-190] Create investor summary from financial model — distill Series A financial model (TASK-147) into 2-page executive summary for investors. Include: unit economics (LTV:CAC 30:1, CAC payback 4.7mo), revenue projections (break-even Nov 2026), Series A raise scenarios ($8-12M at $10M ARR or $2-3M at $3M ARR), key assumptions. Output to workspace-finance/models/investor-summary.md · priority:med · owner:finance · project:slancha · created:2026-03-31
+- [x] [TASK-190] Create investor summary from financial model — distill Series A financial model (TASK-147) into 2-page executive summary for investors. Include: unit economics (LTV:CAC 30:1, CAC payback 4.7mo), revenue projections (break-even Nov 2026), Series A raise scenarios ($8-12M at $10M ARR or $2-3M at $3M ARR), key assumptions. Output to workspace-finance/models/investor-summary.md · priority:med · owner:bizdev · project:slancha · created:2026-03-31 · started:2026-04-01 · done:2026-04-01
 - [x] [TASK-191] Design pitch deck visual spec — layout for 15-slide investor deck. Master slide template, color palette (dark theme with accent colors), typography (Inter/Merriweather), chart styles, animation notes, ASCII diagram to JSX translation. Output to workspace-designer/specs/pitch-deck-spec.md · priority:med · owner:designer · project:slancha · created:2026-03-31 · started:2026-04-01 · done:2026-04-01
 
 #### Initiative: Content Marketing (INIT-05)
