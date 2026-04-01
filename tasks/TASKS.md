@@ -126,7 +126,7 @@ Statuses: `[ ]` pending · `[>]` in progress · `[x]` done · `[-]` blocked
 - [x] [TASK-212] Build interactive ROI calculator component — React component with sliders for monthly API spend, engineering headcount, model count. Show 3 scenarios: build vs. Slancha vs. competitors. Output to `workspace-designer/specs/roi-calculator-component.md` with Figma-like mockups, CSS class names, prop definitions · priority:med · owner:designer · project:slancha · created:2026-04-01 · started:2026-04-01 · done:2026-04-01
 
 #### Phase: Agent System Health (INIT-08)
-- [>] [TASK-213] Document claude agent billing issue — summarize 42 consecutive errors, Anthropic's response emails, proposed solutions (API key regeneration, billing plan change, alternative model). Include steps for founder to take to fix. Output to `workspace-ops/notes/claude-billing-issue.md` · priority:high · owner:ops · project:infrastructure · created:2026-04-01 · started:2026-04-01
+- [x] [TASK-213] Document claude agent billing issue — summarize 42 consecutive errors, Anthropic's response emails, proposed solutions (API key regeneration, billing plan change, alternative model). Include steps for founder to take to fix. Output to `workspace-ops/notes/claude-billing-issue.md` · priority:high · owner:ops · project:infrastructure · created:2026-04-01 · started:2026-04-01 · done:2026-04-01
 - [x] [TASK-214] Create agent health monitoring process — define metrics to track (error rates, response times, task completion rates), alerting thresholds, weekly health report format. Output to `workspace-ops/processes/agent-health-monitoring.md` · priority:med · owner:ops · project:slancha · created:2026-04-01 · started:2026-04-01 · done:2026-04-01
 
 #### Phase: Competitive Intelligence (INIT-09)
