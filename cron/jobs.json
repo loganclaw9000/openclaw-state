@@ -112,7 +112,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1775228591163,
+      "updatedAtMs": 1775232212342,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -129,13 +129,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775232191163,
-        "lastRunAtMs": 1775228570235,
+        "nextRunAtMs": 1775235812342,
+        "lastRunAtMs": 1775232191179,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 20928,
+        "lastDurationMs": 21163,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 49,
+        "consecutiveErrors": 50,
         "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
@@ -346,7 +346,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1775230272917,
+      "updatedAtMs": 1775232072704,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -359,11 +359,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1775232051465,
-        "lastRunAtMs": 1775230251465,
+        "nextRunAtMs": 1775233851484,
+        "lastRunAtMs": 1775232051484,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 21452,
+        "lastDurationMs": 21220,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
@@ -447,7 +447,7 @@
       "description": "ops periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775228401285,
+      "updatedAtMs": 1775232022266,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -463,17 +463,17 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775232001285,
-        "lastRunAtMs": 1775228380229,
+        "nextRunAtMs": 1775235622266,
+        "lastRunAtMs": 1775232001301,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21056,
+        "lastDurationMs": 20965,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 47,
+        "consecutiveErrors": 48,
         "lastDelivered": false,
         "lastErrorReason": "timeout",
         "lastDeliveryError": "LLM request failed: network connection error.",
-        "runningAtMs": 1775232001288
+        "lastError": "LLM request failed: network connection error."
       }
     },
     {
