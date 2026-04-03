@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1775179646652,
+      "updatedAtMs": 1775183268913,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,13 +25,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775183246652,
-        "lastRunAtMs": 1775179625307,
+        "nextRunAtMs": 1775186868913,
+        "lastRunAtMs": 1775183246670,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21345,
+        "lastDurationMs": 22243,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 36,
+        "consecutiveErrors": 37,
         "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
@@ -42,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1775179672316,
+      "updatedAtMs": 1775183294411,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -58,13 +58,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775183272316,
-        "lastRunAtMs": 1775179651192,
+        "nextRunAtMs": 1775186894411,
+        "lastRunAtMs": 1775183272344,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21124,
+        "lastDurationMs": 22067,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 34,
+        "consecutiveErrors": 35,
         "lastDelivered": false,
         "lastErrorReason": "timeout",
         "lastDeliveryError": "LLM request failed: network connection error.",
@@ -78,7 +78,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1775179696355,
+      "updatedAtMs": 1775183318704,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -95,13 +95,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775183296355,
-        "lastRunAtMs": 1775179675049,
+        "nextRunAtMs": 1775186918704,
+        "lastRunAtMs": 1775183296371,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21306,
+        "lastDurationMs": 22333,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 36,
+        "consecutiveErrors": 37,
         "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
@@ -276,7 +276,7 @@
       "description": "Frontend periodic git push reminder",
       "enabled": true,
       "createdAtMs": 1772929778022,
-      "updatedAtMs": 1775176200254,
+      "updatedAtMs": 1775183399482,
       "schedule": {
         "kind": "every",
         "everyMs": 7200000,
@@ -292,13 +292,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775183378471,
-        "lastRunAtMs": 1775176178471,
+        "nextRunAtMs": 1775190578482,
+        "lastRunAtMs": 1775183378482,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21783,
+        "lastDurationMs": 21000,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 16,
+        "consecutiveErrors": 17,
         "lastDelivered": false,
         "lastErrorReason": "timeout",
         "lastDeliveryError": "LLM request failed: network connection error.",
@@ -311,7 +311,7 @@
       "name": "claude-heartbeat",
       "enabled": true,
       "createdAtMs": 1772931027927,
-      "updatedAtMs": 1775179701111,
+      "updatedAtMs": 1775183324827,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -327,13 +327,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775183301111,
-        "lastRunAtMs": 1775179698500,
+        "nextRunAtMs": 1775186924827,
+        "lastRunAtMs": 1775183320858,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 2611,
+        "lastDurationMs": 3969,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 79,
+        "consecutiveErrors": 80,
         "lastErrorReason": "billing",
         "lastDelivered": false,
         "lastDeliveryError": "LLM request rejected: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.",
@@ -346,7 +346,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1775181374633,
+      "updatedAtMs": 1775183196131,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -359,11 +359,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1775183152429,
-        "lastRunAtMs": 1775181352429,
+        "nextRunAtMs": 1775184974335,
+        "lastRunAtMs": 1775183174335,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 22204,
+        "lastDurationMs": 21796,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
@@ -483,7 +483,7 @@
       "description": "bizdev periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775179550384,
+      "updatedAtMs": 1775183172301,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -499,13 +499,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775183150384,
-        "lastRunAtMs": 1775179524917,
+        "nextRunAtMs": 1775186772301,
+        "lastRunAtMs": 1775183150402,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 25467,
+        "lastDurationMs": 21899,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 34,
+        "consecutiveErrors": 35,
         "lastDelivered": false,
         "lastDeliveryError": "LLM request failed: network connection error.",
         "lastErrorReason": "timeout",
@@ -519,7 +519,7 @@
       "name": "gmail-check",
       "enabled": true,
       "createdAtMs": 1774914638046,
-      "updatedAtMs": 1775179621885,
+      "updatedAtMs": 1775183243920,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -537,14 +537,14 @@
         "channel": "whatsapp"
       },
       "state": {
-        "nextRunAtMs": 1775183221885,
-        "lastRunAtMs": 1775179600424,
+        "nextRunAtMs": 1775186843920,
+        "lastRunAtMs": 1775183221900,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21461,
+        "lastDurationMs": 22020,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
-        "consecutiveErrors": 34,
+        "consecutiveErrors": 35,
         "lastErrorReason": "timeout",
         "lastError": "LLM request failed: network connection error."
       }
