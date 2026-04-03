@@ -112,7 +112,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1775188750761,
+      "updatedAtMs": 1775192373634,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -129,13 +129,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775192350761,
-        "lastRunAtMs": 1775188729513,
+        "nextRunAtMs": 1775195973634,
+        "lastRunAtMs": 1775192350786,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21248,
+        "lastDurationMs": 22848,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 38,
+        "consecutiveErrors": 39,
         "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
@@ -276,7 +276,7 @@
       "description": "Frontend periodic git push reminder",
       "enabled": true,
       "createdAtMs": 1772929778022,
-      "updatedAtMs": 1775183399482,
+      "updatedAtMs": 1775190601387,
       "schedule": {
         "kind": "every",
         "everyMs": 7200000,
@@ -292,17 +292,17 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775190578482,
-        "lastRunAtMs": 1775183378482,
+        "nextRunAtMs": 1775197778515,
+        "lastRunAtMs": 1775190578515,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21000,
+        "lastDurationMs": 22872,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 17,
+        "consecutiveErrors": 18,
         "lastDelivered": false,
         "lastErrorReason": "timeout",
         "lastDeliveryError": "LLM request failed: network connection error.",
-        "runningAtMs": 1775190578489
+        "lastError": "LLM request failed: network connection error."
       }
     },
     {
@@ -346,7 +346,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1775190442085,
+      "updatedAtMs": 1775192240721,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -359,11 +359,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1775192218351,
-        "lastRunAtMs": 1775190418351,
+        "nextRunAtMs": 1775194018363,
+        "lastRunAtMs": 1775192218363,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 23734,
+        "lastDurationMs": 22358,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
@@ -375,7 +375,7 @@
       "description": "strategist periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775188513941,
+      "updatedAtMs": 1775192135256,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -391,13 +391,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775192113941,
-        "lastRunAtMs": 1775188492964,
+        "nextRunAtMs": 1775195735256,
+        "lastRunAtMs": 1775192113958,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 20977,
+        "lastDurationMs": 21298,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 36,
+        "consecutiveErrors": 37,
         "lastDelivered": false,
         "lastErrorReason": "timeout",
         "lastDeliveryError": "LLM request failed: network connection error.",
@@ -411,7 +411,7 @@
       "description": "finance periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775188537826,
+      "updatedAtMs": 1775192160626,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -427,13 +427,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775192137826,
-        "lastRunAtMs": 1775188516658,
+        "nextRunAtMs": 1775195760626,
+        "lastRunAtMs": 1775192137834,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21168,
+        "lastDurationMs": 22792,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 36,
+        "consecutiveErrors": 37,
         "lastDelivered": false,
         "lastErrorReason": "timeout",
         "lastDeliveryError": "LLM request failed: network connection error.",
@@ -447,7 +447,7 @@
       "description": "ops periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775188564288,
+      "updatedAtMs": 1775192186172,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -463,13 +463,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775192164288,
-        "lastRunAtMs": 1775188543088,
+        "nextRunAtMs": 1775195786172,
+        "lastRunAtMs": 1775192164304,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21200,
+        "lastDurationMs": 21868,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 36,
+        "consecutiveErrors": 37,
         "lastDelivered": false,
         "lastErrorReason": "timeout",
         "lastDeliveryError": "LLM request failed: network connection error.",
@@ -556,7 +556,7 @@
       "description": "Boss agent: work generation, coordination, health monitoring",
       "enabled": true,
       "createdAtMs": 1774935272904,
-      "updatedAtMs": 1775187847448,
+      "updatedAtMs": 1775191469157,
       "schedule": {
         "kind": "every",
         "everyMs": 2700000,
@@ -572,13 +572,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775191447448,
-        "lastRunAtMs": 1775187826258,
+        "nextRunAtMs": 1775195069157,
+        "lastRunAtMs": 1775191447467,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21190,
+        "lastDurationMs": 21690,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 36,
+        "consecutiveErrors": 37,
         "lastDelivered": false,
         "lastErrorReason": "timeout",
         "lastDeliveryError": "LLM request failed: network connection error.",
