@@ -42,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1775336399077,
+      "updatedAtMs": 1775340022007,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -58,17 +58,17 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775339999077,
-        "lastRunAtMs": 1775336377880,
+        "nextRunAtMs": 1775343622007,
+        "lastRunAtMs": 1775339999092,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21197,
+        "lastDurationMs": 22915,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 72,
+        "consecutiveErrors": 73,
         "lastErrorReason": "timeout",
         "lastDelivered": false,
         "lastDeliveryError": "LLM request failed: network connection error.",
-        "runningAtMs": 1775339999081
+        "lastError": "LLM request failed: network connection error."
       }
     },
     {
@@ -311,7 +311,7 @@
       "name": "claude-heartbeat",
       "enabled": true,
       "createdAtMs": 1772931027927,
-      "updatedAtMs": 1775339466500,
+      "updatedAtMs": 1775341260010,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -327,11 +327,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775341246989,
-        "lastRunAtMs": 1775339446989,
+        "nextRunAtMs": 1775343047006,
+        "lastRunAtMs": 1775341247006,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 19511,
+        "lastDurationMs": 13004,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -343,7 +343,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1775338223436,
+      "updatedAtMs": 1775340045182,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -356,11 +356,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1775340001104,
-        "lastRunAtMs": 1775338201104,
+        "nextRunAtMs": 1775341824083,
+        "lastRunAtMs": 1775340024083,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 22332,
+        "lastDurationMs": 21099,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
