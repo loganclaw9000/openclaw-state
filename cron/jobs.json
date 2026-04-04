@@ -346,7 +346,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1775325557962,
+      "updatedAtMs": 1775327357629,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -359,11 +359,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1775327336369,
-        "lastRunAtMs": 1775325536369,
+        "nextRunAtMs": 1775329136387,
+        "lastRunAtMs": 1775327336387,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 21593,
+        "lastDurationMs": 21242,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
