@@ -32,7 +32,7 @@
         "lastDurationMs": 22737,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 68,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "runningAtMs": 1775316581013
       }
     },
     {
@@ -346,7 +346,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1775314720328,
+      "updatedAtMs": 1775316520834,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -359,11 +359,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1775316499639,
-        "lastRunAtMs": 1775314699639,
+        "nextRunAtMs": 1775318299648,
+        "lastRunAtMs": 1775316499648,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 20689,
+        "lastDurationMs": 21186,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
