@@ -232,6 +232,14 @@
         },
         "vllm-bigtiger/big-tiger-gemma-27b-v3": {
           "alias": "bigtiger"
+        },
+        "claude-cli/opus-4.6": {
+          "alias": "claude-code"
+        }
+      },
+      "cliBackends": {
+        "claude-cli": {
+          "command": "claude"
         }
       },
       "workspace": "/home/admin/.openclaw/workspace",
@@ -278,7 +286,7 @@
         "name": "claude",
         "workspace": "/home/admin/.openclaw/workspace-claude",
         "agentDir": "/home/admin/.openclaw/agents/claude/agent",
-        "model": "anthropic/claude-sonnet-4-6"
+        "model": "claude-cli/opus-4.6"
       },
       {
         "id": "strategist",
@@ -394,6 +402,15 @@
       }
     }
   },
+  "bindings": [
+    {
+      "agentId": "claude",
+      "match": {
+        "channel": "whatsapp",
+        "peer": { "kind": "direct", "id": "+13177098416" }
+      }
+    }
+  ],
   "plugins": {
     "entries": {
       "whatsapp": {
