@@ -42,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1775350885640,
+      "updatedAtMs": 1775354506632,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -58,13 +58,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775354485640,
-        "lastRunAtMs": 1775350864487,
+        "nextRunAtMs": 1775358106632,
+        "lastRunAtMs": 1775354485655,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21153,
+        "lastDurationMs": 20977,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 76,
+        "consecutiveErrors": 77,
         "lastErrorReason": "timeout",
         "lastDelivered": false,
         "lastDeliveryError": "LLM request failed: network connection error.",
@@ -311,7 +311,7 @@
       "name": "claude-heartbeat",
       "enabled": true,
       "createdAtMs": 1772931027927,
-      "updatedAtMs": 1775353939737,
+      "updatedAtMs": 1775355728685,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -327,11 +327,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775355707962,
-        "lastRunAtMs": 1775353907962,
+        "nextRunAtMs": 1775357507979,
+        "lastRunAtMs": 1775355707979,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 31775,
+        "lastDurationMs": 20706,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -343,7 +343,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1775352708702,
+      "updatedAtMs": 1775354530068,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -356,11 +356,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1775354487677,
-        "lastRunAtMs": 1775352687677,
+        "nextRunAtMs": 1775356308648,
+        "lastRunAtMs": 1775354508648,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 21025,
+        "lastDurationMs": 21420,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
