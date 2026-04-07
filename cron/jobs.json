@@ -321,7 +321,7 @@
       "name": "claude-heartbeat",
       "enabled": true,
       "createdAtMs": 1772931027927,
-      "updatedAtMs": 1775525972533,
+      "updatedAtMs": 1775527818361,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -337,11 +337,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775527754882,
-        "lastRunAtMs": 1775525954882,
+        "nextRunAtMs": 1775529576151,
+        "lastRunAtMs": 1775527776151,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 17651,
+        "lastDurationMs": 42210,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -382,7 +382,7 @@
       "description": "strategist periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775524152826,
+      "updatedAtMs": 1775527774125,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -398,13 +398,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775527752826,
-        "lastRunAtMs": 1775524131404,
+        "nextRunAtMs": 1775531374125,
+        "lastRunAtMs": 1775527752832,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21422,
+        "lastDurationMs": 21293,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 123,
+        "consecutiveErrors": 124,
         "lastDelivered": false,
         "lastErrorReason": "timeout",
         "lastDeliveryError": "LLM request failed: network connection error.",
@@ -418,7 +418,7 @@
       "description": "finance periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775524398038,
+      "updatedAtMs": 1775528019286,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -434,13 +434,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775527998038,
-        "lastRunAtMs": 1775524376625,
+        "nextRunAtMs": 1775531619286,
+        "lastRunAtMs": 1775527998049,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21413,
+        "lastDurationMs": 21237,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 123,
+        "consecutiveErrors": 124,
         "lastDelivered": false,
         "lastErrorReason": "timeout",
         "lastDeliveryError": "LLM request failed: network connection error.",
@@ -454,7 +454,7 @@
       "description": "ops periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775524420970,
+      "updatedAtMs": 1775528042196,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -470,13 +470,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775528020970,
-        "lastRunAtMs": 1775524400082,
+        "nextRunAtMs": 1775531642196,
+        "lastRunAtMs": 1775528020979,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 20888,
+        "lastDurationMs": 21217,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 123,
+        "consecutiveErrors": 124,
         "lastDelivered": false,
         "lastErrorReason": "timeout",
         "lastDeliveryError": "LLM request failed: network connection error.",
@@ -490,7 +490,7 @@
       "description": "bizdev periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775524442631,
+      "updatedAtMs": 1775528063932,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -506,13 +506,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775528042631,
-        "lastRunAtMs": 1775524421520,
+        "nextRunAtMs": 1775531663932,
+        "lastRunAtMs": 1775528042648,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21111,
+        "lastDurationMs": 21284,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 124,
+        "consecutiveErrors": 125,
         "lastDelivered": false,
         "lastDeliveryError": "LLM request failed: network connection error.",
         "lastErrorReason": "timeout",
@@ -551,7 +551,7 @@
         "lastDurationMs": 56474,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 124,
-        "lastError": "Error: No active WhatsApp Web listener (account: default). Start the gateway, then link WhatsApp with: openclaw channels login --channel whatsapp --account default."
+        "runningAtMs": 1775528953890
       }
     },
     {
