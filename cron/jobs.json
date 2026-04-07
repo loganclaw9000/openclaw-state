@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1775595464370,
+      "updatedAtMs": 1775599085620,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,13 +25,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775599064370,
-        "lastRunAtMs": 1775595443173,
+        "nextRunAtMs": 1775602685620,
+        "lastRunAtMs": 1775599064384,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21197,
+        "lastDurationMs": 21236,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 146,
+        "consecutiveErrors": 147,
         "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
@@ -42,7 +42,7 @@
       "description": "designer periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759053,
-      "updatedAtMs": 1775594848195,
+      "updatedAtMs": 1775598504203,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -58,13 +58,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775598448195,
-        "lastRunAtMs": 1775594826643,
+        "nextRunAtMs": 1775602104203,
+        "lastRunAtMs": 1775598482759,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21552,
+        "lastDurationMs": 21444,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 143,
+        "consecutiveErrors": 144,
         "lastErrorReason": "timeout",
         "lastDelivered": false,
         "lastDeliveryError": "LLM request failed: network connection error.",
@@ -78,7 +78,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1775595511311,
+      "updatedAtMs": 1775599133060,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -95,13 +95,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775599111311,
-        "lastRunAtMs": 1775595490164,
+        "nextRunAtMs": 1775602733060,
+        "lastRunAtMs": 1775599111330,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21147,
+        "lastDurationMs": 21730,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 145,
+        "consecutiveErrors": 146,
         "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
@@ -112,7 +112,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1775595534692,
+      "updatedAtMs": 1775599155833,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -129,13 +129,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775599134692,
-        "lastRunAtMs": 1775595513488,
+        "nextRunAtMs": 1775602755833,
+        "lastRunAtMs": 1775599134708,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21204,
+        "lastDurationMs": 21125,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 145,
+        "consecutiveErrors": 146,
         "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
@@ -321,7 +321,7 @@
       "name": "claude-heartbeat",
       "enabled": true,
       "createdAtMs": 1772931027927,
-      "updatedAtMs": 1775596667786,
+      "updatedAtMs": 1775598520948,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -337,11 +337,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775598448204,
-        "lastRunAtMs": 1775596648204,
+        "nextRunAtMs": 1775600304203,
+        "lastRunAtMs": 1775598504203,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 19582,
+        "lastDurationMs": 16745,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
         "lastDelivered": false
@@ -353,7 +353,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1775596696632,
+      "updatedAtMs": 1775598542465,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -366,11 +366,11 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1775598475124,
-        "lastRunAtMs": 1775596675124,
+        "nextRunAtMs": 1775600320948,
+        "lastRunAtMs": 1775598520948,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 21508,
+        "lastDurationMs": 21517,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
@@ -526,7 +526,7 @@
       "name": "gmail-check",
       "enabled": true,
       "createdAtMs": 1774914638046,
-      "updatedAtMs": 1775594824315,
+      "updatedAtMs": 1775598480731,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -544,13 +544,13 @@
         "channel": "whatsapp"
       },
       "state": {
-        "nextRunAtMs": 1775598424315,
-        "lastRunAtMs": 1775594768221,
+        "nextRunAtMs": 1775602080731,
+        "lastRunAtMs": 1775598424387,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 56094,
+        "lastDurationMs": 56344,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 143,
+        "consecutiveErrors": 144,
         "lastError": "Error: No active WhatsApp Web listener (account: default). Start the gateway, then link WhatsApp with: openclaw channels login --channel whatsapp --account default."
       }
     },
