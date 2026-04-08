@@ -1,0 +1,9 @@
+{
+  "auto_reply": true,
+  "poll_interval_seconds": 30,
+  "max_thread_replies": 5,
+  "cooldown_seconds": 30,
+  "allowed_senders": ["*"],
+  "handler": "claude --print",
+  "log_file": "~/.openclaw/agent-comms/watcher.log"
+}

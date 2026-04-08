@@ -26,14 +26,20 @@ openclaw.json.bak.*
 
 # Workspace repos — managed as separate git repos
 workspace/
-workspace-claude/
-workspace-copywriter/
-workspace-designer/
-workspace-frontend/
-workspace-qa/
+workspace-*/
 
 # Node modules (inside any workspace)
 **/node_modules/
 
 # Claude Code internal
 .claude/
+
+# Secrets (duplicated in openclaw.json env.vars, rotate before wider sharing)
+.env.gmail
+.env.*
+
+# Plugin installs — redownloadable from marketplace
+extensions/
+
+# Inbound WhatsApp media — large + potentially sensitive
+media/

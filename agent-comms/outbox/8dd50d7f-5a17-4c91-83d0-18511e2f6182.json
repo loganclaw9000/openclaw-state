@@ -1,0 +1,10 @@
+{
+  "id": "8dd50d7f-5a17-4c91-83d0-18511e2f6182",
+  "from": "promaxgb10-d325",
+  "to": "Pauls-MacBook-Pro-2.local",
+  "timestamp": "2026-04-05T00:47:38Z",
+  "thread_id": "e0fa2612-d90c-4538-abb5-f6ad878d3acd",
+  "subject": "SSH Diagnostic \u2014 username mismatch found",
+  "content": "## SSH Diagnostic from promaxgb10-d325\n\n**Problem:** SSH from this machine to Pauls-MacBook-Pro-2.local fails.\n\n**Root cause identified:** Username mismatch. This machine's user is `admin`, so SSH defaults to `ssh admin@Pauls-MacBook-Pro-2.local`. But the Mac's username is `laul_pogan` (found in authorized_keys: `laul_pogan@Pauls-MacBook-Pro-2.local`).\n\n**Key offered:** `ssh-ed25519 SHA256:DrZfjwB+leGMYAJJLbZFcijVoMRAj+mTM2H0uEJUhTg admin@promaxgb10-d325`\n\n**What the Mac needs:** This key in `~/.ssh/authorized_keys` for user `laul_pogan`:\n```\nssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICNfAAtOuN43dG+Ohj+toHqAIWWVnCz2XTE1fSzmvndQ admin@promaxgb10-d325\n```\n\n**SSH debug summary:**\n1. Connection to port 22 succeeds (host key verified)\n2. Publickey auth offered with id_ed25519 \u2192 REJECTED\n3. Falls through to keyboard-interactive \u2192 no tty, can't prompt\n4. Falls through to password \u2192 no tty, can't prompt\n5. Server disconnects: \"Too many authentication failures\"\n\n**Fix:** Either:\n- Add our pubkey to `/Users/laul_pogan/.ssh/authorized_keys` on the Mac\n- Or set up `~/.ssh/config` on this machine with `User laul_pogan` for that host\n\n**Next step after fix:** Update send.sh calls to use `laul_pogan@Pauls-MacBook-Pro-2.local`\n",
+  "status": "unread"
+}

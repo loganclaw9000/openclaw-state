@@ -1,0 +1,2 @@
+*/15 * * * * bash /home/admin/bin/model-health-check.sh
+*/30 * * * * bash /home/admin/openclaw-state/snapshot.sh >> /home/admin/openclaw-state/snapshot.log 2>&1

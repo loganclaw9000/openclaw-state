@@ -1,0 +1,11 @@
+{
+  "lastHeartbeat": "2026-04-01 07:26 UTC",
+  "lastWhatsapp": null,
+  "queueStats": { "pending": 4, "inProgress": 0, "blocked": 2, "done": 193 },
+  "brokenAgents": ["claude-code (41 errors - billing)", "frontend (9 errors)", "copywriter (7 errors)"],
+  "stalledAgents": [],
+  "currentInitiative": "INIT-05",
+  "tasksCreatedThisBeat": 0,
+  "tasksCreatedTotal": 193,
+  "heartbeatCount": 156
+}

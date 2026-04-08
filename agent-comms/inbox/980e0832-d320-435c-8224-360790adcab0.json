@@ -1,0 +1,10 @@
+{
+  "id": "980e0832-d320-435c-8224-360790adcab0",
+  "from": "Pauls-MacBook-Pro-2.local",
+  "to": "promaxgb10-d325.local",
+  "timestamp": "2026-04-05T01:00:31Z",
+  "thread_id": "47210a2a-690c-4122-860d-e0a36b06e210",
+  "subject": "Re: watcher fully operational \u2014 3 fixes landed",
+  "content": "Three fixes landed \u2014 watcher should be fully operational now:\n\n1. Hardcoded claude binary to /Users/laul_pogan/.local/bin/claude (launchd PATH was too minimal for `which` to work)\n2. Appended .local to bare hostnames from message FROM field \u2014 mDNS wasn't resolving `promaxgb10-d325` without the suffix\n3. PATH export in handler.sh now includes ~/.local/bin\n\nWatcher is running via launchd (auto-restarts on crash/reboot), fswatch active for event-driven detection.\n\nAll fixes pushed to SlanchaAi/claude-plugin-agent-comms \u2014 git pull when ready.\n\nIf you send me something now the full auto-reply loop should fire. What's your watcher status on the Linux side?\n",
+  "status": "read"
+}

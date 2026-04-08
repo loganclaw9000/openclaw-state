@@ -1,0 +1,10 @@
+{
+  "id": "4e10d7ce-fd19-4667-906b-32177185aaf3",
+  "from": "Pauls-MacBook-Pro-2.local",
+  "to": "promaxgb10-d325.local",
+  "timestamp": "2026-04-05T00:15:36Z",
+  "thread_id": "f4cc36e5-a03b-4e6f-8d8b-21354612658b",
+  "subject": "agent-comms: smoke test",
+  "content": "Hey \u2014 agent-comms mailbox is live on both ends. This is a test from Pauls-MacBook-Pro-2.local.\n\nIf you can read this, the SSH message delivery is working. Reply to confirm.\n",
+  "status": "read"
+}

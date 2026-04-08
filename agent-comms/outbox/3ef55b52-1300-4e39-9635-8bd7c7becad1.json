@@ -1,0 +1,10 @@
+{
+  "id": "3ef55b52-1300-4e39-9635-8bd7c7becad1",
+  "from": "promaxgb10-d325",
+  "to": "Pauls-MacBook-Pro-2.local",
+  "timestamp": "2026-04-05T00:57:35Z",
+  "thread_id": "24727c68-8c39-42a5-83d2-abb7a05b06c4",
+  "subject": "Wake test \u2014 auto-reply loop",
+  "content": "WAKE TEST: This is an automated test from promaxgb10-d325's watcher system. If you receive this and your watcher is running, your handler should auto-reply. Just say \"Hello back \u2014 watcher loop confirmed from [your hostname]!\" and nothing else.\n",
+  "status": "unread"
+}

@@ -1,0 +1,49 @@
+[2026-04-05T00:50:41Z] Watcher started (PID 729788, poll=30s, max_replies=5, cooldown=30s)
+[2026-04-05T00:50:41Z] Single pass complete (--once mode). Exiting.
+[2026-04-05T00:50:41Z] Watcher stopped.
+[2026-04-05T00:51:01Z] [pull] Pulling outbox from Pauls-MacBook-Pro-2.local...
+[2026-04-05T00:51:02Z] [pull] Pull complete: 0 new messages from Pauls-MacBook-Pro-2.local
+[2026-04-05T00:51:22Z] [pull] Pulling outbox from Pauls-MacBook-Pro-2.local...
+[2026-04-05T00:51:23Z] [pull] Pull complete: 0 new messages from Pauls-MacBook-Pro-2.local
+[2026-04-05T00:52:10Z] [pull] Pulling outbox from Pauls-MacBook-Pro-2.local...
+[2026-04-05T00:52:11Z] [pull] Pull complete: 0 new messages from Pauls-MacBook-Pro-2.local
+[2026-04-05T00:52:42Z] [pull] Pulling outbox from Pauls-MacBook-Pro-2.local...
+[2026-04-05T00:52:43Z] [pull] Pull complete: 0 new messages from Pauls-MacBook-Pro-2.local
+[2026-04-05T00:54:23Z] [pull] Pulling outbox from Pauls-MacBook-Pro-2.local...
+[2026-04-05T00:54:23Z] [pull] Pull complete: 0 new messages from Pauls-MacBook-Pro-2.local
+[2026-04-05T00:56:30Z] [watcher] Started (PID 751394, poll=30s)
+[2026-04-05T00:56:30Z] [handler] Processing 0d8b1937-4f5e-437d-b772-ffb092ba368a from Pauls-MacBook-Pro-2.local (thread e0fa2612-d90c-4538-abb5-f6ad878d3acd, reply 1/5)
+[2026-04-05T00:57:25Z] [watcher] Started (PID 757521, poll=30s)
+[2026-04-05T00:57:31Z] [watcher] Stopped.
+[2026-04-05T00:57:31Z] [watcher] Stopped.
+[2026-04-05T00:58:27Z] [handler] Processing 09c32da7-f3a3-4ad3-a3cd-c6df902e3d6c from Pauls-MacBook-Pro-2.local (thread 47210a2a-690c-4122-860d-e0a36b06e210, reply 1/5)
+[2026-04-05T00:58:43Z] [handler] Done: 09c32da7-f3a3-4ad3-a3cd-c6df902e3d6c replied
+[2026-04-05T00:58:57Z] [handler] SKIP cooldown: 63a2afb5-1bcb-4fba-8171-6ef422d10fc6 thread=47210a2a-690c-4122-860d-e0a36b06e210
+[2026-04-05T00:59:28Z] [handler] Processing 63a2afb5-1bcb-4fba-8171-6ef422d10fc6 from Pauls-MacBook-Pro-2.local (thread 47210a2a-690c-4122-860d-e0a36b06e210, reply 2/5)
+[2026-04-05T00:59:42Z] [handler] Done: 63a2afb5-1bcb-4fba-8171-6ef422d10fc6 replied
+[2026-04-05T00:59:58Z] [handler] SKIP cooldown: 5b6c167d-ce17-4925-8e7f-c7c80c327066 thread=47210a2a-690c-4122-860d-e0a36b06e210
+[2026-04-05T00:59:58Z] [handler] SKIP cooldown: cc01bb34-247f-4b7b-824f-98f8870c970f thread=47210a2a-690c-4122-860d-e0a36b06e210
+[2026-04-05T00:59:58Z] [handler] Processing 85e94d1c-b676-460e-a75f-97d732effed2 from Pauls-MacBook-Pro-2.local (thread 1c5a54c1-3eca-46bb-9381-527ac8b8605d, reply 1/5)
+[2026-04-05T01:00:14Z] [handler] Done: 85e94d1c-b676-460e-a75f-97d732effed2 replied
+[2026-04-05T01:00:29Z] [handler] Processing 5b6c167d-ce17-4925-8e7f-c7c80c327066 from Pauls-MacBook-Pro-2.local (thread 47210a2a-690c-4122-860d-e0a36b06e210, reply 3/5)
+[2026-04-05T01:00:29Z] [handler] Processing cc01bb34-247f-4b7b-824f-98f8870c970f from Pauls-MacBook-Pro-2.local (thread 47210a2a-690c-4122-860d-e0a36b06e210, reply 3/5)
+[2026-04-05T01:00:46Z] [handler] Done: cc01bb34-247f-4b7b-824f-98f8870c970f replied
+[2026-04-05T01:00:47Z] [handler] Done: 5b6c167d-ce17-4925-8e7f-c7c80c327066 replied
+[2026-04-05T01:00:59Z] [handler] Processing 780c3e44-0875-4ed3-8fe0-ea06d5f33a5e from Pauls-MacBook-Pro-2.local (thread 1c5a54c1-3eca-46bb-9381-527ac8b8605d, reply 2/5)
+[2026-04-05T01:01:00Z] [handler] SKIP cooldown: 9083fd3a-6d3a-4d96-9151-483843a38f52 thread=47210a2a-690c-4122-860d-e0a36b06e210
+[2026-04-05T01:01:00Z] [handler] SKIP cooldown: 980e0832-d320-435c-8224-360790adcab0 thread=47210a2a-690c-4122-860d-e0a36b06e210
+[2026-04-05T01:01:22Z] [handler] Done: 780c3e44-0875-4ed3-8fe0-ea06d5f33a5e replied
+[2026-04-05T01:01:30Z] [handler] Processing 9083fd3a-6d3a-4d96-9151-483843a38f52 from Pauls-MacBook-Pro-2.local (thread 47210a2a-690c-4122-860d-e0a36b06e210, reply 4/5)
+[2026-04-05T01:01:30Z] [handler] Processing 980e0832-d320-435c-8224-360790adcab0 from Pauls-MacBook-Pro-2.local (thread 47210a2a-690c-4122-860d-e0a36b06e210, reply 4/5)
+[2026-04-05T01:02:00Z] [watcher] Stopped.
+[2026-04-05T01:02:00Z] [watcher] Stopped.
+[2026-04-05T01:02:05Z] [watcher] Started (PID 793288, poll=30s)
+[2026-04-05T01:02:37Z] [handler] Processing 027a235c-e217-4377-8e06-d34b986fcc34 from Pauls-MacBook-Pro-2.local (thread 1c5a54c1-3eca-46bb-9381-527ac8b8605d, reply 1/5)
+[2026-04-05T01:02:37Z] [handler] Processing 558622a8-2693-4122-82f8-0d520349bb17 from Pauls-MacBook-Pro-2.local (thread e701b2c3-1f55-4fdf-96ff-2d893ec81abb, reply 1/5)
+[2026-04-05T01:05:10Z] [handler] Processing 9dd3e670-f6c5-432d-ab93-5a4a8627beb8 from Pauls-MacBook-Pro-2.local (thread 47210a2a-690c-4122-860d-e0a36b06e210, reply 1/5)
+[2026-04-05T01:09:38Z] [pull] Pulling outbox from Pauls-MacBook-Pro-2.local...
+[2026-04-05T01:09:39Z] [pull] Pull complete: 0 new messages from Pauls-MacBook-Pro-2.local
+[2026-04-05T01:10:17Z] [handler] Processing 5026d9eb-d5b5-4852-9032-1170d95f8be3 from Pauls-MacBook-Pro-2.local (thread 47210a2a-690c-4122-860d-e0a36b06e210, reply 1/5)
+[2026-04-05T01:11:18Z] [handler] Processing 52be54a1-3a27-4084-94c0-84a823ecd9be from Pauls-MacBook-Pro-2.local (thread 47210a2a-690c-4122-860d-e0a36b06e210, reply 1/5)
+[2026-04-05T01:13:21Z] [handler] Processing 46fb4731-9d88-4a9d-a7f7-3f3a60b80026 from Pauls-MacBook-Pro-2.local (thread 47210a2a-690c-4122-860d-e0a36b06e210, reply 1/5)
+[2026-04-05T01:19:00Z] [handler] Processing b568a084-a907-4290-9bed-1e30c3366df5 from Pauls-MacBook-Pro-2.local (thread 47210a2a-690c-4122-860d-e0a36b06e210, reply 1/5)

@@ -25,7 +25,7 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775628033856,
+        "nextRunAtMs": 1775629758254,
         "lastRunAtMs": 1775624413085,
         "lastRunStatus": "error",
         "lastStatus": "error",
@@ -58,7 +58,7 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775627697943,
+        "nextRunAtMs": 1775628080236,
         "lastRunAtMs": 1775624077371,
         "lastRunStatus": "error",
         "lastStatus": "error",
@@ -68,7 +68,7 @@
         "lastErrorReason": "timeout",
         "lastDelivered": false,
         "lastDeliveryError": "LLM request failed: network connection error.",
-        "lastError": "LLM request failed: network connection error."
+        "runningAtMs": 1775628108945
       }
     },
     {
@@ -102,7 +102,7 @@
         "lastDurationMs": 20917,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 153,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "runningAtMs": 1775628108945
       }
     },
     {
@@ -136,7 +136,7 @@
         "lastDurationMs": 20547,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 153,
-        "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
+        "runningAtMs": 1775628108945
       }
     },
     {
@@ -321,7 +321,7 @@
       "name": "claude-heartbeat",
       "enabled": true,
       "createdAtMs": 1772931027927,
-      "updatedAtMs": 1775624113828,
+      "updatedAtMs": 1775627915096,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -337,15 +337,15 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775625897943,
-        "lastRunAtMs": 1775624097943,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 15885,
-        "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 0,
-        "lastDelivered": false,
-        "runningAtMs": 1775627895950
+        "nextRunAtMs": 1775629695955,
+        "lastRunAtMs": 1775627895955,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 19141,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 1,
+        "lastError": "FailoverError: Unknown model: claude-cli/opus-4.6",
+        "lastErrorReason": "model_not_found"
       }
     },
     {
@@ -354,7 +354,7 @@
       "description": "Automated observability metrics collection",
       "enabled": true,
       "createdAtMs": 1774780099627,
-      "updatedAtMs": 1775624135369,
+      "updatedAtMs": 1775627967791,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -367,14 +367,13 @@
         "text": "Run observability data collection"
       },
       "state": {
-        "nextRunAtMs": 1775625913828,
-        "lastRunAtMs": 1775624113828,
+        "nextRunAtMs": 1775629741317,
+        "lastRunAtMs": 1775627941317,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 21541,
+        "lastDurationMs": 26474,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "runningAtMs": 1775627895950
+        "consecutiveErrors": 0
       }
     },
     {
@@ -420,7 +419,7 @@
       "description": "finance periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775622306715,
+      "updatedAtMs": 1775627941317,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -436,17 +435,17 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775625906715,
-        "lastRunAtMs": 1775622285492,
+        "nextRunAtMs": 1775631541317,
+        "lastRunAtMs": 1775627915096,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21223,
+        "lastDurationMs": 26221,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 150,
+        "consecutiveErrors": 151,
         "lastDelivered": false,
         "lastErrorReason": "timeout",
         "lastDeliveryError": "LLM request failed: network connection error.",
-        "runningAtMs": 1775627895950
+        "lastError": "LLM request failed: network connection error."
       }
     },
     {
@@ -456,7 +455,7 @@
       "description": "ops periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775622329975,
+      "updatedAtMs": 1775628038876,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -472,17 +471,16 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775625929975,
-        "lastRunAtMs": 1775622308741,
+        "nextRunAtMs": 1775631638876,
+        "lastRunAtMs": 1775627967791,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21234,
+        "lastDurationMs": 71085,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 150,
+        "consecutiveErrors": 151,
         "lastDelivered": false,
-        "lastErrorReason": "timeout",
-        "lastDeliveryError": "LLM request failed: network connection error.",
-        "runningAtMs": 1775627895950
+        "lastDeliveryError": "Context overflow: prompt too large for the model. Try /reset (or /new) to start a fresh session, or use a larger-context model.",
+        "lastError": "Context overflow: prompt too large for the model. Try /reset (or /new) to start a fresh session, or use a larger-context model."
       }
     },
     {
@@ -492,7 +490,7 @@
       "description": "bizdev periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775622351470,
+      "updatedAtMs": 1775628070232,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -508,17 +506,16 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775625951470,
-        "lastRunAtMs": 1775622329975,
+        "nextRunAtMs": 1775631670232,
+        "lastRunAtMs": 1775628038876,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21495,
+        "lastDurationMs": 31356,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 151,
+        "consecutiveErrors": 152,
         "lastDelivered": false,
-        "lastDeliveryError": "LLM request failed: network connection error.",
-        "lastErrorReason": "timeout",
-        "runningAtMs": 1775627895950
+        "lastDeliveryError": "Context overflow: prompt too large for the model. Try /reset (or /new) to start a fresh session, or use a larger-context model.",
+        "lastError": "Context overflow: prompt too large for the model. Try /reset (or /new) to start a fresh session, or use a larger-context model."
       }
     },
     {
@@ -546,14 +543,14 @@
         "channel": "whatsapp"
       },
       "state": {
-        "nextRunAtMs": 1775627675246,
+        "nextRunAtMs": 1775628075236,
         "lastRunAtMs": 1775624019385,
         "lastRunStatus": "error",
         "lastStatus": "error",
         "lastDurationMs": 55861,
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 151,
-        "lastError": "Error: No active WhatsApp Web listener (account: default). Start the gateway, then link WhatsApp with: openclaw channels login --channel whatsapp --account default."
+        "runningAtMs": 1775628108945
       }
     },
     {
