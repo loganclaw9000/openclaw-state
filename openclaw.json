@@ -5,7 +5,7 @@
   },
   "env": {
     "vars": {
-      "MATON_API_KEY": "qfTfvFeD_gPoHajy0YxU967B5R6P6ZYXCgYzvbXtVz_lR3Qr08FJAECpDOpqFvEvsw6sbJiIUsZfqH7Kj5133dt0rJbfvh7Xtm0"
+      "MATON_API_KEY": "${MATON_API_KEY}"
     }
   },
   "wizard": {
@@ -369,7 +369,7 @@
     "bind": "loopback",
     "auth": {
       "mode": "token",
-      "token": "89206391c39123b9887422d69d4928d6c785a180340fac4d"
+      "token": "${OPENCLAW_GATEWAY_TOKEN}"
     },
     "tailscale": {
       "mode": "off",
