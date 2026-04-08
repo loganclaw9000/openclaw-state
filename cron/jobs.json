@@ -8,7 +8,7 @@
       "description": "copywriter periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929758254,
-      "updatedAtMs": 1775620813078,
+      "updatedAtMs": 1775624433856,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -25,13 +25,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775624413078,
-        "lastRunAtMs": 1775620791885,
+        "nextRunAtMs": 1775628033856,
+        "lastRunAtMs": 1775624413085,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21193,
+        "lastDurationMs": 20771,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 153,
+        "consecutiveErrors": 154,
         "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
@@ -78,7 +78,7 @@
       "description": "frontend periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929759898,
-      "updatedAtMs": 1775620861277,
+      "updatedAtMs": 1775624482204,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -95,13 +95,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775624461277,
-        "lastRunAtMs": 1775620840076,
+        "nextRunAtMs": 1775628082204,
+        "lastRunAtMs": 1775624461287,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21201,
+        "lastDurationMs": 20917,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 152,
+        "consecutiveErrors": 153,
         "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
@@ -112,7 +112,7 @@
       "description": "qa periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1772929760725,
-      "updatedAtMs": 1775620883462,
+      "updatedAtMs": 1775624504020,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -129,13 +129,13 @@
         "channel": "last"
       },
       "state": {
-        "nextRunAtMs": 1775624483462,
-        "lastRunAtMs": 1775620861943,
+        "nextRunAtMs": 1775628104020,
+        "lastRunAtMs": 1775624483473,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21519,
+        "lastDurationMs": 20547,
         "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 152,
+        "consecutiveErrors": 153,
         "lastError": "Delivering to WhatsApp requires target <E.164|group JID>"
       }
     },
@@ -344,7 +344,8 @@
         "lastDurationMs": 15885,
         "lastDeliveryStatus": "not-delivered",
         "consecutiveErrors": 0,
-        "lastDelivered": false
+        "lastDelivered": false,
+        "runningAtMs": 1775627895950
       }
     },
     {
@@ -372,7 +373,8 @@
         "lastStatus": "ok",
         "lastDurationMs": 21541,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0
+        "consecutiveErrors": 0,
+        "runningAtMs": 1775627895950
       }
     },
     {
@@ -382,7 +384,7 @@
       "description": "strategist periodic heartbeat",
       "enabled": true,
       "createdAtMs": 1774824228318,
-      "updatedAtMs": 1775621968306,
+      "updatedAtMs": 1775625570515,
       "schedule": {
         "kind": "every",
         "everyMs": 1800000,
@@ -398,17 +400,17 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775625568306,
-        "lastRunAtMs": 1775621947196,
+        "nextRunAtMs": 1775629170515,
+        "lastRunAtMs": 1775625568317,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21110,
+        "lastDurationMs": 2198,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 150,
+        "consecutiveErrors": 151,
         "lastDelivered": false,
-        "lastErrorReason": "timeout",
-        "lastDeliveryError": "LLM request failed: network connection error.",
-        "lastError": "LLM request failed: network connection error."
+        "lastErrorReason": "model_not_found",
+        "lastDeliveryError": "404 The model `Qwen3.5-35B` does not exist.",
+        "lastError": "404 The model `Qwen3.5-35B` does not exist."
       }
     },
     {
@@ -444,7 +446,7 @@
         "lastDelivered": false,
         "lastErrorReason": "timeout",
         "lastDeliveryError": "LLM request failed: network connection error.",
-        "lastError": "LLM request failed: network connection error."
+        "runningAtMs": 1775627895950
       }
     },
     {
@@ -480,7 +482,7 @@
         "lastDelivered": false,
         "lastErrorReason": "timeout",
         "lastDeliveryError": "LLM request failed: network connection error.",
-        "lastError": "LLM request failed: network connection error."
+        "runningAtMs": 1775627895950
       }
     },
     {
@@ -516,7 +518,7 @@
         "lastDelivered": false,
         "lastDeliveryError": "LLM request failed: network connection error.",
         "lastErrorReason": "timeout",
-        "lastError": "LLM request failed: network connection error."
+        "runningAtMs": 1775627895950
       }
     },
     {
@@ -561,7 +563,7 @@
       "description": "Boss agent: work generation, coordination, health monitoring",
       "enabled": true,
       "createdAtMs": 1774935272904,
-      "updatedAtMs": 1775621132065,
+      "updatedAtMs": 1775624751905,
       "schedule": {
         "kind": "every",
         "everyMs": 2700000,
@@ -577,17 +579,17 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1775624732065,
-        "lastRunAtMs": 1775621110779,
+        "nextRunAtMs": 1775628351905,
+        "lastRunAtMs": 1775624732088,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 21286,
+        "lastDurationMs": 19817,
         "lastDeliveryStatus": "not-delivered",
-        "consecutiveErrors": 150,
+        "consecutiveErrors": 151,
         "lastDelivered": false,
-        "lastErrorReason": "timeout",
-        "lastDeliveryError": "LLM request failed: network connection error.",
-        "lastError": "LLM request failed: network connection error."
+        "lastErrorReason": "model_not_found",
+        "lastDeliveryError": "404 The model `Qwen3.5-35B` does not exist.",
+        "lastError": "404 The model `Qwen3.5-35B` does not exist."
       }
     }
   ]

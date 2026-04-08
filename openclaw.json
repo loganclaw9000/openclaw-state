@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.3.28",
-    "lastTouchedAt": "2026-03-31T06:32:49.482Z"
+    "lastTouchedVersion": "2026.4.5",
+    "lastTouchedAt": "2026-04-08T05:58:14.926Z"
   },
   "env": {
     "vars": {
@@ -237,11 +237,6 @@
           "alias": "claude-code"
         }
       },
-      "cliBackends": {
-        "claude-cli": {
-          "command": "claude"
-        }
-      },
       "workspace": "/home/admin/.openclaw/workspace",
       "compaction": {
         "mode": "safeguard"
@@ -407,7 +402,10 @@
       "agentId": "claude",
       "match": {
         "channel": "whatsapp",
-        "peer": { "kind": "direct", "id": "+13177098416" }
+        "peer": {
+          "kind": "direct",
+          "id": "+13177098416"
+        }
       }
     }
   ],
@@ -432,6 +430,9 @@
         "enabled": true
       },
       "ralph-loop": {
+        "enabled": true
+      },
+      "vllm": {
         "enabled": true
       }
     },
